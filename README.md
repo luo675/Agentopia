@@ -1,5 +1,7 @@
 # Agentopia
 
+**English** | [简体中文](README.zh.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
+
 **Agentopia** is a framework for long-term life simulation in multi-agent societies. Agentopia simulates human social life across years: In our experiments, 100 agents autonomously take part in social life over 10 simulated years. 
 They set and pursue their own goals, develop and fulfill their needs, and interact with other agents to build relationships within the society.
 
