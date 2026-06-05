@@ -1,0 +1,19 @@
+# Secrets
+gemini_key.json
+
+# Local IDE / tool settings
+.claude/settings.local.json
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# OS
+.DS_Store
