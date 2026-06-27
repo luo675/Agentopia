@@ -1,3 +1,37 @@
+# Agentopia — Consumer GPU Adaptation
+
+> 🍴 Forked from [Neph0s/Agentopia](https://github.com/Neph0s/Agentopia) |
+> Original paper: *Agentopia: Long-Term Life Simulation and Learning in Agent Societies* (arXiv: 2606.07513)
+
+**This fork adapts Agentopia from H100 clusters to a laptop RTX 5070 Ti (12GB) running Qwen3-8B-AWQ (4-bit).**
+
+### Key changes
+- **Config**: `context_length=20480`, `role=4096`, `god=4096`, consumer GPU compatible
+- **7 bug fixes** for the 397B→8B transition (thinking mode bypass, JSON parse fallback, compact stage fixes, etc.)
+- **Empirical findings**: Narrative mode collapse under 16K context; 4096-token Reflection budget partially mitigates but does not eliminate phrase-level repetition
+
+### Quick start (RTX 5070 Ti / 12GB VRAM)
+```bash
+# Terminal 1: vLLM
+vllm serve ~/models/Qwen3-8B-AWQ \
+  --served-model-name Qwen/Qwen3-8B-AWQ \
+  --port 8000 --gpu-memory-utilization 0.85 \
+  --max-model-len 20480 --enable-auto-tool-choice \
+  --tool-call-parser hermes
+
+# Terminal 2: run simulation
+python scripts/run_world.py --max-agents 3 --years 1 --weeks 10 --no-parallel
+```
+
+### Status
+✅ P0 environment | ✅ T1 1ag×4wk | ✅ T2 1ag×10wk | ✅ T3 3ag×10wk | ✅ T3-B+T4 3ag×20wk (4096 token)
+
+---
+
+*Below is the original README from Neph0s/Agentopia.*
+
+---
+
 # Agentopia
 
 **English** | [简体中文](docs/README.zh.md) | [日本語](docs/README.ja.md) | [한국어](docs/README.ko.md)
