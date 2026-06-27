@@ -17,3 +17,9 @@ build/
 
 # OS
 .DS_Store
+
+# Agentopia run artifacts
+data/
+llm_cache/
+logs/
+*.pkl
