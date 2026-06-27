@@ -1,0 +1,55 @@
+2026-06-26 17:25:44,256 [INFO] [POSITION_APPLICATION] Designed 10 positions for 3 agents
+2026-06-26 17:29:33,777 [INFO] [POSITION_APPLICATION] ========== POSITION APPLICATION SEASON START ========== Y2020-W10-settle
+2026-06-26 17:29:33,777 [INFO] [POSITION_APPLICATION] 3 agents, 13 positions available
+2026-06-26 17:29:33,777 [INFO] [POSITION_APPLICATION] === COLLECT WISHES START === 3 agents, 13 positions available
+2026-06-26 17:29:33,777 [INFO] [POSITION_APPLICATION] Position: Bremer Apartment Community Council/Community Mediator (capacity=1, income=200)
+2026-06-26 17:29:33,777 [INFO] [POSITION_APPLICATION] Position: Bremer Apartment/Building Maintenance Assistant (capacity=1, income=160)
+2026-06-26 17:29:33,777 [INFO] [POSITION_APPLICATION] Position: Bremer Apartment/Student Resident (capacity=5, income=100)
+2026-06-26 17:29:33,777 [INFO] [POSITION_APPLICATION] Position: Bremer Apartment/Youth Mentor (capacity=2, income=120)
+2026-06-26 17:29:33,777 [INFO] [POSITION_APPLICATION] Position: Chez Lulu (French-American Bistro)/Bartender / Playwright (capacity=1, income=320)
+2026-06-26 17:29:33,777 [INFO] [POSITION_APPLICATION] Position: Chez Lulu (French-American Bistro)/Waiter (capacity=3, income=170)
+2026-06-26 17:29:33,777 [INFO] [POSITION_APPLICATION] Position: Greenwich Village Bookstore/Book Seller (capacity=2, income=150)
+2026-06-26 17:29:33,777 [INFO] [POSITION_APPLICATION] Position: Greenwich Village Library/Library Volunteer (capacity=10, income=80)
+2026-06-26 17:29:33,777 [INFO] [POSITION_APPLICATION] Position: New York City University/Graduate Research Assistant (capacity=1, income=300)
+2026-06-26 17:29:33,777 [INFO] [POSITION_APPLICATION] Position: Self-employed (contributes to The Atlantic, New York Magazine, various outlets)/Freelance journalist and novelist (capacity=1, income=350)
+2026-06-26 17:29:33,777 [INFO] [POSITION_APPLICATION] Position: The Corner Coffee Shop, Bremer Apartment/Part-time barista (capacity=1, income=220)
+2026-06-26 17:29:33,777 [INFO] [POSITION_APPLICATION] Position: The Corner Coffee Shop/Full-Time Barista (capacity=2, income=180)
+2026-06-26 17:29:33,777 [INFO] [POSITION_APPLICATION] Position: The Rooftop/Roof Event Coordinator (capacity=1, income=220)
+2026-06-26 17:29:33,777 [INFO] [POSITION_APPLICATION] Aaron Whitfield express_wishes INPUT: current_position=Self-employed (contributes to The Atlantic, New York Magazine, various outlets)/Freelance journalist and novelist, n_positions=10
+2026-06-26 17:29:33,792 [INFO] [POSITION_APPLICATION] Aaron Whitfield express_wishes OUTPUT: wishes=['Bremer Apartment Community Council/Community Mediator', 'The Rooftop/Roof Event Coordinator'], response_preview='<wishes>Self-employed (contributes to The Atlantic, New York Magazine, various outlets)/Freelance journalist and novelist, Bremer Apartment Community Council/Community Mediator, The Rooftop/Roof Event...'
+2026-06-26 17:29:33,792 [INFO] [POSITION_APPLICATION] Adrian Morales express_wishes INPUT: current_position=Chez Lulu (French-American Bistro)/Bartender / Playwright, n_positions=11
+2026-06-26 17:29:33,802 [INFO] [POSITION_APPLICATION] Adrian Morales express_wishes OUTPUT: wishes=['Chez Lulu (French-American Bistro)/Bartender / Playwright', 'New York City University/Graduate Research Assistant', 'The Rooftop/Roof Event Coordinator'], response_preview='<wishes>Chez Lulu (French-American Bistro)/Bartender / Playwright, New York City University/Graduate Research Assistant, The Rooftop/Roof Event Coordinator</wishes>  **Reasoning:**  1. **Chez Lulu (Fr...'
+2026-06-26 17:29:33,802 [INFO] [POSITION_APPLICATION] Adrian Vale express_wishes INPUT: current_position=The Corner Coffee Shop, Bremer Apartment/Part-time barista, n_positions=11
+2026-06-26 17:29:33,812 [INFO] [POSITION_APPLICATION] Adrian Vale express_wishes OUTPUT: wishes=['Chez Lulu (French-American Bistro)/Bartender / Playwright', 'New York City University/Graduate Research Assistant'], response_preview='<wishes>The Corner Coffee Shop, Bremer Apartment/Part-time barista, Chez Lulu (French-American Bistro)/Bartender / Playwright, New York City University/Graduate Research Assistant</wishes>  **Reasonin...'
+2026-06-26 17:29:33,812 [INFO] [POSITION_APPLICATION] --- Per-Agent Wishes ---
+2026-06-26 17:29:33,812 [INFO] [POSITION_APPLICATION] Aaron Whitfield INPUT: original=Self-employed (contributes to The Atlantic, New York Magazine, various outlets)/Freelance journalist and novelist, wishes=['Bremer Apartment Community Council/Community Mediator', 'The Rooftop/Roof Event Coordinator']
+2026-06-26 17:29:33,812 [INFO] [POSITION_APPLICATION] Adrian Morales INPUT: original=Chez Lulu (French-American Bistro)/Bartender / Playwright, wishes=['Chez Lulu (French-American Bistro)/Bartender / Playwright', 'New York City University/Graduate Research Assistant', 'The Rooftop/Roof Event Coordinator']
+2026-06-26 17:29:33,812 [INFO] [POSITION_APPLICATION] Adrian Vale INPUT: original=The Corner Coffee Shop, Bremer Apartment/Part-time barista, wishes=['Chez Lulu (French-American Bistro)/Bartender / Playwright', 'New York City University/Graduate Research Assistant']
+2026-06-26 17:29:33,812 [INFO] [POSITION_APPLICATION] === COLLECT WISHES COMPLETE === 3 agents collected
+2026-06-26 17:29:33,812 [INFO] [POSITION_APPLICATION] === Round 1: Wish Round ===
+2026-06-26 17:29:33,812 [INFO] [POSITION_APPLICATION] --- Sub-round 1 ---
+2026-06-26 17:29:33,812 [INFO] [POSITION_APPLICATION] Sub-round 1: 2 positions, 1 batches
+2026-06-26 17:29:33,812 [INFO] [POSITION_APPLICATION] _process_batch_round1 sub1: positions=['Bremer Apartment Community Council/Community Mediator'], applicants=['Aaron Whitfield']
+2026-06-26 17:29:33,813 [INFO] [POSITION_APPLICATION] god_evaluate_position_application INPUT: round=1, sub_round=1, positions=[('Bremer Apartment Community Council/Community Mediator', 1)], candidates=['Aaron Whitfield']
+2026-06-26 17:29:33,813 [INFO] [POSITION_APPLICATION] Round 1 Sub-1 - Positions: ['Bremer Apartment Community Council/Community Mediator'], Candidates: 1, Results: {'Bremer Apartment Community Council/Community Mediator': ['Aaron Whitfield']}
+2026-06-26 17:29:33,813 [INFO] [POSITION_APPLICATION] God Model results: {'Bremer Apartment Community Council/Community Mediator': ['Aaron Whitfield']}
+2026-06-26 17:29:33,814 [INFO] [POSITION_APPLICATION] ACCEPTED: Aaron Whitfield → Bremer Apartment Community Council/Community Mediator (sub_round=1)
+2026-06-26 17:29:33,814 [INFO] [POSITION_APPLICATION] --- Sub-round 2 ---
+2026-06-26 17:29:33,814 [INFO] [POSITION_APPLICATION] Sub-round 2: 1 positions, 1 batches
+2026-06-26 17:29:33,814 [INFO] [POSITION_APPLICATION] _process_batch_round1 sub2: positions=['New York City University/Graduate Research Assistant'], applicants=['Adrian Vale']
+2026-06-26 17:29:33,814 [INFO] [POSITION_APPLICATION] god_evaluate_position_application INPUT: round=1, sub_round=2, positions=[('New York City University/Graduate Research Assistant', 1)], candidates=['Adrian Vale']
+2026-06-26 17:29:33,815 [INFO] [POSITION_APPLICATION] Round 1 Sub-2 - Positions: ['New York City University/Graduate Research Assistant'], Candidates: 1, Results: {'New York City University/Graduate Research Assistant': ['Adrian Vale']}
+2026-06-26 17:29:33,815 [INFO] [POSITION_APPLICATION] God Model results: {'New York City University/Graduate Research Assistant': ['Adrian Vale']}
+2026-06-26 17:29:33,815 [INFO] [POSITION_APPLICATION] ACCEPTED: Adrian Vale → New York City University/Graduate Research Assistant (sub_round=2)
+2026-06-26 17:29:33,815 [INFO] [POSITION_APPLICATION] --- Sub-round 3 ---
+2026-06-26 17:29:33,815 [INFO] [POSITION_APPLICATION] Sub-round 3: no wishes to process
+2026-06-26 17:29:33,815 [INFO] [POSITION_APPLICATION] Round 1 complete: 3 matched
+2026-06-26 17:29:33,815 [INFO] [POSITION_APPLICATION] === FINALIZE START ===
+2026-06-26 17:29:33,816 [INFO] [POSITION_APPLICATION] --- Per-Agent Results ---
+2026-06-26 17:29:33,816 [INFO] [POSITION_APPLICATION] Aaron Whitfield OUTPUT: CHANGED original=Self-employed (contributes to The Atlantic, New York Magazine, various outlets)/Freelance journalist and novelist, new=Bremer Apartment Community Council/Community Mediator, wishes=['Bremer Apartment Community Council/Community Mediator', 'The Rooftop/Roof Event Coordinator']
+2026-06-26 17:29:33,816 [INFO] [POSITION_APPLICATION] Adrian Morales OUTPUT: STAYED original=Chez Lulu (French-American Bistro)/Bartender / Playwright, new=Chez Lulu (French-American Bistro)/Bartender / Playwright, wishes=['Chez Lulu (French-American Bistro)/Bartender / Playwright', 'New York City University/Graduate Research Assistant', 'The Rooftop/Roof Event Coordinator']
+2026-06-26 17:29:33,816 [INFO] [POSITION_APPLICATION] Adrian Vale OUTPUT: CHANGED original=The Corner Coffee Shop, Bremer Apartment/Part-time barista, new=New York City University/Graduate Research Assistant, wishes=['Chez Lulu (French-American Bistro)/Bartender / Playwright', 'New York City University/Graduate Research Assistant']
+2026-06-26 17:29:33,816 [INFO] [POSITION_APPLICATION] === FINALIZE COMPLETE === 3 accepted (1 stayed, 2 changed, 0 fallback)
+2026-06-26 17:29:33,816 [INFO] [POSITION_APPLICATION] Updating colleague relationships
+2026-06-26 17:29:33,816 [INFO] [ACHIEVEMENT] 3 agents. Top3: [('Adrian Vale', 80, '100.0'), ('Aaron Whitfield', 60, '50.0'), ('Adrian Morales', 0, '0.0')], Bottom3: [('Adrian Vale', 80, '100.0'), ('Aaron Whitfield', 60, '50.0'), ('Adrian Morales', 0, '0.0')]
+2026-06-26 17:29:33,816 [INFO] [POSITION_APPLICATION] ========== POSITION APPLICATION SEASON COMPLETE ========== 3 agents processed

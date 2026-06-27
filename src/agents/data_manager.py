@@ -2383,6 +2383,10 @@ class DataManager:
     ) -> None:
         t = self.clock.get_time()
 
+        # Normalize outputs: it can be a list of message dicts or a plain string
+        if not isinstance(outputs, list):
+            outputs = [{"role": "assistant", "content": str(outputs)}]
+
         # Use provided filename or default to week=X format
         base_name = filename if filename else self._format_week(t.week)
 

@@ -364,9 +364,21 @@ class RoleAgent:
             messages=compact_inputs,
             tool_choice="none",
             cache_file=str(cache_file),
+            model_type="role",
         )
 
         self.dm.save_generation(compact_inputs, compact_output)
+
+        # Fallback: if compact failed (string instead of list), extract from original outputs
+        if isinstance(compact_output, str) or (
+            isinstance(compact_output, list) and len(compact_output) == 0
+        ):
+            self.logger.warning("[COMPACT] compact failed, using original think_brief")
+            return (
+                outputs[-1].get("content", "")
+                if isinstance(outputs, list) and outputs
+                else ""
+            )
 
         think_brief = (
             compact_output[-1]["content"]
@@ -1776,7 +1788,14 @@ class RoleAgent:
         if data is None:
             error_msg = f"Failed to parse social ranking for {self.name}"
             ERROR_LOGGER.error(error_msg)
-            raise RuntimeError(error_msg)
+            ERROR_LOGGER.error(f"Raw response: {response[:500]}")
+            # Graceful fallback: return empty ranking instead of crashing
+            return SocialRanking(
+                agent_name=self.name,
+                time=str(self.clock.get_time()),
+                affection_scores={},
+                respect_scores={},
+            )
 
         if verify_logger:
             verify_logger.info(

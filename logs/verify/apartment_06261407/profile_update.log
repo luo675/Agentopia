@@ -1,0 +1,15 @@
+2026-06-26 16:28:11,663 [INFO] [VERIFY-PROFILE] === PROFILE UPDATE START === Y2020 → Y2021, 3 agents
+2026-06-26 16:28:11,663 [INFO] [VERIFY-PROFILE] Aaron Whitfield LLM INPUT: n_summaries=10, cur_personality={'confidence': 55, 'control': 75, 'curiosity': 90, 'empathy': 80, 'judging': 80, 'introversion': 85, 'intuition': 90, 'patience': 55, 'responsibility': 70, 'thinking': 100}, cur_talents={'beauty': 65, 'communication': 80, 'creativity': 95, 'health': 55, 'honesty': 75, 'integrity': 80, 'intelligence': 70, 'leadership': 55, 'trustworthiness': 75}
+2026-06-26 16:29:15,383 [INFO] [VERIFY-PROFILE] Aaron Whitfield Y2020→Y2021: personality.confidence: 55 → 60, personality.curiosity: 90 → 85, personality.empathy: 80 → 85, personality.judging: 80 → 85, personality.patience: 55 → 60, personality.responsibility: 70 → 75, personality.thinking: 100 → 95
+2026-06-26 16:29:15,384 [INFO] [VERIFY-PROFILE] Aaron Whitfield INPUT: 10 weekly summaries
+2026-06-26 16:29:15,384 [INFO] [VERIFY-PROFILE] Adrian Morales LLM INPUT: n_summaries=10, cur_personality={'confidence': 65, 'control': 85, 'curiosity': 95, 'empathy': 90, 'judging': 80, 'introversion': 35, 'intuition': 100, 'patience': 50, 'responsibility': 80, 'thinking': 75}, cur_talents={'beauty': 70, 'communication': 90, 'creativity': 100, 'health': 75, 'honesty': 80, 'integrity': 75, 'intelligence': 85, 'leadership': 55, 'trustworthiness': 70}
+2026-06-26 16:31:09,959 [ERROR] [VERIFY-PROFILE] Failed to update profile for Adrian Morales, keeping current profile
+2026-06-26 16:31:09,960 [INFO] [VERIFY-PROFILE] Adrian Morales INPUT: 10 weekly summaries
+2026-06-26 16:31:09,961 [INFO] [VERIFY-PROFILE] Adrian Vale LLM INPUT: n_summaries=10, cur_personality={'confidence': 35, 'control': 60, 'curiosity': 90, 'empathy': 75, 'judging': 80, 'introversion': 75, 'intuition': 100, 'patience': 75, 'responsibility': 60, 'thinking': 95}, cur_talents={'beauty': 85, 'communication': 75, 'creativity': 85, 'health': 60, 'honesty': 70, 'integrity': 70, 'intelligence': 95, 'leadership': 55, 'trustworthiness': 85}
+2026-06-26 16:33:17,854 [ERROR] [VERIFY-PROFILE] Failed to update profile for Adrian Vale, keeping current profile
+2026-06-26 16:33:17,855 [INFO] [VERIFY-PROFILE] Adrian Vale INPUT: 10 weekly summaries
+2026-06-26 16:33:17,855 [INFO] [VERIFY-PROFILE] --- Per-Agent Profile Changes ---
+2026-06-26 16:33:17,855 [INFO] [VERIFY-PROFILE] Aaron Whitfield: personality.confidence: 55→60, personality.curiosity: 90→85, personality.empathy: 80→85, personality.judging: 80→85, personality.patience: 55→60, personality.responsibility: 70→75, personality.thinking: 100→95
+2026-06-26 16:33:17,855 [INFO] [VERIFY-PROFILE] Adrian Morales: no quantitative changes
+2026-06-26 16:33:17,855 [INFO] [VERIFY-PROFILE] Adrian Vale: no quantitative changes
+2026-06-26 16:33:17,855 [INFO] [VERIFY-PROFILE] === PROFILE UPDATE COMPLETE === 3 agents processed

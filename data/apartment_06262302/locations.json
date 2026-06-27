@@ -1,0 +1,384 @@
+{
+  "public": {
+    "Art Studio": {
+      "display_name": "Art Studio",
+      "size": "medium",
+      "description": "A bright, open space filled with canvases, brushes, and paint supplies. A long table sits in the center, covered with sketches and unfinished works. A few easels are set up against the walls, and the air smells faintly of paint and varnish. A small shelf holds a collection of art supplies.",
+      "objects": [
+        "painting canvas",
+        "brushes",
+        "sketch pad",
+        "easel",
+        "paint tubes"
+      ]
+    },
+    "Bike Storage": {
+      "display_name": "Bike Storage",
+      "size": "small",
+      "description": "A small, enclosed space with hooks and racks lining the walls. Bikes of all shapes and sizes are stored haphazardly, some leaning against the wall, others hanging from the ceiling. A single light fixture provides enough illumination for the space. The scent of oil and metal lingers in the air.",
+      "objects": [
+        "bike rack",
+        "old bicycle",
+        "storage box",
+        "bicycle helmet",
+        "chain cleaner"
+      ]
+    },
+    "Cafe": {
+      "display_name": "Cafe",
+      "size": "medium",
+      "description": "A small, cozy space with a counter and a few tables. A small barista area is located near the back, and a few chairs are placed around the counter. The air is filled with the scent of coffee and baked goods, and the sound of soft music plays in the background. A small sign lists the menu.",
+      "objects": [
+        "coffee machine",
+        "pastries",
+        "plates",
+        "napkins",
+        "menu board"
+      ]
+    },
+    "Community Hall": {
+      "display_name": "Community Hall",
+      "size": "large",
+      "description": "A multipurpose room used for meetings, readings, and small performances. The high ceiling is supported by thick wooden beams, and the floor is lined with old wooden planks. A chalkboard covers one wall, often filled with doodles and notes. The room feels alive with the energy of shared stories and ideas.",
+      "objects": [
+        "chalkboard",
+        "wooden benches",
+        "microphone stand",
+        "old map",
+        "reading chairs"
+      ]
+    },
+    "Conference Room": {
+      "display_name": "Conference Room",
+      "size": "medium",
+      "description": "A small, rectangular room with a long table in the center. A few chairs are placed around the table, and a whiteboard is mounted on the wall. The room feels slightly cold, with the faint scent of markers and paper. A small sign on the door lists the room's purpose.",
+      "objects": [
+        "whiteboard",
+        "chairs",
+        "meeting notes",
+        "folder",
+        "marker"
+      ]
+    },
+    "Corner Coffee Shop": {
+      "display_name": "Corner Coffee Shop",
+      "size": "medium",
+      "description": "A cozy café nestled between the building and a narrow alley, the shop has a warm glow from its window lighting. Inside, a counter runs along the wall, behind which sits a barista. A few tables and chairs occupy the center, where conversations flow as easily as the coffee. The aroma of freshly ground beans fills the air, mingling with the faint scent of pastries.",
+      "objects": [
+        "coffee machine",
+        "pastries",
+        "empty cups",
+        "notebook",
+        "table lamp"
+      ]
+    },
+    "Dance Studio": {
+      "display_name": "Dance Studio",
+      "size": "medium",
+      "description": "A bright, open space with a mirrored wall and a wooden floor. A few ballet bars are set up along one side, and a small stage is placed in the center. The air is warm and still, with the faint scent of sweat and floor polish. A single light fixture casts a soft glow over the space.",
+      "objects": [
+        "mirrored wall",
+        "ballet bar",
+        "dance shoes",
+        "mat",
+        "mirror"
+      ]
+    },
+    "Fitness Center": {
+      "display_name": "Fitness Center",
+      "size": "medium",
+      "description": "A well-lit room with exercise equipment lined along the walls. A few treadmills and weights are placed in the center, and a small mirror is mounted on the wall. The air is warm and still, with the faint scent of sweat and disinfectant. A small sign lists the hours of operation.",
+      "objects": [
+        "treadmill",
+        "weight bench",
+        "dumbbell",
+        "mirror",
+        "fitness mat"
+      ]
+    },
+    "Garden": {
+      "display_name": "Garden",
+      "size": "medium",
+      "description": "A small, green space with flower beds and a few benches. A small fountain runs quietly in the center, surrounded by stepping stones. The air is fresh with the scent of flowers and soil, and birds chirp softly in the background. A small sign marks the garden as a shared space.",
+      "objects": [
+        "flower beds",
+        "fountain",
+        "benches",
+        "stepping stones",
+        "gardening tools"
+      ]
+    },
+    "Greenhouse": {
+      "display_name": "Greenhouse",
+      "size": "medium",
+      "description": "A glass-walled structure filled with potted plants and hanging vines. A wooden bench sits in the center, surrounded by small tables and stools. The sunlight filters through the glass, creating a warm, inviting atmosphere. A small sign on the door lists the types of plants grown there.",
+      "objects": [
+        "potted plants",
+        "hanging vines",
+        "wooden bench",
+        "soil",
+        "plant labels"
+      ]
+    },
+    "Gym": {
+      "display_name": "Gym",
+      "size": "medium",
+      "description": "A small, well-lit room with a variety of exercise equipment. A few treadmills and stationary bikes are placed along the walls, and a small weight rack is positioned in the center. The air is warm and still, with the faint scent of sweat and disinfectant. A small sign on the wall lists the hours of use.",
+      "objects": [
+        "treadmill",
+        "stationary bike",
+        "weight rack",
+        "exercise ball",
+        "yoga mat"
+      ]
+    },
+    "Kitchen": {
+      "display_name": "Kitchen",
+      "size": "medium",
+      "description": "A shared kitchen with a long counter and a few cabinets. A small stove and refrigerator are positioned near the back, and a sink is located in the center. A few dishes and utensils sit on the counter, and the air smells faintly of food and spices. A small table is set up near the window.",
+      "objects": [
+        "stove",
+        "refrigerator",
+        "sink",
+        "utensils",
+        "cooking pot"
+      ]
+    },
+    "Laundry Room": {
+      "display_name": "Laundry Room",
+      "size": "medium",
+      "description": "A utilitarian space with rows of laundry baskets and drying clothes lines. A row of machines sits against the wall, their doors slightly open, revealing the whirring of spin cycles. A single sink is positioned near the entrance, and the air smells faintly of detergent and damp fabric.",
+      "objects": [
+        "laundry baskets",
+        "drying clothes line",
+        "washing machine",
+        "clean towels",
+        "laundry soap"
+      ]
+    },
+    "Library": {
+      "display_name": "Library",
+      "size": "large",
+      "description": "A spacious room with tall bookshelves lining the walls. A large reading table is centered in the room, surrounded by a few chairs. A few small study desks are placed near the windows, and a large window lets in natural light. The air is quiet and calm, filled with the scent of old paper and books.",
+      "objects": [
+        "bookshelves",
+        "reading table",
+        "study desks",
+        "old books",
+        "desk lamp"
+      ]
+    },
+    "Mail Room": {
+      "display_name": "Mail Room",
+      "size": "small",
+      "description": "A small, cluttered space tucked behind the main entrance. A long wooden table sits against the wall, covered with stacks of envelopes and packages. A single door leads to the stairwell, and a small sign above the table lists the days when mail is collected. The air smells faintly of ink and cardboard.",
+      "objects": [
+        "mailboxes",
+        "stacked envelopes",
+        "package labels",
+        "stapler",
+        "old address book"
+      ]
+    },
+    "Music Room": {
+      "display_name": "Music Room",
+      "size": "medium",
+      "description": "A dimly lit room with a large piano at the center. A few chairs and a small table surround the piano, and a stack of sheet music sits on the table. A small speaker plays softly in the background, and the air carries the faint scent of wood and polish. A dusty music stand rests against the wall.",
+      "objects": [
+        "piano",
+        "sheet music",
+        "music stand",
+        "sheet music stand",
+        "old violin"
+      ]
+    },
+    "Office Space": {
+      "display_name": "Office Space",
+      "size": "medium",
+      "description": "A small, quiet room with a desk and a few shelves. A computer and printer sit on the desk, and a few papers are scattered across the surface. The air is slightly stale, with the faint scent of paper and ink. A small sign on the door indicates that it's available for use.",
+      "objects": [
+        "computer",
+        "printer",
+        "papers",
+        "file folder",
+        "desk lamp"
+      ]
+    },
+    "Parking Area": {
+      "display_name": "Parking Area",
+      "size": "large",
+      "description": "A wide, uneven space with a mix of cars and delivery vehicles. A few bikes and scooters are parked alongside them, and a few trash bins sit near the edge. The ground is cracked in places, and the air carries the scent of asphalt and exhaust. A small gate marks the entrance to the building.",
+      "objects": [
+        "parking cones",
+        "delivery van",
+        "bicycle",
+        "trash bin",
+        "old car"
+      ]
+    },
+    "Playground": {
+      "display_name": "Playground",
+      "size": "medium",
+      "description": "A small, open space with a few swings and a seesaw. A small slide is placed in the corner, and a sandbox sits near the entrance. The air is lively with the sounds of children laughing and playing. A small sign on the wall marks the playground as a shared space.",
+      "objects": [
+        "swing set",
+        "seesaw",
+        "slide",
+        "sandbox",
+        "toy bucket"
+      ]
+    },
+    "Pool": {
+      "display_name": "Pool",
+      "size": "large",
+      "description": "A small, outdoor pool with a tiled surface and a few lounge chairs. A small deck surrounds the pool, and a few sun loungers are placed near the edge. The water is clear, and the air is cool and still. A small sign on the wall lists the hours of use.",
+      "objects": [
+        "lounge chairs",
+        "sun lounger",
+        "pool float",
+        "water hose",
+        "pool towel"
+      ]
+    },
+    "Porch": {
+      "display_name": "Porch",
+      "size": "medium",
+      "description": "A shaded area outside the building, with a wooden railing and a few plastic chairs. A small table sits nearby, and a basket of books is placed beside it. The air is cool and still, with the distant hum of city traffic. A sign on the wall invites residents to leave books for others.",
+      "objects": [
+        "plastic chairs",
+        "wooden railing",
+        "book basket",
+        "table",
+        "sign"
+      ]
+    },
+    "Reading Nook": {
+      "display_name": "Reading Nook",
+      "size": "small",
+      "description": "A quiet corner with a small table and two chairs. A few books are scattered across the surface, and a small lamp casts a warm glow. A single window lets in soft natural light, and the air is calm and still. A small rug lies beneath the table, adding a touch of comfort.",
+      "objects": [
+        "bookshelf",
+        "lamp",
+        "books",
+        "rug",
+        "chair"
+      ]
+    },
+    "Recreation Room": {
+      "display_name": "Recreation Room",
+      "size": "medium",
+      "description": "A bright, open space with a large table in the center. A few mismatched chairs surround it, and a small couch sits in the corner. The walls are painted in soft pastels, and a board game sits on the table, waiting to be played. A small bookshelf holds a collection of games and puzzles.",
+      "objects": [
+        "board game",
+        "mismatched chairs",
+        "couch",
+        "bookshelf",
+        "table"
+      ]
+    },
+    "Rooftop": {
+      "display_name": "Rooftop",
+      "size": "large",
+      "description": "The rooftop is an open space covered with weathered wooden planks, offering panoramic views of the city skyline. A rusted water tower dominates the center, surrounded by a few old folding chairs and a small table. On summer evenings, the area buzzes with laughter and conversation as residents gather for drinks and stargazing. A faded sign warns of the danger of falling, but it’s often ignored.",
+      "objects": [
+        "folding chair",
+        "old water tower",
+        "beer cans",
+        "rusty metal table",
+        "weathered wooden planks"
+      ]
+    },
+    "Stairwell": {
+      "display_name": "Stairwell",
+      "size": "medium",
+      "description": "A narrow, dimly lit passage connecting all floors. The walls are lined with old posters and faded notices, some torn or curling at the edges. A single light fixture hangs from the ceiling, casting a soft glow over the worn steps. The sound of footsteps echoes as people pass through.",
+      "objects": [
+        "old posters",
+        "rusted handrail",
+        "broken flashlight",
+        "sticky note",
+        "worn steps"
+      ]
+    },
+    "Storage Shed": {
+      "display_name": "Storage Shed",
+      "size": "small",
+      "description": "A small, wooden shed with a slanted roof. A few wooden crates and boxes sit inside, and a single bench is placed near the entrance. The air is dry and still, with the faint smell of wood and dust. A small door leads to the outside.",
+      "objects": [
+        "wooden crates",
+        "storage boxes",
+        "bench",
+        "tool kit",
+        "old ladder"
+      ]
+    },
+    "Warehouse": {
+      "display_name": "Warehouse",
+      "size": "large",
+      "description": "A large, industrial space with tall shelves and stacked boxes. The ceiling is high, and the walls are lined with wooden storage units. A few forklifts and pallets sit in the center, and the air carries the scent of dust and cardboard. A single door leads to the outside.",
+      "objects": [
+        "storage shelves",
+        "stacked boxes",
+        "forklift",
+        "pallet",
+        "dust mask"
+      ]
+    },
+    "Workshop": {
+      "display_name": "Workshop",
+      "size": "medium",
+      "description": "A cluttered space with tools and materials spread across the floor. A workbench sits in the center, and a few shelves are lined with supplies. The air is filled with the scent of wood and metal, and the faint sound of tools clinking echoes in the background. A small sign on the wall lists the available tools.",
+      "objects": [
+        "workbench",
+        "hammer",
+        "screwdriver",
+        "wooden plank",
+        "measuring tape"
+      ]
+    }
+  },
+  "private": {
+    "home/Aaron Whitfield": {
+      "owner": "Aaron Whitfield",
+      "display_name": "Aaron Whitfield's Home",
+      "size": "small",
+      "description": "Aaron's small, cluttered bedroom on the fourth floor reflects his writer's life and emotional state—half-finished novels stacked beside a worn typewriter, a single lamp casting warm light over a desk covered in coffee stains and scribbled notes. The room feels lived-in but orderly, with a faint scent of old paper and mildew.",
+      "objects": [
+        "typewriter",
+        "stack of notebooks",
+        "coffee mug with cracked handle",
+        "old map of Washington Heights",
+        "single lamp",
+        "weathered journal"
+      ]
+    },
+    "home/Adrian Morales": {
+      "owner": "Adrian Morales",
+      "display_name": "Adrian Morales's Home",
+      "size": "small",
+      "description": "Adrian's cramped studio apartment is a reflection of his cluttered mind and creative struggles. The space is dimly lit with a single lamp, and the walls are covered in scribbled notes and play drafts. A worn-out couch sits against one wall, doubling as both a writing space and a place to rest. The room feels lived-in but untouched by time, as if Adrian is always on the verge of finishing something but never quite ready to leave the draft behind.",
+      "objects": [
+        "old typewriter",
+        "stack of yellow legal pads",
+        "broken record player",
+        "coffee-stained mug",
+        "photograph of Katie",
+        "small framed sketch of a skyline"
+      ]
+    },
+    "home/Adrian Vale": {
+      "owner": "Adrian Vale",
+      "display_name": "Adrian Vale's Home",
+      "size": "small",
+      "description": "Adrian's small studio is a minimalist space filled with the quiet echoes of his thoughts. It has a mattress on the floor, scattered books, and little else, reflecting his frugal lifestyle and emotional detachment. The room feels lived-in yet unadorned, as if every object holds a story he chooses not to share.",
+      "objects": [
+        "stacked philosophy books",
+        "a worn leather journal",
+        "a single lamp",
+        "a coffee mug with chipped rim",
+        "an old guitar stand",
+        "a framed photo of his mother"
+      ]
+    }
+  }
+}

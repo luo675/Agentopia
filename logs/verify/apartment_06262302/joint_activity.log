@@ -1,0 +1,1535 @@
+2026-06-26 23:10:19,094 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W01-activity-D2 ==========
+2026-06-26 23:10:19,094 [INFO] [VERIFY-JOINT] Activity: Encounter-Adrian Morales-Adrian Vale, Location: Stairwell
+2026-06-26 23:10:19,094 [INFO] [VERIFY-JOINT] Participants: ['Adrian Morales', 'Adrian Vale']
+2026-06-26 23:10:19,094 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-26 23:10:19,094 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=66, fulfillment={'mood': 41, 'material': 50, 'social': 43, 'esteem': 44}, possessions=5
+2026-06-26 23:10:19,094 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=67, fulfillment={'mood': 44, 'material': 50, 'social': 43, 'esteem': 44}, possessions=5
+2026-06-26 23:12:29,471 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-26 23:12:29,476 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-26 23:12:29,476 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-26 23:12:33,529 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-26 23:12:33,529 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-2, delta_fulfillment={'mood': 4, 'social': 5, 'esteem': 1}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-26 23:12:33,529 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-3, delta_fulfillment={'mood': 3, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-26 23:12:33,529 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-26 23:12:33,529 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-26 23:12:33,529 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-26 23:12:33,529 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-26 23:12:38,443 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 461
+2026-06-26 23:12:38,443 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 696
+2026-06-26 23:12:47,625 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 429
+2026-06-26 23:12:47,625 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 655
+2026-06-26 23:12:47,625 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-26 23:12:47,626 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-2)
+2026-06-26 23:12:47,626 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-3)
+2026-06-26 23:12:47,626 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-26 23:12:47,626 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta verified: -2
+2026-06-26 23:12:47,626 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 4
+2026-06-26 23:12:47,626 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-26 23:12:47,626 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 1
+2026-06-26 23:12:47,626 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta verified: -3
+2026-06-26 23:12:47,626 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale mood delta verified: 3
+2026-06-26 23:12:47,626 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-26 23:12:47,626 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 2
+2026-06-26 23:12:47,626 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-26 23:12:47,626 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-26 23:12:47,626 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-26 23:12:47,626 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-26 23:13:29,188 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W01-activity-D4 ==========
+2026-06-26 23:13:29,188 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-26 23:13:29,189 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-26 23:13:29,189 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-26 23:13:29,189 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=61, fulfillment={'mood': 52, 'material': 50, 'social': 43, 'esteem': 46}, possessions=5
+2026-06-26 23:13:29,189 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=60, fulfillment={'mood': 46, 'material': 50, 'social': 48, 'esteem': 46}, possessions=5
+2026-06-26 23:15:33,097 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-26 23:15:33,097 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-26 23:15:33,097 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-26 23:15:36,878 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-26 23:15:36,878 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-26 23:15:36,878 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-26 23:15:36,878 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-26 23:15:36,879 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-26 23:15:36,879 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-26 23:15:36,879 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-26 23:15:42,059 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 588
+2026-06-26 23:15:42,059 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 661
+2026-06-26 23:15:51,287 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 588
+2026-06-26 23:15:51,287 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 612
+2026-06-26 23:15:51,287 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-26 23:15:51,287 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-1)
+2026-06-26 23:15:51,287 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-1)
+2026-06-26 23:15:51,287 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-26 23:15:51,287 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta verified: -1
+2026-06-26 23:15:51,287 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-26 23:15:51,287 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-26 23:15:51,287 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-26 23:15:51,287 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta verified: -1
+2026-06-26 23:15:51,287 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-26 23:15:51,287 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-26 23:15:51,287 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-26 23:15:51,287 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-26 23:15:51,288 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-26 23:15:51,288 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-26 23:15:51,288 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-26 23:23:59,794 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W02-activity-D1 ==========
+2026-06-26 23:23:59,794 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-26 23:23:59,794 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-26 23:23:59,794 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-26 23:23:59,794 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=57, fulfillment={'mood': 51, 'material': 50, 'social': 41, 'esteem': 42}, possessions=5
+2026-06-26 23:23:59,794 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=57, fulfillment={'mood': 47, 'material': 50, 'social': 46, 'esteem': 42}, possessions=5
+2026-06-26 23:26:23,142 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-26 23:26:23,142 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-26 23:26:23,142 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-26 23:26:26,904 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-26 23:26:26,904 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 3}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-26 23:26:26,904 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-3, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 3}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-26 23:26:26,904 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-26 23:26:26,904 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-26 23:26:26,904 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-26 23:26:26,904 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-26 23:26:27,010 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-26 23:26:27,010 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-26 23:26:30,847 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 384
+2026-06-26 23:26:30,847 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 445
+2026-06-26 23:26:30,847 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-26 23:26:30,847 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-2)
+2026-06-26 23:26:30,847 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-3)
+2026-06-26 23:26:30,847 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-26 23:26:30,847 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta verified: -2
+2026-06-26 23:26:30,847 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-26 23:26:30,847 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-26 23:26:30,847 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 3
+2026-06-26 23:26:30,847 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta verified: -3
+2026-06-26 23:26:30,847 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-26 23:26:30,847 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-26 23:26:30,847 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 3
+2026-06-26 23:26:30,847 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-26 23:26:30,848 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-26 23:26:30,848 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-26 23:26:30,848 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-26 23:35:10,704 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W03-activity-D2 ==========
+2026-06-26 23:35:10,704 [INFO] [VERIFY-JOINT] Activity: Encounter-Adrian Morales-Adrian Vale, Location: Stairwell
+2026-06-26 23:35:10,704 [INFO] [VERIFY-JOINT] Participants: ['Adrian Morales', 'Adrian Vale']
+2026-06-26 23:35:10,704 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-26 23:35:10,704 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=42, fulfillment={'mood': 60, 'material': 50, 'social': 44, 'esteem': 43}, possessions=5
+2026-06-26 23:35:10,704 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=41, fulfillment={'mood': 57, 'material': 50, 'social': 35, 'esteem': 41}, possessions=5
+2026-06-26 23:36:48,674 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-26 23:36:48,674 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-26 23:36:48,674 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-26 23:36:51,840 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-26 23:36:51,840 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 3}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-26 23:36:51,840 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 3}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-26 23:36:51,840 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-26 23:36:51,840 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-26 23:36:51,840 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-26 23:36:51,840 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-26 23:36:54,597 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 403
+2026-06-26 23:36:54,597 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 492
+2026-06-26 23:37:03,434 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 442
+2026-06-26 23:37:03,434 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 533
+2026-06-26 23:37:03,434 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-26 23:37:03,434 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-2)
+2026-06-26 23:37:03,434 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-1)
+2026-06-26 23:37:03,434 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-26 23:37:03,434 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta verified: -2
+2026-06-26 23:37:03,434 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-26 23:37:03,434 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-26 23:37:03,434 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 3
+2026-06-26 23:37:03,434 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta verified: -1
+2026-06-26 23:37:03,434 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale mood delta verified: 5
+2026-06-26 23:37:03,434 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-26 23:37:03,434 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 3
+2026-06-26 23:37:03,434 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-26 23:37:03,434 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-26 23:37:03,435 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-26 23:37:03,435 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-26 23:37:48,123 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W03-activity-D4 ==========
+2026-06-26 23:37:48,123 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-26 23:37:48,123 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-26 23:37:48,123 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-26 23:37:48,123 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=40, fulfillment={'mood': 68, 'material': 50, 'social': 40, 'esteem': 45}, possessions=5
+2026-06-26 23:37:48,123 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=36, fulfillment={'mood': 67, 'material': 50, 'social': 49, 'esteem': 47}, possessions=5
+2026-06-26 23:39:43,719 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-26 23:39:43,719 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-26 23:39:43,719 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-26 23:39:46,971 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-26 23:39:46,971 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-26 23:39:46,971 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-26 23:39:46,971 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-26 23:39:46,972 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-26 23:39:46,972 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-26 23:39:46,972 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-26 23:39:47,084 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-26 23:39:47,084 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-26 23:39:50,117 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 364
+2026-06-26 23:39:50,117 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 494
+2026-06-26 23:39:50,117 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-26 23:39:50,117 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-1)
+2026-06-26 23:39:50,117 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-1)
+2026-06-26 23:39:50,117 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-26 23:39:50,117 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta verified: -1
+2026-06-26 23:39:50,117 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-26 23:39:50,117 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-26 23:39:50,117 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-26 23:39:50,117 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta verified: -1
+2026-06-26 23:39:50,117 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-26 23:39:50,117 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-26 23:39:50,117 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-26 23:39:50,117 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-26 23:39:50,118 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-26 23:39:50,118 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-26 23:39:50,118 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-26 23:45:56,815 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W04-activity-D1 ==========
+2026-06-26 23:45:56,815 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-26 23:45:56,815 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-26 23:45:56,815 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-26 23:45:56,815 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=36, fulfillment={'mood': 65, 'material': 50, 'social': 39, 'esteem': 41}, possessions=5
+2026-06-26 23:45:56,815 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=33, fulfillment={'mood': 65, 'material': 50, 'social': 46, 'esteem': 43}, possessions=5
+2026-06-26 23:48:01,517 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-26 23:48:01,517 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-26 23:48:01,517 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-26 23:48:05,195 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-26 23:48:05,195 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-26 23:48:05,196 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-26 23:48:05,196 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-26 23:48:05,196 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-26 23:48:05,196 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-26 23:48:05,196 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-26 23:48:05,320 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-26 23:48:05,320 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-26 23:48:09,537 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 318
+2026-06-26 23:48:09,537 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 699
+2026-06-26 23:48:09,537 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-26 23:48:09,538 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-1)
+2026-06-26 23:48:09,538 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-1)
+2026-06-26 23:48:09,538 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-26 23:48:09,538 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta verified: -1
+2026-06-26 23:48:09,538 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-26 23:48:09,538 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-26 23:48:09,538 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-26 23:48:09,538 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta verified: -1
+2026-06-26 23:48:09,538 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-26 23:48:09,538 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-26 23:48:09,538 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-26 23:48:09,538 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-26 23:48:09,538 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-26 23:48:09,538 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-26 23:48:09,538 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-26 23:48:20,533 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W04-activity-D2 ==========
+2026-06-26 23:48:20,533 [INFO] [VERIFY-JOINT] Activity: Encounter-Adrian Morales-Adrian Vale, Location: Stairwell
+2026-06-26 23:48:20,533 [INFO] [VERIFY-JOINT] Participants: ['Adrian Morales', 'Adrian Vale']
+2026-06-26 23:48:20,533 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-26 23:48:20,533 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=32, fulfillment={'mood': 70, 'material': 50, 'social': 51, 'esteem': 45}, possessions=5
+2026-06-26 23:48:20,533 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=30, fulfillment={'mood': 66, 'material': 50, 'social': 34, 'esteem': 41}, possessions=5
+2026-06-26 23:50:17,968 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-26 23:50:17,968 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-26 23:50:17,968 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-26 23:50:21,415 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-26 23:50:21,415 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-26 23:50:21,415 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-26 23:50:21,415 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-26 23:50:21,415 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-26 23:50:21,415 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-26 23:50:21,415 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-26 23:50:25,263 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 474
+2026-06-26 23:50:25,263 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 511
+2026-06-26 23:50:25,375 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 11
+2026-06-26 23:50:25,375 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 0
+2026-06-26 23:50:25,375 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-26 23:50:25,376 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-2)
+2026-06-26 23:50:25,376 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-2)
+2026-06-26 23:50:25,376 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-26 23:50:25,376 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta verified: -2
+2026-06-26 23:50:25,376 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-26 23:50:25,376 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-26 23:50:25,376 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-26 23:50:25,376 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta verified: -2
+2026-06-26 23:50:25,376 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale mood delta verified: 5
+2026-06-26 23:50:25,376 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-26 23:50:25,376 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 2
+2026-06-26 23:50:25,376 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-26 23:50:25,376 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-26 23:50:25,376 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-26 23:50:25,376 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-26 23:59:40,074 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W05-activity-D2 ==========
+2026-06-26 23:59:40,074 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-26 23:59:40,074 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-26 23:59:40,074 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-26 23:59:40,074 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=31, fulfillment={'mood': 74, 'material': 50, 'social': 38, 'esteem': 41}, possessions=5
+2026-06-26 23:59:40,074 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=17, fulfillment={'mood': 71, 'material': 50, 'social': 48, 'esteem': 44}, possessions=5
+2026-06-27 00:02:52,685 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 00:02:52,685 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 00:02:52,685 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 00:02:57,010 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 00:02:57,010 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-1, delta_fulfillment={'mood': 4, 'social': 5, 'esteem': 1}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:02:57,010 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:02:57,010 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 00:02:57,010 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 00:02:57,010 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 00:02:57,010 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 00:02:57,139 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 00:02:57,139 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 00:02:57,279 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 11
+2026-06-27 00:02:57,279 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 0
+2026-06-27 00:02:57,280 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 00:02:57,280 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-1)
+2026-06-27 00:02:57,280 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-1)
+2026-06-27 00:02:57,280 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 00:02:57,280 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta verified: -1
+2026-06-27 00:02:57,280 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 4
+2026-06-27 00:02:57,280 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 00:02:57,280 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 1
+2026-06-27 00:02:57,280 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta verified: -1
+2026-06-27 00:02:57,280 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 00:02:57,280 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 00:02:57,280 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 00:02:57,280 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 00:02:57,280 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 00:02:57,280 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 00:02:57,280 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 00:03:42,735 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W05-activity-D4 ==========
+2026-06-27 00:03:42,735 [INFO] [VERIFY-JOINT] Activity: Encounter-Adrian Morales-Adrian Vale, Location: Stairwell
+2026-06-27 00:03:42,735 [INFO] [VERIFY-JOINT] Participants: ['Adrian Morales', 'Adrian Vale']
+2026-06-27 00:03:42,735 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 00:03:42,736 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=12, fulfillment={'mood': 78, 'material': 50, 'social': 53, 'esteem': 47}, possessions=5
+2026-06-27 00:03:42,736 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=12, fulfillment={'mood': 80, 'material': 50, 'social': 34, 'esteem': 42}, possessions=5
+2026-06-27 00:05:40,096 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 00:05:40,096 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 00:05:40,096 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 00:05:43,606 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 00:05:43,607 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 3}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:05:43,607 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-1, delta_fulfillment={'mood': 4, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:05:43,607 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 00:05:43,607 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 00:05:43,607 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-27 00:05:43,607 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 00:05:47,056 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 338
+2026-06-27 00:05:47,056 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 526
+2026-06-27 00:05:47,198 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 11
+2026-06-27 00:05:47,198 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 0
+2026-06-27 00:05:47,198 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 00:05:47,198 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-2)
+2026-06-27 00:05:47,199 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-1)
+2026-06-27 00:05:47,199 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 00:05:47,199 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta verified: -2
+2026-06-27 00:05:47,199 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 00:05:47,199 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 00:05:47,199 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 3
+2026-06-27 00:05:47,199 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta verified: -1
+2026-06-27 00:05:47,199 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale mood delta verified: 4
+2026-06-27 00:05:47,199 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-27 00:05:47,199 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 2
+2026-06-27 00:05:47,199 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 00:05:47,199 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 00:05:47,199 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-27 00:05:47,199 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 00:13:30,846 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W06-activity-D2 ==========
+2026-06-27 00:13:30,846 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-27 00:13:30,846 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-27 00:13:30,846 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 00:13:30,846 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=19, fulfillment={'mood': 77, 'material': 50, 'social': 37, 'esteem': 40}, possessions=5
+2026-06-27 00:13:30,846 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=2, fulfillment={'mood': 75, 'material': 50, 'social': 50, 'esteem': 45}, possessions=5
+2026-06-27 00:16:00,896 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 00:16:00,896 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 00:16:00,896 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 00:16:04,637 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 00:16:04,637 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:16:04,637 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:16:04,637 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 00:16:04,637 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 00:16:04,638 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 00:16:04,638 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 00:16:04,791 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 00:16:04,791 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 00:16:04,958 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 11
+2026-06-27 00:16:04,958 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 0
+2026-06-27 00:16:04,958 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 00:16:04,958 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-2)
+2026-06-27 00:16:04,959 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-2)
+2026-06-27 00:16:04,959 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 00:16:04,959 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta verified: -2
+2026-06-27 00:16:04,959 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-27 00:16:04,959 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 00:16:04,959 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-27 00:16:04,959 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta verified: -2
+2026-06-27 00:16:04,959 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 00:16:04,959 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 00:16:04,959 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 00:16:04,959 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 00:16:04,959 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 00:16:04,959 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 00:16:04,959 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 00:16:16,616 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W06-activity-D3 ==========
+2026-06-27 00:16:16,616 [INFO] [VERIFY-JOINT] Activity: Encounter-Adrian Morales-Adrian Vale, Location: Stairwell
+2026-06-27 00:16:16,616 [INFO] [VERIFY-JOINT] Participants: ['Adrian Morales', 'Adrian Vale']
+2026-06-27 00:16:16,616 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 00:16:16,616 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 80, 'material': 50, 'social': 55, 'esteem': 47}, possessions=5
+2026-06-27 00:16:16,616 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=3, fulfillment={'mood': 80, 'material': 50, 'social': 34, 'esteem': 41}, possessions=5
+2026-06-27 00:19:12,939 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 00:19:12,939 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 00:19:12,939 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 00:19:16,346 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 00:19:16,346 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-3, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:19:16,346 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-3, delta_fulfillment={'mood': 4, 'social': 5, 'esteem': 3}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:19:16,346 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 00:19:16,346 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 00:19:16,346 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-27 00:19:16,346 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 00:19:20,041 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 365
+2026-06-27 00:19:20,041 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 670
+2026-06-27 00:19:20,192 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 11
+2026-06-27 00:19:20,192 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 0
+2026-06-27 00:19:20,192 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 00:19:20,192 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-3)
+2026-06-27 00:19:20,192 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-3)
+2026-06-27 00:19:20,192 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 00:19:20,192 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -3, got 0
+2026-06-27 00:19:20,192 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 00:19:20,192 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 00:19:20,192 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 00:19:20,192 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta verified: -3
+2026-06-27 00:19:20,192 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale mood delta verified: 4
+2026-06-27 00:19:20,193 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-27 00:19:20,193 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 3
+2026-06-27 00:19:20,193 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 00:19:20,193 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 00:19:20,193 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-27 00:19:20,193 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 00:27:50,176 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W07-activity-D2 ==========
+2026-06-27 00:27:50,176 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-27 00:27:50,176 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-27 00:27:50,176 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 00:27:50,176 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=7, fulfillment={'mood': 83, 'material': 50, 'social': 36, 'esteem': 40}, possessions=5
+2026-06-27 00:27:50,176 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 82, 'material': 50, 'social': 51, 'esteem': 45}, possessions=5
+2026-06-27 00:29:50,747 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 00:29:50,747 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 00:29:50,747 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 00:29:54,386 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 00:29:54,386 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-1, delta_fulfillment={'mood': 4, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:29:54,386 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:29:54,386 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 00:29:54,386 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 00:29:54,386 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 00:29:54,386 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 00:29:54,574 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 00:29:54,575 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 00:29:58,094 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 462
+2026-06-27 00:29:58,094 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 494
+2026-06-27 00:29:58,094 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 00:29:58,095 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-1)
+2026-06-27 00:29:58,095 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-1)
+2026-06-27 00:29:58,095 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 00:29:58,095 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta verified: -1
+2026-06-27 00:29:58,095 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 4
+2026-06-27 00:29:58,095 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 00:29:58,095 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-27 00:29:58,095 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -1, got 0
+2026-06-27 00:29:58,095 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 00:29:58,095 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 00:29:58,095 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 00:29:58,095 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 00:29:58,095 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 00:29:58,095 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 00:29:58,095 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 00:30:49,475 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W07-activity-D4 ==========
+2026-06-27 00:30:49,475 [INFO] [VERIFY-JOINT] Activity: Encounter-Adrian Morales-Adrian Vale, Location: Stairwell
+2026-06-27 00:30:49,475 [INFO] [VERIFY-JOINT] Participants: ['Adrian Morales', 'Adrian Vale']
+2026-06-27 00:30:49,475 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 00:30:49,475 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 91, 'material': 50, 'social': 56, 'esteem': 48}, possessions=5
+2026-06-27 00:30:49,475 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=0, fulfillment={'mood': 86, 'material': 50, 'social': 34, 'esteem': 41}, possessions=5
+2026-06-27 00:32:34,633 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 00:32:34,633 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 00:32:34,633 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 00:32:37,851 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 00:32:37,851 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:32:37,851 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:32:37,851 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 00:32:37,851 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 00:32:37,851 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-27 00:32:37,851 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 00:32:41,054 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 288
+2026-06-27 00:32:41,054 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 568
+2026-06-27 00:32:41,215 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 11
+2026-06-27 00:32:41,215 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 0
+2026-06-27 00:32:41,215 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 00:32:41,216 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-1)
+2026-06-27 00:32:41,216 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-1)
+2026-06-27 00:32:41,216 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 00:32:41,216 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -1, got 0
+2026-06-27 00:32:41,216 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 00:32:41,216 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 00:32:41,216 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 00:32:41,216 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta mismatch! Expected -1, got 0
+2026-06-27 00:32:41,216 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale mood delta verified: 5
+2026-06-27 00:32:41,216 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-27 00:32:41,216 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 2
+2026-06-27 00:32:41,216 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 00:32:41,216 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 00:32:41,216 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-27 00:32:41,216 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 00:40:47,495 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W08-activity-D1 ==========
+2026-06-27 00:40:47,495 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-27 00:40:47,495 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-27 00:40:47,495 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 00:40:47,495 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=0, fulfillment={'mood': 81, 'material': 50, 'social': 35, 'esteem': 39}, possessions=5
+2026-06-27 00:40:47,495 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 85, 'material': 50, 'social': 52, 'esteem': 44}, possessions=5
+2026-06-27 00:42:49,376 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 00:42:49,376 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 00:42:49,376 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 00:42:52,546 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 00:42:52,546 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:42:52,546 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:42:52,546 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 00:42:52,546 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 00:42:52,546 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 00:42:52,546 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 00:42:52,732 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 00:42:52,732 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 00:43:01,487 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 333
+2026-06-27 00:43:01,488 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 636
+2026-06-27 00:43:01,488 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 00:43:01,488 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-1)
+2026-06-27 00:43:01,488 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-1)
+2026-06-27 00:43:01,488 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 00:43:01,488 [WARNING] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta mismatch! Expected -1, got 0
+2026-06-27 00:43:01,488 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-27 00:43:01,488 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 00:43:01,488 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-27 00:43:01,488 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -1, got 0
+2026-06-27 00:43:01,488 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 00:43:01,488 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 00:43:01,488 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 00:43:01,488 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 00:43:01,488 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 00:43:01,489 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 00:43:01,489 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 00:43:13,706 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W08-activity-D2 ==========
+2026-06-27 00:43:13,706 [INFO] [VERIFY-JOINT] Activity: Encounter-Adrian Morales-Adrian Vale, Location: Stairwell
+2026-06-27 00:43:13,706 [INFO] [VERIFY-JOINT] Participants: ['Adrian Morales', 'Adrian Vale']
+2026-06-27 00:43:13,706 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 00:43:13,706 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 90, 'material': 50, 'social': 57, 'esteem': 46}, possessions=5
+2026-06-27 00:43:13,706 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=0, fulfillment={'mood': 83, 'material': 50, 'social': 34, 'esteem': 39}, possessions=5
+2026-06-27 00:45:08,099 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 00:45:08,099 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 00:45:08,099 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 00:45:11,666 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 00:45:11,666 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:45:11,666 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:45:11,666 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 00:45:11,666 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 00:45:11,667 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-27 00:45:11,667 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 00:45:15,999 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 484
+2026-06-27 00:45:15,999 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 534
+2026-06-27 00:45:16,176 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 11
+2026-06-27 00:45:16,176 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 0
+2026-06-27 00:45:16,176 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 00:45:16,176 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-1)
+2026-06-27 00:45:16,176 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-1)
+2026-06-27 00:45:16,176 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 00:45:16,176 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -1, got 0
+2026-06-27 00:45:16,176 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 00:45:16,176 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 00:45:16,176 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 00:45:16,177 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta mismatch! Expected -1, got 0
+2026-06-27 00:45:16,177 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale mood delta verified: 5
+2026-06-27 00:45:16,177 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-27 00:45:16,177 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 2
+2026-06-27 00:45:16,177 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 00:45:16,177 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 00:45:16,177 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-27 00:45:16,177 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 00:46:06,401 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W08-activity-D4 ==========
+2026-06-27 00:46:06,401 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Vale, Location: Library
+2026-06-27 00:46:06,401 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Vale']
+2026-06-27 00:46:06,401 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 00:46:06,401 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=0, fulfillment={'mood': 90, 'material': 50, 'social': 40, 'esteem': 43}, possessions=5
+2026-06-27 00:46:06,401 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=0, fulfillment={'mood': 92, 'material': 50, 'social': 39, 'esteem': 41}, possessions=5
+2026-06-27 00:47:44,285 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 00:47:44,286 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 00:47:44,286 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 00:47:47,650 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 00:47:47,650 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:47:47,650 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:47:47,650 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 00:47:47,650 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 00:47:47,650 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-27 00:47:47,650 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 00:47:47,851 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 00:47:47,851 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 00:47:48,023 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 11
+2026-06-27 00:47:48,023 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 0
+2026-06-27 00:47:48,023 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 00:47:48,024 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-1)
+2026-06-27 00:47:48,024 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-1)
+2026-06-27 00:47:48,024 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 00:47:48,024 [WARNING] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta mismatch! Expected -1, got 0
+2026-06-27 00:47:48,024 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-27 00:47:48,024 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 00:47:48,024 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-27 00:47:48,024 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta mismatch! Expected -1, got 0
+2026-06-27 00:47:48,024 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale mood delta verified: 5
+2026-06-27 00:47:48,024 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-27 00:47:48,024 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 2
+2026-06-27 00:47:48,024 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 00:47:48,024 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 00:47:48,025 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-27 00:47:48,025 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 00:57:00,888 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W09-activity-D2 ==========
+2026-06-27 00:57:00,888 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-27 00:57:00,888 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-27 00:57:00,888 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 00:57:00,888 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=0, fulfillment={'mood': 86, 'material': 50, 'social': 39, 'esteem': 41}, possessions=5
+2026-06-27 00:57:00,888 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 89, 'material': 50, 'social': 53, 'esteem': 45}, possessions=5
+2026-06-27 00:58:55,433 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 00:58:55,433 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 00:58:55,433 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 00:58:58,971 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 00:58:58,971 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:58:58,971 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 00:58:58,971 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 00:58:58,971 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 00:58:58,971 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 00:58:58,971 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 00:58:59,181 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 00:58:59,181 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 00:59:02,496 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 402
+2026-06-27 00:59:02,496 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 464
+2026-06-27 00:59:02,496 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 00:59:02,496 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-1)
+2026-06-27 00:59:02,496 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-1)
+2026-06-27 00:59:02,496 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 00:59:02,496 [WARNING] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta mismatch! Expected -1, got 0
+2026-06-27 00:59:02,496 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-27 00:59:02,496 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 00:59:02,496 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-27 00:59:02,496 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -1, got 0
+2026-06-27 00:59:02,496 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 00:59:02,496 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 00:59:02,496 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 00:59:02,496 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 00:59:02,497 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 00:59:02,497 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 00:59:02,497 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 00:59:51,549 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W09-activity-D4 ==========
+2026-06-27 00:59:51,549 [INFO] [VERIFY-JOINT] Activity: Encounter-Adrian Morales-Adrian Vale, Location: Stairwell
+2026-06-27 00:59:51,549 [INFO] [VERIFY-JOINT] Participants: ['Adrian Morales', 'Adrian Vale']
+2026-06-27 00:59:51,549 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 00:59:51,549 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 98, 'material': 50, 'social': 58, 'esteem': 48}, possessions=5
+2026-06-27 00:59:51,549 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=0, fulfillment={'mood': 96, 'material': 50, 'social': 38, 'esteem': 41}, possessions=5
+2026-06-27 01:01:49,399 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 01:01:49,399 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 01:01:49,399 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 01:01:53,139 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 01:01:53,139 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 3}, delta_skills={'dialogue_craft': 1}, items_sent=[], items_received=[]
+2026-06-27 01:01:53,139 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 3}, delta_skills={'literary_analysis': 1}, items_sent=[], items_received=[]
+2026-06-27 01:01:53,139 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 01:01:53,139 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 01:01:53,139 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-27 01:01:53,139 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 01:01:53,327 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 11
+2026-06-27 01:01:53,327 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 0
+2026-06-27 01:01:53,500 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 11
+2026-06-27 01:01:53,500 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 0
+2026-06-27 01:01:53,500 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 01:01:53,501 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-2)
+2026-06-27 01:01:53,501 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-2)
+2026-06-27 01:01:53,501 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 01:01:53,501 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -2, got 0
+2026-06-27 01:01:53,501 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales mood delta mismatch! Expected 5, got 2
+2026-06-27 01:01:53,501 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 01:01:53,501 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 3
+2026-06-27 01:01:53,501 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta mismatch! Expected -2, got 0
+2026-06-27 01:01:53,501 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale mood delta mismatch! Expected 5, got 4
+2026-06-27 01:01:53,501 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-27 01:01:53,501 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 3
+2026-06-27 01:01:53,501 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 01:01:53,501 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 01:01:53,501 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-27 01:01:53,501 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 01:02:05,826 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W09-activity-D5 ==========
+2026-06-27 01:02:05,826 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Vale, Location: Library
+2026-06-27 01:02:05,826 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Vale']
+2026-06-27 01:02:05,827 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 01:02:05,827 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=7, fulfillment={'mood': 100, 'material': 50, 'social': 44, 'esteem': 44}, possessions=5
+2026-06-27 01:02:05,827 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=0, fulfillment={'mood': 100, 'material': 50, 'social': 43, 'esteem': 44}, possessions=5
+2026-06-27 01:03:59,705 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 01:03:59,705 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 01:03:59,705 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 01:04:02,909 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 01:04:02,909 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 01:04:02,909 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 01:04:02,909 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 01:04:02,909 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 01:04:02,909 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-27 01:04:02,909 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 01:04:03,119 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 01:04:03,119 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 01:04:03,296 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 11
+2026-06-27 01:04:03,296 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 0
+2026-06-27 01:04:03,296 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 01:04:03,297 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-1)
+2026-06-27 01:04:03,297 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-1)
+2026-06-27 01:04:03,297 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 01:04:03,297 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta verified: -1
+2026-06-27 01:04:03,297 [WARNING] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta mismatch! Expected 5, got 0
+2026-06-27 01:04:03,297 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 01:04:03,297 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-27 01:04:03,297 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta mismatch! Expected -1, got 0
+2026-06-27 01:04:03,297 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale mood delta mismatch! Expected 5, got 0
+2026-06-27 01:04:03,297 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-27 01:04:03,297 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 2
+2026-06-27 01:04:03,297 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 01:04:03,297 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 01:04:03,297 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-27 01:04:03,297 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 01:11:00,405 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W10-activity-D2 ==========
+2026-06-27 01:11:00,405 [INFO] [VERIFY-JOINT] Activity: Encounter-Adrian Morales-Adrian Vale, Location: Stairwell
+2026-06-27 01:11:00,405 [INFO] [VERIFY-JOINT] Participants: ['Adrian Morales', 'Adrian Vale']
+2026-06-27 01:11:00,405 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 01:11:00,405 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 89, 'material': 50, 'social': 54, 'esteem': 46}, possessions=5
+2026-06-27 01:11:00,405 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=0, fulfillment={'mood': 88, 'material': 50, 'social': 41, 'esteem': 41}, possessions=5
+2026-06-27 01:11:50,579 [INFO] [VERIFY-REJECT] Adrian Vale: REJECT: Adrian Vale's response directly repeats the exact same lines from turn 6, indicating parroting. This violates the principle of avoiding repeated content or stagnant conversation. The dialogue lacks progression and fails to contribute new insight, which undermines the authenticity of the role-play interaction.
+2026-06-27 01:12:02,692 [INFO] [VERIFY-REJECT] Adrian Vale: REJECT: Adrian Vale's response directly repeats the exact same lines from turn 6 and turn 8, indicating parroting. This violates the principle of avoiding repeated content or stagnant conversation. The dialogue lacks progression and fails to contribute new insight, which undermines the authenticity of the role-play interaction.
+2026-06-27 01:12:09,428 [INFO] [VERIFY-REJECT] Adrian Morales: REJECT: Adrian Morales' response is a direct repetition of the content from turn 7, indicating parroting. This violates the principle of avoiding repeated content or stagnant conversation. The dialogue lacks progression and fails to contribute new insight, which undermines the authenticity of the role-play interaction.
+2026-06-27 01:12:17,093 [INFO] [VERIFY-REJECT] Adrian Vale: REJECT: Adrian Vale's response directly repeats the exact same lines from turn 6, 8, and 10, indicating parroting. This violates the principle of avoiding repeated content or stagnant conversation. The dialogue lacks progression and fails to contribute new insight, which undermines the authenticity of the role-play interaction.
+2026-06-27 01:12:23,981 [INFO] [VERIFY-REJECT] Adrian Morales: REJECT: Adrian Morales' response is a direct repetition of the content from turn 7, indicating parroting. This violates the principle of avoiding repeated content or stagnant conversation. The dialogue lacks progression and fails to contribute new insight, which undermines the authenticity of the role-play interaction.
+2026-06-27 01:12:32,377 [INFO] [VERIFY-REJECT] Adrian Vale: REJECT: Adrian Vale's response directly repeats the exact same lines from turn 6, 8, 10, and 12, indicating parroting. This violates the principle of avoiding repeated content or stagnant conversation. The dialogue lacks progression and fails to contribute new insight, which undermines the authenticity of the role-play interaction.
+2026-06-27 01:12:40,466 [INFO] [VERIFY-REJECT] Adrian Morales: REJECT: Adrian Morales' response is a direct repetition of the content from turn 7, indicating parroting. This violates the principle of avoiding repeated content or stagnant conversation. The dialogue lacks progression and fails to contribute new insight, which undermines the authenticity of the role-play interaction.
+2026-06-27 01:12:49,637 [INFO] [VERIFY-REJECT] Adrian Vale: REJECT: Adrian Vale's response directly repeats the exact same lines from turn 6, 8, 10, 12, and 14, indicating parroting. This violates the principle of avoiding repeated content or stagnant conversation. The dialogue lacks progression and fails to contribute new insight, which undermines the authenticity of the role-play interaction.
+2026-06-27 01:12:57,800 [INFO] [VERIFY-REJECT] Adrian Morales: REJECT: Adrian Morales' response is a direct repetition of the content from turn 7, indicating parroting. This violates the principle of avoiding repeated content or stagnant conversation. The dialogue lacks progression and fails to contribute new insight, which undermines the authenticity of the role-play interaction.
+2026-06-27 01:13:03,437 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 01:13:03,437 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 01:13:03,437 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 01:13:07,173 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 01:13:07,173 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-2, delta_fulfillment={'mood': 4, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 01:13:07,173 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-2, delta_fulfillment={'mood': 3, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 01:13:07,173 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 01:13:07,173 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 01:13:07,173 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-27 01:13:07,173 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 01:13:10,723 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 297
+2026-06-27 01:13:10,723 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 562
+2026-06-27 01:13:10,910 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 11
+2026-06-27 01:13:10,910 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 0
+2026-06-27 01:13:10,910 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 01:13:10,911 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-2)
+2026-06-27 01:13:10,911 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-2)
+2026-06-27 01:13:10,911 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 01:13:10,911 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -2, got 0
+2026-06-27 01:13:10,911 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 4
+2026-06-27 01:13:10,911 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 01:13:10,911 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 01:13:10,911 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta mismatch! Expected -2, got 0
+2026-06-27 01:13:10,911 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale mood delta verified: 3
+2026-06-27 01:13:10,911 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-27 01:13:10,911 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 2
+2026-06-27 01:13:10,911 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 01:13:10,911 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 01:13:10,911 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-27 01:13:10,911 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 01:23:26,807 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W11-activity-D2 ==========
+2026-06-27 01:23:26,807 [INFO] [VERIFY-JOINT] Activity: Encounter-Adrian Morales-Adrian Vale, Location: Stairwell
+2026-06-27 01:23:26,807 [INFO] [VERIFY-JOINT] Participants: ['Adrian Morales', 'Adrian Vale']
+2026-06-27 01:23:26,807 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 01:23:26,807 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 88, 'material': 50, 'social': 51, 'esteem': 45}, possessions=5
+2026-06-27 01:23:26,808 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=0, fulfillment={'mood': 88, 'material': 50, 'social': 40, 'esteem': 40}, possessions=5
+2026-06-27 01:25:28,358 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 01:25:28,358 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 01:25:28,358 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 01:25:31,869 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 01:25:31,869 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-2, delta_fulfillment={'mood': 3, 'social': 5, 'esteem': 1}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 01:25:31,869 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-2, delta_fulfillment={'mood': 4, 'social': 5, 'esteem': 1}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 01:25:31,869 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 01:25:31,869 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 01:25:31,869 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-27 01:25:31,869 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 01:25:35,097 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 439
+2026-06-27 01:25:35,097 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 587
+2026-06-27 01:25:35,290 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 11
+2026-06-27 01:25:35,290 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 0
+2026-06-27 01:25:35,290 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 01:25:35,290 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-2)
+2026-06-27 01:25:35,290 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-2)
+2026-06-27 01:25:35,290 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 01:25:35,290 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -2, got 0
+2026-06-27 01:25:35,290 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 3
+2026-06-27 01:25:35,290 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 01:25:35,290 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 1
+2026-06-27 01:25:35,290 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta mismatch! Expected -2, got 0
+2026-06-27 01:25:35,290 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale mood delta verified: 4
+2026-06-27 01:25:35,290 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-27 01:25:35,290 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 1
+2026-06-27 01:25:35,290 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 01:25:35,290 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 01:25:35,291 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-27 01:25:35,291 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 01:26:25,025 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W11-activity-D4 ==========
+2026-06-27 01:26:25,025 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-27 01:26:25,025 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-27 01:26:25,025 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 01:26:25,025 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=3, fulfillment={'mood': 95, 'material': 50, 'social': 36, 'esteem': 41}, possessions=5
+2026-06-27 01:26:25,025 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 95, 'material': 50, 'social': 56, 'esteem': 47}, possessions=5
+2026-06-27 01:29:30,847 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 01:29:30,847 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 01:29:30,847 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 01:29:33,899 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 01:29:33,899 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 01:29:33,899 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 01:29:33,899 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 01:29:33,899 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 01:29:33,899 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 01:29:33,899 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 01:29:34,130 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 01:29:34,130 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 01:29:36,978 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 331
+2026-06-27 01:29:36,978 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 389
+2026-06-27 01:29:36,978 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 01:29:36,978 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-1)
+2026-06-27 01:29:36,979 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-1)
+2026-06-27 01:29:36,979 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 01:29:36,979 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta verified: -1
+2026-06-27 01:29:36,979 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-27 01:29:36,979 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 01:29:36,979 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-27 01:29:36,979 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -1, got 0
+2026-06-27 01:29:36,979 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 01:29:36,979 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 01:29:36,979 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 01:29:36,979 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 01:29:36,979 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 01:29:36,979 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 01:29:36,979 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 01:38:24,852 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W12-activity-D2 ==========
+2026-06-27 01:38:24,852 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-27 01:38:24,852 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-27 01:38:24,852 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 01:38:24,852 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=8, fulfillment={'mood': 89, 'material': 50, 'social': 35, 'esteem': 39}, possessions=5
+2026-06-27 01:38:24,852 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 88, 'material': 50, 'social': 52, 'esteem': 44}, possessions=5
+2026-06-27 01:40:39,951 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 01:40:39,951 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 01:40:39,951 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 01:40:43,733 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 01:40:43,733 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 4, 'esteem': 1}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 01:40:43,733 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 1}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 01:40:43,733 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 01:40:43,733 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 01:40:43,733 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 01:40:43,733 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 01:40:43,982 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 01:40:43,982 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 01:40:44,203 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 11
+2026-06-27 01:40:44,203 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 0
+2026-06-27 01:40:44,203 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 01:40:44,204 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-1)
+2026-06-27 01:40:44,204 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-1)
+2026-06-27 01:40:44,204 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 01:40:44,204 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta verified: -1
+2026-06-27 01:40:44,204 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-27 01:40:44,204 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 4
+2026-06-27 01:40:44,204 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 1
+2026-06-27 01:40:44,204 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -1, got 0
+2026-06-27 01:40:44,204 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 01:40:44,204 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 01:40:44,204 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 1
+2026-06-27 01:40:44,204 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 01:40:44,204 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 01:40:44,204 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 01:40:44,204 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 01:50:42,346 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W13-activity-D2 ==========
+2026-06-27 01:50:42,346 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-27 01:50:42,346 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-27 01:50:42,346 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 01:50:42,346 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=3, fulfillment={'mood': 88, 'material': 50, 'social': 34, 'esteem': 37}, possessions=5
+2026-06-27 01:50:42,346 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 89, 'material': 50, 'social': 49, 'esteem': 42}, possessions=5
+2026-06-27 01:51:40,408 [INFO] [VERIFY-REJECT] Adrian Morales: REJECT: Adrian Morales' response repeats the same content and themes from earlier in the conversation, specifically the idea of forcing the story and fearing imperfection. This constitutes **parroting**, as the dialogue has not made substantial progress and is recycling previous ideas without adding new insights or direction. The repetition undermines the natural flow of the conversation and suggests a lack of genuine engagement or development in the exchange.
+2026-06-27 01:51:56,382 [INFO] [VERIFY-REJECT] Adrian Morales: REJECT: Adrian Morales' response is a direct repetition of content from earlier in the conversation, specifically the themes of forcing the story and fearing imperfection. This constitutes **parroting**, as the dialogue has not made substantial progress and is recycling previous ideas without adding new insights or direction. The repetition undermines the natural flow of the conversation and suggests a lack of genuine engagement or development in the exchange.
+2026-06-27 01:52:49,988 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 01:52:49,988 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 01:52:49,988 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 01:52:53,837 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 01:52:53,837 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 4, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 01:52:53,837 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 01:52:53,837 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 01:52:53,838 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 01:52:53,838 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 01:52:53,838 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 01:52:54,126 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 01:52:54,126 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 01:52:54,371 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 11
+2026-06-27 01:52:54,371 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 0
+2026-06-27 01:52:54,371 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 01:52:54,372 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-1)
+2026-06-27 01:52:54,372 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-1)
+2026-06-27 01:52:54,372 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 01:52:54,372 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta verified: -1
+2026-06-27 01:52:54,372 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-27 01:52:54,372 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 4
+2026-06-27 01:52:54,372 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-27 01:52:54,372 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -1, got 0
+2026-06-27 01:52:54,372 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 01:52:54,372 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 01:52:54,372 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 01:52:54,372 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 01:52:54,372 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 01:52:54,372 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 01:52:54,372 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 01:53:46,445 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W13-activity-D4 ==========
+2026-06-27 01:53:46,445 [INFO] [VERIFY-JOINT] Activity: Encounter-Adrian Morales-Adrian Vale, Location: Stairwell
+2026-06-27 01:53:46,445 [INFO] [VERIFY-JOINT] Participants: ['Adrian Morales', 'Adrian Vale']
+2026-06-27 01:53:46,445 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 01:53:46,446 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 98, 'material': 50, 'social': 54, 'esteem': 45}, possessions=5
+2026-06-27 01:53:46,446 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=0, fulfillment={'mood': 97, 'material': 50, 'social': 34, 'esteem': 40}, possessions=5
+2026-06-27 01:55:22,990 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 01:55:22,990 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 01:55:22,990 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 01:55:26,034 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 01:55:26,034 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 01:55:26,034 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 01:55:26,034 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 01:55:26,034 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 01:55:26,034 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-27 01:55:26,034 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 01:55:29,436 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 387
+2026-06-27 01:55:29,436 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 508
+2026-06-27 01:55:29,662 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 11
+2026-06-27 01:55:29,662 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 0
+2026-06-27 01:55:29,662 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 01:55:29,662 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-2)
+2026-06-27 01:55:29,662 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-2)
+2026-06-27 01:55:29,662 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 01:55:29,662 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -2, got 0
+2026-06-27 01:55:29,662 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales mood delta mismatch! Expected 5, got 2
+2026-06-27 01:55:29,662 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 01:55:29,662 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 01:55:29,662 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta mismatch! Expected -2, got 0
+2026-06-27 01:55:29,662 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale mood delta mismatch! Expected 5, got 3
+2026-06-27 01:55:29,662 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-27 01:55:29,662 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 2
+2026-06-27 01:55:29,662 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 01:55:29,662 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 01:55:29,663 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-27 01:55:29,663 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 01:55:41,055 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W13-activity-D5 ==========
+2026-06-27 01:55:41,055 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Vale, Location: Library
+2026-06-27 01:55:41,055 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Vale']
+2026-06-27 01:55:41,055 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 01:55:41,055 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=0, fulfillment={'mood': 98, 'material': 50, 'social': 38, 'esteem': 41}, possessions=5
+2026-06-27 01:55:41,055 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=0, fulfillment={'mood': 100, 'material': 50, 'social': 39, 'esteem': 42}, possessions=5
+2026-06-27 01:56:13,659 [INFO] [VERIFY-REJECT] Adrian Vale: REJECT: Aaron Whitfield's response is a direct repetition of Adrian Vale's previous dialogue, including the exact phrasing, tone, and structure. This constitutes **parroting**, which violates the principle of substantive conversation progression. Additionally, it suggests a lack of originality or engagement with the situation, undermining the authenticity of the role-play. The response fails to introduce new information or develop the interaction meaningfully, leading to a stagnation in the narrative flow.
+2026-06-27 01:57:22,639 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 01:57:22,639 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 01:57:22,639 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 01:57:25,891 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 01:57:25,891 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 01:57:25,891 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 01:57:25,891 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 01:57:25,891 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 01:57:25,891 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-27 01:57:25,891 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 01:57:26,141 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 01:57:26,141 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 01:57:26,365 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 11
+2026-06-27 01:57:26,365 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 0
+2026-06-27 01:57:26,365 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 01:57:26,366 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-1)
+2026-06-27 01:57:26,366 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-1)
+2026-06-27 01:57:26,366 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 01:57:26,366 [WARNING] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta mismatch! Expected -1, got 0
+2026-06-27 01:57:26,366 [WARNING] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta mismatch! Expected 5, got 2
+2026-06-27 01:57:26,366 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 01:57:26,366 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-27 01:57:26,366 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta mismatch! Expected -1, got 0
+2026-06-27 01:57:26,366 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale mood delta mismatch! Expected 5, got 0
+2026-06-27 01:57:26,366 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-27 01:57:26,366 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 2
+2026-06-27 01:57:26,366 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 01:57:26,366 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 01:57:26,367 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-27 01:57:26,367 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 02:04:29,777 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W14-activity-D2 ==========
+2026-06-27 02:04:29,777 [INFO] [VERIFY-JOINT] Activity: Encounter-Adrian Morales-Adrian Vale, Location: Stairwell
+2026-06-27 02:04:29,777 [INFO] [VERIFY-JOINT] Participants: ['Adrian Morales', 'Adrian Vale']
+2026-06-27 02:04:29,777 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 02:04:29,777 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 89, 'material': 50, 'social': 51, 'esteem': 42}, possessions=5
+2026-06-27 02:04:29,777 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=0, fulfillment={'mood': 89, 'material': 50, 'social': 38, 'esteem': 39}, possessions=5
+2026-06-27 02:06:25,903 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 02:06:25,903 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 02:06:25,903 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 02:06:30,021 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 02:06:30,021 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 3}, delta_skills={'playwriting': 2, 'literary_analysis': 1}, items_sent=[], items_received=[]
+2026-06-27 02:06:30,021 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 3}, delta_skills={'writing': 2, 'literary_analysis': 2}, items_sent=[], items_received=[]
+2026-06-27 02:06:30,021 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 02:06:30,021 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 02:06:30,021 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-27 02:06:30,021 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 02:06:33,765 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 382
+2026-06-27 02:06:33,765 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 488
+2026-06-27 02:06:34,011 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 11
+2026-06-27 02:06:34,011 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 0
+2026-06-27 02:06:34,011 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 02:06:34,012 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-2)
+2026-06-27 02:06:34,012 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-1)
+2026-06-27 02:06:34,012 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 02:06:34,012 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -2, got 0
+2026-06-27 02:06:34,012 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 02:06:34,012 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 02:06:34,012 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 3
+2026-06-27 02:06:34,012 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta mismatch! Expected -1, got 0
+2026-06-27 02:06:34,012 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale mood delta verified: 5
+2026-06-27 02:06:34,012 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-27 02:06:34,012 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 3
+2026-06-27 02:06:34,012 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 02:06:34,012 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 02:06:34,012 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-27 02:06:34,012 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 02:07:21,321 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W14-activity-D4 ==========
+2026-06-27 02:07:21,321 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-27 02:07:21,321 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-27 02:07:21,321 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 02:07:21,322 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=0, fulfillment={'mood': 95, 'material': 50, 'social': 37, 'esteem': 40}, possessions=5
+2026-06-27 02:07:21,322 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 98, 'material': 50, 'social': 56, 'esteem': 46}, possessions=5
+2026-06-27 02:09:26,296 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 02:09:26,296 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 02:09:26,296 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 02:09:29,844 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 02:09:29,844 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 02:09:29,844 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 02:09:29,844 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 02:09:29,844 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 02:09:29,844 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 02:09:29,844 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 02:09:30,111 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 02:09:30,111 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 02:09:30,369 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 11
+2026-06-27 02:09:30,369 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 0
+2026-06-27 02:09:30,370 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 02:09:30,370 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-2)
+2026-06-27 02:09:30,370 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-2)
+2026-06-27 02:09:30,370 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 02:09:30,370 [WARNING] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta mismatch! Expected -2, got 0
+2026-06-27 02:09:30,370 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-27 02:09:30,370 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 02:09:30,370 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-27 02:09:30,370 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -2, got 0
+2026-06-27 02:09:30,370 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales mood delta mismatch! Expected 5, got 2
+2026-06-27 02:09:30,370 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 02:09:30,370 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 02:09:30,370 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 02:09:30,370 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 02:09:30,370 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 02:09:30,371 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 02:17:10,489 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W15-activity-D2 ==========
+2026-06-27 02:17:10,489 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-27 02:17:10,489 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-27 02:17:10,489 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 02:17:10,489 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=0, fulfillment={'mood': 88, 'material': 50, 'social': 36, 'esteem': 38}, possessions=5
+2026-06-27 02:17:10,489 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 88, 'material': 50, 'social': 52, 'esteem': 43}, possessions=5
+2026-06-27 02:18:53,182 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 02:18:53,182 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 02:18:53,182 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 02:18:56,596 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 02:18:56,596 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 3}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 02:18:56,596 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 3}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 02:18:56,596 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 02:18:56,596 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 02:18:56,596 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 02:18:56,596 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 02:18:56,868 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 02:18:56,868 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 02:18:59,995 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 334
+2026-06-27 02:18:59,995 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 483
+2026-06-27 02:18:59,995 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 02:18:59,996 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-2)
+2026-06-27 02:18:59,996 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-2)
+2026-06-27 02:18:59,996 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 02:18:59,996 [WARNING] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta mismatch! Expected -2, got 0
+2026-06-27 02:18:59,996 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-27 02:18:59,996 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 02:18:59,996 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 3
+2026-06-27 02:18:59,996 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -2, got 0
+2026-06-27 02:18:59,996 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 02:18:59,996 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 02:18:59,996 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 3
+2026-06-27 02:18:59,996 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 02:18:59,996 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 02:18:59,996 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 02:18:59,996 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 02:19:51,049 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W15-activity-D4 ==========
+2026-06-27 02:19:51,049 [INFO] [VERIFY-JOINT] Activity: Encounter-Adrian Morales-Adrian Vale, Location: Stairwell
+2026-06-27 02:19:51,049 [INFO] [VERIFY-JOINT] Participants: ['Adrian Morales', 'Adrian Vale']
+2026-06-27 02:19:51,049 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 02:19:51,050 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 96, 'material': 50, 'social': 57, 'esteem': 47}, possessions=5
+2026-06-27 02:19:51,050 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=0, fulfillment={'mood': 96, 'material': 50, 'social': 37, 'esteem': 42}, possessions=5
+2026-06-27 02:20:25,095 [INFO] [VERIFY-REJECT] Adrian Vale: REJECT: Adrian Vale's response is a direct repetition of Adrian Morales' previous dialogue, including identical phrasing, structure, and content. This constitutes parroting, which violates the roleplay principle by creating a stagnant conversation with no meaningful progression. Additionally, the repeated use of the same lines suggests a lack of originality or engagement, undermining the authenticity of the interaction. This response does not contribute new information or develop the narrative, making it unsuitable for continuation in a realistic roleplay scenario.
+2026-06-27 02:20:54,045 [INFO] [VERIFY-REJECT] Adrian Vale: REJECT: The dialogue has entered a clear pattern of repetition, with both characters delivering nearly identical lines in the same tone and structure. This constitutes parroting and stagnation, violating the principle of meaningful progression in the conversation. The dialogue lacks originality, fails to advance the narrative, and creates an artificial, unconvincing interaction. The characters are not engaging in genuine dialogue but instead echoing each other's words, which undermines the realism and depth of the roleplay.
+2026-06-27 02:21:03,081 [INFO] [VERIFY-REJECT] Adrian Morales: REJECT: The dialogue has reached a point of complete repetition, with Adrian Morales echoing the exact same lines as Adrian Vale in the same tone and structure. This constitutes severe parroting, violating the fundamental principle of meaningful dialogue. The conversation has become a loop without progression, failing to reflect authentic interaction or emotional development. The characters are not engaging in a genuine exchange but instead reinforcing the same ideas in identical fashion, which undermines the realism and depth of the roleplay.
+2026-06-27 02:21:13,205 [INFO] [VERIFY-REJECT] Adrian Vale: REJECT: This response is a direct repetition of Adrian Morales’ previous line, creating a loop of identical dialogue with no meaningful evolution or emotional depth. It violates the principle of parroting and stagnation, as the conversation fails to progress or reflect authentic interaction. The characters are not engaging in a genuine exchange but instead reinforcing the same ideas in identical fashion, which undermines the realism and depth of the roleplay.
+2026-06-27 02:21:23,578 [INFO] [VERIFY-REJECT] Adrian Morales: REJECT: The dialogue has become an unbroken loop, with Adrian Morales repeating the same lines verbatim as Adrian Vale. This constitutes severe parroting and a complete lack of narrative progression. The conversation lacks authenticity and emotional depth, failing to reflect genuine interaction or growth. The repetition undermines the realism of the roleplay, creating an artificial and stagnant exchange that violates the principle of meaningful dialogue.
+2026-06-27 02:21:52,456 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 02:21:52,456 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 02:21:52,456 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 02:21:56,349 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 02:21:56,350 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 02:21:56,350 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 02:21:56,350 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 02:21:56,350 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 02:21:56,350 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-27 02:21:56,350 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 02:21:56,626 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 11
+2026-06-27 02:21:56,626 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 0
+2026-06-27 02:21:56,874 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 11
+2026-06-27 02:21:56,874 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 0
+2026-06-27 02:21:56,874 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 02:21:56,874 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-2)
+2026-06-27 02:21:56,875 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-2)
+2026-06-27 02:21:56,875 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 02:21:56,875 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -2, got 0
+2026-06-27 02:21:56,875 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales mood delta mismatch! Expected 5, got 4
+2026-06-27 02:21:56,875 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 02:21:56,875 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 02:21:56,875 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta mismatch! Expected -2, got 0
+2026-06-27 02:21:56,875 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale mood delta mismatch! Expected 5, got 4
+2026-06-27 02:21:56,875 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-27 02:21:56,875 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 2
+2026-06-27 02:21:56,875 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 02:21:56,875 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 02:21:56,875 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-27 02:21:56,875 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 02:22:09,382 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W15-activity-D5 ==========
+2026-06-27 02:22:09,382 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Vale, Location: Library
+2026-06-27 02:22:09,382 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Vale']
+2026-06-27 02:22:09,382 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 02:22:09,383 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=1, fulfillment={'mood': 100, 'material': 50, 'social': 41, 'esteem': 43}, possessions=5
+2026-06-27 02:22:09,383 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=0, fulfillment={'mood': 100, 'material': 50, 'social': 42, 'esteem': 44}, possessions=5
+2026-06-27 02:23:50,354 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 02:23:50,354 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 02:23:50,354 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 02:23:53,602 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 02:23:53,602 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 02:23:53,602 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 02:23:53,602 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 02:23:53,602 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 02:23:53,602 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-27 02:23:53,602 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 02:23:53,877 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 02:23:53,877 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 02:23:54,116 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 11
+2026-06-27 02:23:54,116 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 0
+2026-06-27 02:23:54,116 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 02:23:54,117 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-1)
+2026-06-27 02:23:54,117 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-1)
+2026-06-27 02:23:54,117 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 02:23:54,117 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta verified: -1
+2026-06-27 02:23:54,117 [WARNING] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta mismatch! Expected 5, got 0
+2026-06-27 02:23:54,117 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 02:23:54,117 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-27 02:23:54,117 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta mismatch! Expected -1, got 0
+2026-06-27 02:23:54,117 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale mood delta mismatch! Expected 5, got 0
+2026-06-27 02:23:54,117 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-27 02:23:54,117 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 2
+2026-06-27 02:23:54,117 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 02:23:54,117 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 02:23:54,117 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-27 02:23:54,117 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 02:31:47,974 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W16-activity-D2 ==========
+2026-06-27 02:31:47,974 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-27 02:31:47,974 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-27 02:31:47,974 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 02:31:47,974 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=0, fulfillment={'mood': 86, 'material': 50, 'social': 40, 'esteem': 40}, possessions=5
+2026-06-27 02:31:47,975 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 89, 'material': 50, 'social': 53, 'esteem': 44}, possessions=5
+2026-06-27 02:33:33,362 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 02:33:33,362 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 02:33:33,362 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 02:33:36,626 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 02:33:36,626 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 02:33:36,626 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 02:33:36,626 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 02:33:36,626 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 02:33:36,626 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 02:33:36,626 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 02:33:36,935 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 02:33:36,935 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 02:33:40,025 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 334
+2026-06-27 02:33:40,025 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 483
+2026-06-27 02:33:40,025 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 02:33:40,025 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-2)
+2026-06-27 02:33:40,025 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-2)
+2026-06-27 02:33:40,025 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 02:33:40,025 [WARNING] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta mismatch! Expected -2, got 0
+2026-06-27 02:33:40,025 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-27 02:33:40,025 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 02:33:40,025 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-27 02:33:40,025 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -2, got 0
+2026-06-27 02:33:40,025 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 02:33:40,025 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 02:33:40,025 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 02:33:40,025 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 02:33:40,025 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 02:33:40,025 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 02:33:40,025 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 02:33:53,068 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W16-activity-D3 ==========
+2026-06-27 02:33:53,068 [INFO] [VERIFY-JOINT] Activity: Encounter-Adrian Morales-Adrian Vale, Location: Stairwell
+2026-06-27 02:33:53,068 [INFO] [VERIFY-JOINT] Participants: ['Adrian Morales', 'Adrian Vale']
+2026-06-27 02:33:53,068 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 02:33:53,068 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 94, 'material': 50, 'social': 58, 'esteem': 46}, possessions=5
+2026-06-27 02:33:53,068 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=0, fulfillment={'mood': 92, 'material': 50, 'social': 40, 'esteem': 42}, possessions=5
+2026-06-27 02:35:35,244 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 02:35:35,244 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 02:35:35,244 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 02:35:38,544 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 02:35:38,544 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 02:35:38,544 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-1, delta_fulfillment={'mood': 4, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 02:35:38,544 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 02:35:38,544 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 02:35:38,544 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-27 02:35:38,544 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 02:35:41,057 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 376
+2026-06-27 02:35:41,057 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 502
+2026-06-27 02:35:50,407 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 321
+2026-06-27 02:35:50,407 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 659
+2026-06-27 02:35:50,407 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 02:35:50,407 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-2)
+2026-06-27 02:35:50,407 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-1)
+2026-06-27 02:35:50,407 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 02:35:50,407 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -2, got 0
+2026-06-27 02:35:50,407 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 02:35:50,407 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 02:35:50,407 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 02:35:50,407 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta mismatch! Expected -1, got 0
+2026-06-27 02:35:50,407 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale mood delta verified: 4
+2026-06-27 02:35:50,407 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-27 02:35:50,407 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 2
+2026-06-27 02:35:50,407 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 02:35:50,407 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 02:35:50,408 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-27 02:35:50,408 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 02:36:04,080 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W16-activity-D4 ==========
+2026-06-27 02:36:04,080 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Vale, Location: Laundry Room
+2026-06-27 02:36:04,080 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Vale']
+2026-06-27 02:36:04,080 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 02:36:04,080 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=0, fulfillment={'mood': 94, 'material': 50, 'social': 45, 'esteem': 43}, possessions=5
+2026-06-27 02:36:04,080 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=0, fulfillment={'mood': 96, 'material': 50, 'social': 45, 'esteem': 44}, possessions=5
+2026-06-27 02:37:51,658 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 02:37:51,658 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 02:37:51,658 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 02:37:54,796 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 02:37:54,796 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 02:37:54,796 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 02:37:54,796 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 02:37:54,796 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 02:37:54,796 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-27 02:37:54,796 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 02:37:55,080 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 02:37:55,080 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 02:37:58,891 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 463
+2026-06-27 02:37:58,891 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 563
+2026-06-27 02:37:58,891 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 02:37:58,891 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-1)
+2026-06-27 02:37:58,891 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-1)
+2026-06-27 02:37:58,891 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 02:37:58,891 [WARNING] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta mismatch! Expected -1, got 0
+2026-06-27 02:37:58,891 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-27 02:37:58,891 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 02:37:58,891 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-27 02:37:58,891 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta mismatch! Expected -1, got 0
+2026-06-27 02:37:58,891 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale mood delta mismatch! Expected 5, got 4
+2026-06-27 02:37:58,891 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-27 02:37:58,891 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 2
+2026-06-27 02:37:58,891 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 02:37:58,892 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 02:37:58,892 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-27 02:37:58,892 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 02:46:23,911 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W17-activity-D2 ==========
+2026-06-27 02:46:23,911 [INFO] [VERIFY-JOINT] Activity: Encounter-Adrian Morales-Adrian Vale, Location: Stairwell
+2026-06-27 02:46:23,911 [INFO] [VERIFY-JOINT] Participants: ['Adrian Morales', 'Adrian Vale']
+2026-06-27 02:46:23,911 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 02:46:23,911 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 89, 'material': 50, 'social': 54, 'esteem': 44}, possessions=5
+2026-06-27 02:46:23,912 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=0, fulfillment={'mood': 89, 'material': 50, 'social': 43, 'esteem': 41}, possessions=5
+2026-06-27 02:48:27,121 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 02:48:27,121 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 02:48:27,121 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 02:48:31,004 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 02:48:31,004 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 02:48:31,004 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 02:48:31,004 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 02:48:31,004 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 02:48:31,004 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-27 02:48:31,004 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 02:48:35,821 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 415
+2026-06-27 02:48:35,821 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 505
+2026-06-27 02:48:36,089 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 11
+2026-06-27 02:48:36,089 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 0
+2026-06-27 02:48:36,089 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 02:48:36,090 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-1)
+2026-06-27 02:48:36,090 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-1)
+2026-06-27 02:48:36,090 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 02:48:36,090 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -1, got 0
+2026-06-27 02:48:36,090 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 02:48:36,090 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 02:48:36,090 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 02:48:36,090 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta mismatch! Expected -1, got 0
+2026-06-27 02:48:36,090 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale mood delta verified: 5
+2026-06-27 02:48:36,090 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-27 02:48:36,090 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 2
+2026-06-27 02:48:36,090 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 02:48:36,090 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 02:48:36,090 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-27 02:48:36,090 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 02:49:26,700 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W17-activity-D4 ==========
+2026-06-27 02:49:26,700 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-27 02:49:26,700 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-27 02:49:26,700 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 02:49:26,700 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=0, fulfillment={'mood': 92, 'material': 50, 'social': 43, 'esteem': 43}, possessions=5
+2026-06-27 02:49:26,700 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 98, 'material': 50, 'social': 59, 'esteem': 47}, possessions=5
+2026-06-27 02:52:43,647 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 02:52:43,647 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 02:52:43,647 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 02:52:47,183 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 02:52:47,183 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 3}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 02:52:47,183 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 02:52:47,183 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 02:52:47,183 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 02:52:47,183 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 02:52:47,183 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 02:52:47,486 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 02:52:47,486 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 02:52:47,772 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 11
+2026-06-27 02:52:47,772 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 0
+2026-06-27 02:52:47,772 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 02:52:47,772 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-2)
+2026-06-27 02:52:47,773 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-2)
+2026-06-27 02:52:47,773 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 02:52:47,773 [WARNING] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta mismatch! Expected -2, got 0
+2026-06-27 02:52:47,773 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-27 02:52:47,773 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 02:52:47,773 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 3
+2026-06-27 02:52:47,773 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -2, got 0
+2026-06-27 02:52:47,773 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales mood delta mismatch! Expected 5, got 2
+2026-06-27 02:52:47,773 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 02:52:47,773 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 02:52:47,773 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 02:52:47,773 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 02:52:47,773 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 02:52:47,773 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 02:59:25,936 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W18-activity-D1 ==========
+2026-06-27 02:59:25,936 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-27 02:59:25,936 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-27 02:59:25,936 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 02:59:25,937 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=0, fulfillment={'mood': 85, 'material': 50, 'social': 41, 'esteem': 40}, possessions=5
+2026-06-27 02:59:25,937 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 85, 'material': 50, 'social': 55, 'esteem': 43}, possessions=5
+2026-06-27 03:01:14,966 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 03:01:14,967 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 03:01:14,967 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 03:01:18,317 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 03:01:18,317 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 03:01:18,317 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 03:01:18,317 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 03:01:18,317 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 03:01:18,317 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 03:01:18,317 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 03:01:18,625 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 03:01:18,625 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 03:01:26,515 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 293
+2026-06-27 03:01:26,516 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 649
+2026-06-27 03:01:26,516 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 03:01:26,516 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-1)
+2026-06-27 03:01:26,516 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-1)
+2026-06-27 03:01:26,516 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 03:01:26,516 [WARNING] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta mismatch! Expected -1, got 0
+2026-06-27 03:01:26,516 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-27 03:01:26,516 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 03:01:26,516 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-27 03:01:26,516 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -1, got 0
+2026-06-27 03:01:26,516 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 03:01:26,516 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 03:01:26,516 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 03:01:26,516 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 03:01:26,516 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 03:01:26,517 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 03:01:26,517 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 03:03:03,051 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W18-activity-D4 ==========
+2026-06-27 03:03:03,051 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Library
+2026-06-27 03:03:03,051 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-27 03:03:03,051 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 03:03:03,051 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=0, fulfillment={'mood': 96, 'material': 50, 'social': 46, 'esteem': 44}, possessions=5
+2026-06-27 03:03:03,051 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 97, 'material': 50, 'social': 60, 'esteem': 47}, possessions=5
+2026-06-27 03:03:35,328 [INFO] [VERIFY-REJECT] Adrian Morales: REJECT: The response contains inconsistencies and repetition. The text appears to be a direct copy of the previous speaker's dialogue and actions, violating the principle of parroting. Additionally, the mention of "Leo" is not consistent with the established characters in the scenario, which only include Aaron Whitfield and Adrian Morales. This creates a hallucination and disrupts the continuity of the role-play. The text also fails to advance the narrative in a meaningful way, resulting in empty dialogue.
+2026-06-27 03:03:48,076 [INFO] [VERIFY-REJECT] Adrian Morales: REJECT: The response contains repeated dialogue and actions from earlier turns, violating the principle of parroting. The mention of "Leo" is an inconsistency, as the only characters in the scenario are Aaron Whitfield and Adrian Morales. This creates a hallucination and disrupts the continuity of the role-play. The text also fails to advance the narrative in a meaningful way, resulting in empty dialogue.
+2026-06-27 03:04:01,837 [INFO] [VERIFY-REJECT] Adrian Morales: REJECT: The response contains an inconsistent reference to "Leo," which is not part of the established character list. This is a hallucination and disrupts the continuity of the role-play. Additionally, the dialogue and actions appear to be repetitive and lack meaningful progression, violating the principle of empty dialogue.
+2026-06-27 03:04:18,720 [INFO] [VERIFY-REJECT] Adrian Morales: REJECT: The response contains repeated dialogue and actions that mirror earlier exchanges, constituting a violation of the parroting principle. The mention of "Leo" is an inconsistency and a hallucination, as the only characters present are Aaron Whitfield and Adrian Morales. This disrupts the continuity of the role-play and fails to advance the narrative meaningfully, resulting in empty dialogue.
+2026-06-27 03:04:28,596 [INFO] [VERIFY-REJECT] Aaron Whitfield: REJECT: The response contains repeated dialogue and actions that mirror earlier exchanges, constituting a violation of the parroting principle. The text also fails to advance the narrative meaningfully, resulting in empty dialogue. Additionally, the phrasing and structure of the dialogue are largely identical to previous turns, creating a sense of stagnation rather than progression in the interaction.
+2026-06-27 03:04:38,096 [INFO] [VERIFY-REJECT] Adrian Morales: REJECT: The response contains repetitive dialogue and actions that mirror previous exchanges, violating the principle of parroting. The structure and wording of the dialogue are nearly identical to earlier turns, resulting in empty dialogue and a lack of meaningful narrative progression. Additionally, the persistent mention of "Leo" is an inconsistency and a hallucination, as the only characters present are Aaron Whitfield and Adrian Morales. This disrupts the continuity of the role-play.
+2026-06-27 03:05:07,470 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 03:05:07,470 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 03:05:07,470 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 03:05:11,300 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 03:05:11,300 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-2, delta_fulfillment={'mood': 4, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 03:05:11,300 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-2, delta_fulfillment={'mood': 4, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 03:05:11,300 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 03:05:11,300 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 03:05:11,300 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 03:05:11,300 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 03:05:11,608 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 03:05:11,608 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 03:05:11,896 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 11
+2026-06-27 03:05:11,896 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 0
+2026-06-27 03:05:11,896 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 03:05:11,897 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-2)
+2026-06-27 03:05:11,897 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-2)
+2026-06-27 03:05:11,897 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 03:05:11,897 [WARNING] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta mismatch! Expected -2, got 0
+2026-06-27 03:05:11,897 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 4
+2026-06-27 03:05:11,897 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 03:05:11,897 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-27 03:05:11,897 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -2, got 0
+2026-06-27 03:05:11,897 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales mood delta mismatch! Expected 4, got 3
+2026-06-27 03:05:11,897 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 03:05:11,897 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 03:05:11,897 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 03:05:11,897 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 03:05:11,897 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 03:05:11,897 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 03:15:10,253 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W19-activity-D2 ==========
+2026-06-27 03:15:10,253 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-27 03:15:10,253 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-27 03:15:10,253 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 03:15:10,254 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=0, fulfillment={'mood': 88, 'material': 50, 'social': 44, 'esteem': 41}, possessions=5
+2026-06-27 03:15:10,254 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 89, 'material': 50, 'social': 56, 'esteem': 44}, possessions=5
+2026-06-27 03:17:04,019 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 03:17:04,019 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 03:17:04,019 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 03:17:06,704 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 03:17:06,704 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 03:17:06,704 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 03:17:06,704 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 03:17:06,704 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 03:17:06,704 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 03:17:06,704 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 03:17:07,023 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 03:17:07,023 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 03:17:10,955 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 381
+2026-06-27 03:17:10,955 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 650
+2026-06-27 03:17:10,955 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 03:17:10,955 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-1)
+2026-06-27 03:17:10,955 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-1)
+2026-06-27 03:17:10,955 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 03:17:10,955 [WARNING] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta mismatch! Expected -1, got 0
+2026-06-27 03:17:10,955 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-27 03:17:10,955 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 03:17:10,955 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-27 03:17:10,955 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -1, got 0
+2026-06-27 03:17:10,955 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 03:17:10,955 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 03:17:10,955 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 03:17:10,955 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 03:17:10,956 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 03:17:10,956 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 03:17:10,956 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 03:26:19,716 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W20-activity-D2 ==========
+2026-06-27 03:26:19,717 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-27 03:26:19,717 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-27 03:26:19,717 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 03:26:19,717 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=0, fulfillment={'mood': 88, 'material': 50, 'social': 42, 'esteem': 41}, possessions=5
+2026-06-27 03:26:19,717 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 89, 'material': 50, 'social': 52, 'esteem': 43}, possessions=5
+2026-06-27 03:28:09,355 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 03:28:09,355 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 03:28:09,355 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 03:28:12,910 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 03:28:12,910 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 3}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 03:28:12,910 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 3}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 03:28:12,910 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 03:28:12,910 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 03:28:12,911 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 03:28:12,911 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 03:28:13,233 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 03:28:13,233 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 03:28:17,136 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 364
+2026-06-27 03:28:17,136 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 637
+2026-06-27 03:28:17,136 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 03:28:17,137 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-1)
+2026-06-27 03:28:17,137 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-1)
+2026-06-27 03:28:17,137 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 03:28:17,137 [WARNING] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta mismatch! Expected -1, got 0
+2026-06-27 03:28:17,137 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-27 03:28:17,137 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 03:28:17,137 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 3
+2026-06-27 03:28:17,137 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -1, got 0
+2026-06-27 03:28:17,137 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 03:28:17,137 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 03:28:17,137 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 3
+2026-06-27 03:28:17,137 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 03:28:17,137 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 03:28:17,137 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 03:28:17,137 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 08:21:53,257 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W20-activity-D2 ==========
+2026-06-27 08:21:53,258 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Morales, Location: Corner Coffee Shop
+2026-06-27 08:21:53,258 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Morales']
+2026-06-27 08:21:53,258 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 08:21:53,258 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=0, fulfillment={'mood': 88, 'material': 50, 'social': 42, 'esteem': 41}, possessions=5
+2026-06-27 08:21:53,258 [INFO] [VERIFY-JOINT-STATE] Adrian Morales before: vitality=0, fulfillment={'mood': 89, 'material': 50, 'social': 52, 'esteem': 43}, possessions=5
+2026-06-27 08:24:05,373 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 08:24:05,374 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 08:24:05,374 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 08:24:09,038 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 08:24:09,038 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 08:24:09,038 [INFO] [VERIFY-JOINT-STEP1] Adrian Morales: delta_vitality=-1, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 08:24:09,038 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 08:24:09,038 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 08:24:09,038 [INFO] [VERIFY-JOINT-STEP2] Adrian Morales received outcome message
+2026-06-27 08:24:09,038 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 08:24:09,343 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 08:24:09,343 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 08:24:13,929 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales summary length: 470
+2026-06-27 08:24:13,929 [INFO] [VERIFY-JOINT-STEP3] Adrian Morales reflection length: 631
+2026-06-27 08:24:13,929 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 08:24:13,930 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-2)
+2026-06-27 08:24:13,930 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Morales (possessions=5, vitality_delta=-1)
+2026-06-27 08:24:13,930 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 08:24:13,930 [WARNING] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta mismatch! Expected -2, got 0
+2026-06-27 08:24:13,930 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-27 08:24:13,930 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 08:24:13,930 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-27 08:24:13,930 [WARNING] [VERIFY-JOINT-STEP5] Adrian Morales vitality delta mismatch! Expected -1, got 0
+2026-06-27 08:24:13,930 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales mood delta verified: 5
+2026-06-27 08:24:13,930 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales social delta verified: 5
+2026-06-27 08:24:13,930 [INFO] [VERIFY-JOINT-STEP5] Adrian Morales esteem delta verified: 2
+2026-06-27 08:24:13,930 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 08:24:13,930 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 08:24:13,930 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Morales
+2026-06-27 08:24:13,930 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========
+2026-06-27 08:25:05,493 [INFO] [VERIFY-JOINT] ========== Starting joint activity at Y2020-W20-activity-D4 ==========
+2026-06-27 08:25:05,493 [INFO] [VERIFY-JOINT] Activity: Encounter-Aaron Whitfield-Adrian Vale, Location: Stairwell
+2026-06-27 08:25:05,493 [INFO] [VERIFY-JOINT] Participants: ['Aaron Whitfield', 'Adrian Vale']
+2026-06-27 08:25:05,493 [INFO] [VERIFY-JOINT] Proposer: None
+2026-06-27 08:25:05,493 [INFO] [VERIFY-JOINT-STATE] Aaron Whitfield before: vitality=0, fulfillment={'mood': 95, 'material': 50, 'social': 47, 'esteem': 44}, possessions=5
+2026-06-27 08:25:05,493 [INFO] [VERIFY-JOINT-STATE] Adrian Vale before: vitality=0, fulfillment={'mood': 96, 'material': 50, 'social': 30, 'esteem': 41}, possessions=5
+2026-06-27 08:27:00,719 [INFO] [VERIFY-JOINT-GIFTS] Recording 0 gift transactions for outcome
+2026-06-27 08:27:00,719 [INFO] [VERIFY-JOINT-STEP1] ========== EVALUATE: GodModel evaluates all participants ==========
+2026-06-27 08:27:00,719 [INFO] [VERIFY-JOINT-STEP1] Dialog turns: 39
+2026-06-27 08:27:03,883 [INFO] [VERIFY-JOINT-STEP1] Evaluation completed, 2 outcomes generated
+2026-06-27 08:27:03,883 [INFO] [VERIFY-JOINT-STEP1] Aaron Whitfield: delta_vitality=-2, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 08:27:03,883 [INFO] [VERIFY-JOINT-STEP1] Adrian Vale: delta_vitality=-3, delta_fulfillment={'mood': 5, 'social': 5, 'esteem': 2}, delta_skills={}, items_sent=[], items_received=[]
+2026-06-27 08:27:03,883 [INFO] [VERIFY-JOINT-STEP2] ========== RECEIVE: each agent receives outcome ==========
+2026-06-27 08:27:03,883 [INFO] [VERIFY-JOINT-STEP2] Aaron Whitfield received outcome message
+2026-06-27 08:27:03,883 [INFO] [VERIFY-JOINT-STEP2] Adrian Vale received outcome message
+2026-06-27 08:27:03,883 [INFO] [VERIFY-JOINT-STEP3] ========== EXIT: generate summary ==========
+2026-06-27 08:27:04,190 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield summary length: 11
+2026-06-27 08:27:04,190 [INFO] [VERIFY-JOINT-STEP3] Aaron Whitfield reflection length: 0
+2026-06-27 08:27:04,457 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale summary length: 11
+2026-06-27 08:27:04,457 [INFO] [VERIFY-JOINT-STEP3] Adrian Vale reflection length: 0
+2026-06-27 08:27:04,457 [INFO] [VERIFY-JOINT-STEP4] ========== APPLY: apply state changes ==========
+2026-06-27 08:27:04,458 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Aaron Whitfield (possessions=5, vitality_delta=-2)
+2026-06-27 08:27:04,458 [INFO] [VERIFY-JOINT-STEP4] Applied all changes for Adrian Vale (possessions=5, vitality_delta=-3)
+2026-06-27 08:27:04,458 [INFO] [VERIFY-JOINT-STEP5] ========== CONSISTENCY: verify state changes ==========
+2026-06-27 08:27:04,458 [WARNING] [VERIFY-JOINT-STEP5] Aaron Whitfield vitality delta mismatch! Expected -2, got 0
+2026-06-27 08:27:04,458 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield mood delta verified: 5
+2026-06-27 08:27:04,458 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield social delta verified: 5
+2026-06-27 08:27:04,458 [INFO] [VERIFY-JOINT-STEP5] Aaron Whitfield esteem delta verified: 2
+2026-06-27 08:27:04,458 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale vitality delta mismatch! Expected -3, got 0
+2026-06-27 08:27:04,458 [WARNING] [VERIFY-JOINT-STEP5] Adrian Vale mood delta mismatch! Expected 5, got 4
+2026-06-27 08:27:04,458 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale social delta verified: 5
+2026-06-27 08:27:04,458 [INFO] [VERIFY-JOINT-STEP5] Adrian Vale esteem delta verified: 2
+2026-06-27 08:27:04,458 [INFO] [VERIFY-JOINT-STEP6] ========== RECORD: save records ==========
+2026-06-27 08:27:04,458 [INFO] [VERIFY-JOINT-STEP6] Saved record for Aaron Whitfield
+2026-06-27 08:27:04,458 [INFO] [VERIFY-JOINT-STEP6] Saved record for Adrian Vale
+2026-06-27 08:27:04,458 [INFO] [VERIFY-JOINT] ========== Joint activity completed for all 2 participants ==========

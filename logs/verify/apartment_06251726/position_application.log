@@ -1,0 +1,40 @@
+2026-06-25 17:26:30,732 [INFO] [POSITION_APPLICATION] Designed 10 positions for 1 agents
+2026-06-25 17:38:33,707 [INFO] [POSITION_APPLICATION] ========== POSITION APPLICATION SEASON START ========== Y2020-W04-settle
+2026-06-25 17:38:33,707 [INFO] [POSITION_APPLICATION] 1 agents, 11 positions available
+2026-06-25 17:38:33,707 [INFO] [POSITION_APPLICATION] === COLLECT WISHES START === 1 agents, 11 positions available
+2026-06-25 17:38:33,707 [INFO] [POSITION_APPLICATION] Position: Bremer Apartment Community Board/Building Manager (capacity=1, income=300)
+2026-06-25 17:38:33,707 [INFO] [POSITION_APPLICATION] Position: Bremer Apartment Community Board/Event Coordinator (capacity=1, income=220)
+2026-06-25 17:38:33,707 [INFO] [POSITION_APPLICATION] Position: Bremer Apartment Community Board/Security Officer (capacity=1, income=250)
+2026-06-25 17:38:33,707 [INFO] [POSITION_APPLICATION] Position: Bremer Apartment Community Board/Youth Mentor (capacity=1, income=280)
+2026-06-25 17:38:33,707 [INFO] [POSITION_APPLICATION] Position: Corner Coffee Shop/Barista (capacity=3, income=180)
+2026-06-25 17:38:33,707 [INFO] [POSITION_APPLICATION] Position: Corner Coffee Shop/Barista Intern (capacity=10, income=50)
+2026-06-25 17:38:33,707 [INFO] [POSITION_APPLICATION] Position: Local Art Gallery/Art Student (capacity=10, income=70)
+2026-06-25 17:38:33,707 [INFO] [POSITION_APPLICATION] Position: Local Art Gallery/Gallery Assistant (capacity=2, income=230)
+2026-06-25 17:38:33,707 [INFO] [POSITION_APPLICATION] Position: Local Bookstore/Book Seller (capacity=2, income=200)
+2026-06-25 17:38:33,707 [INFO] [POSITION_APPLICATION] Position: Local Bookstore/Intern (capacity=5, income=60)
+2026-06-25 17:38:33,707 [INFO] [POSITION_APPLICATION] Position: Self-employed (contributes to The Atlantic, New York Magazine, various outlets)/Freelance journalist and novelist (capacity=1, income=350)
+2026-06-25 17:38:33,708 [INFO] [POSITION_APPLICATION] Aaron Whitfield express_wishes INPUT: current_position=Self-employed (contributes to The Atlantic, New York Magazine, various outlets)/Freelance journalist and novelist, n_positions=8
+2026-06-25 17:38:40,390 [INFO] [POSITION_APPLICATION] Aaron Whitfield express_wishes OUTPUT: wishes=['Bremer Apartment Community Board/Event Coordinator', 'Local Art Gallery/Gallery Assistant'], response_preview='<wishes>Self-employed (contributes to The Atlantic, New York Magazine, various outlets)/Freelance journalist and novelist, Bremer Apartment Community Board/Event Coordinator, Local Art Gallery/Gallery...'
+2026-06-25 17:38:40,390 [INFO] [POSITION_APPLICATION] --- Per-Agent Wishes ---
+2026-06-25 17:38:40,390 [INFO] [POSITION_APPLICATION] Aaron Whitfield INPUT: original=Self-employed (contributes to The Atlantic, New York Magazine, various outlets)/Freelance journalist and novelist, wishes=['Bremer Apartment Community Board/Event Coordinator', 'Local Art Gallery/Gallery Assistant']
+2026-06-25 17:38:40,390 [INFO] [POSITION_APPLICATION] === COLLECT WISHES COMPLETE === 1 agents collected
+2026-06-25 17:38:40,390 [INFO] [POSITION_APPLICATION] === Round 1: Wish Round ===
+2026-06-25 17:38:40,390 [INFO] [POSITION_APPLICATION] --- Sub-round 1 ---
+2026-06-25 17:38:40,390 [INFO] [POSITION_APPLICATION] Sub-round 1: 1 positions, 1 batches
+2026-06-25 17:38:40,390 [INFO] [POSITION_APPLICATION] _process_batch_round1 sub1: positions=['Bremer Apartment Community Board/Event Coordinator'], applicants=['Aaron Whitfield']
+2026-06-25 17:38:40,391 [INFO] [POSITION_APPLICATION] god_evaluate_position_application INPUT: round=1, sub_round=1, positions=[('Bremer Apartment Community Board/Event Coordinator', 1)], candidates=['Aaron Whitfield']
+2026-06-25 17:38:40,805 [INFO] [POSITION_APPLICATION] Round 1 Sub-1 - Positions: ['Bremer Apartment Community Board/Event Coordinator'], Candidates: 1, Results: {'Bremer Apartment Community Board/Event Coordinator': ['Aaron Whitfield']}
+2026-06-25 17:38:40,805 [INFO] [POSITION_APPLICATION] God Model results: {'Bremer Apartment Community Board/Event Coordinator': ['Aaron Whitfield']}
+2026-06-25 17:38:40,805 [INFO] [POSITION_APPLICATION] ACCEPTED: Aaron Whitfield → Bremer Apartment Community Board/Event Coordinator (sub_round=1)
+2026-06-25 17:38:40,805 [INFO] [POSITION_APPLICATION] --- Sub-round 2 ---
+2026-06-25 17:38:40,805 [INFO] [POSITION_APPLICATION] Sub-round 2: no wishes to process
+2026-06-25 17:38:40,805 [INFO] [POSITION_APPLICATION] --- Sub-round 3 ---
+2026-06-25 17:38:40,805 [INFO] [POSITION_APPLICATION] Sub-round 3: no wishes to process
+2026-06-25 17:38:40,805 [INFO] [POSITION_APPLICATION] Round 1 complete: 1 matched
+2026-06-25 17:38:40,806 [INFO] [POSITION_APPLICATION] === FINALIZE START ===
+2026-06-25 17:38:40,806 [INFO] [POSITION_APPLICATION] --- Per-Agent Results ---
+2026-06-25 17:38:40,806 [INFO] [POSITION_APPLICATION] Aaron Whitfield OUTPUT: CHANGED original=Self-employed (contributes to The Atlantic, New York Magazine, various outlets)/Freelance journalist and novelist, new=Bremer Apartment Community Board/Event Coordinator, wishes=['Bremer Apartment Community Board/Event Coordinator', 'Local Art Gallery/Gallery Assistant']
+2026-06-25 17:38:40,806 [INFO] [POSITION_APPLICATION] === FINALIZE COMPLETE === 1 accepted (0 stayed, 1 changed, 0 fallback)
+2026-06-25 17:38:40,806 [INFO] [POSITION_APPLICATION] Updating colleague relationships
+2026-06-25 17:38:40,807 [INFO] [ACHIEVEMENT] 1 agents. Top3: [('Aaron Whitfield', 40, '100.0')], Bottom3: [('Aaron Whitfield', 40, '100.0')]
+2026-06-25 17:38:40,807 [INFO] [POSITION_APPLICATION] ========== POSITION APPLICATION SEASON COMPLETE ========== 1 agents processed

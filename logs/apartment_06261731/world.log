@@ -1,0 +1,235 @@
+2026-06-26 17:31:59,122 - world - INFO - Resume point: Y2020-W01 (cleanup from Y2020-W01-begin)
+2026-06-26 17:31:59,144 - world - INFO - Assigned 3 agents to 1 model(s): my-vllm-model=3
+2026-06-26 17:31:59,174 - world - INFO - [locations] generated map via LLM: 28 locations
+2026-06-26 17:31:59,174 - world - INFO - Generating 3 homes in parallel...
+2026-06-26 17:31:59,176 - world - INFO -   Generated home for Aaron Whitfield
+2026-06-26 17:31:59,177 - world - INFO -   Generated home for Adrian Morales
+2026-06-26 17:31:59,178 - world - INFO -   Generated home for Adrian Vale
+2026-06-26 17:31:59,179 - world - INFO - Generating positions for 3 agents...
+2026-06-26 17:31:59,271 - world - INFO - Generated 10 positions
+2026-06-26 17:31:59,272 - world - INFO - [POSITIONS] Merged from profile: Chez Lulu (French-American Bistro)/Bartender / Playwright (capacity=1, created_year=-1)
+2026-06-26 17:31:59,272 - world - INFO - [POSITIONS] Merged from profile: Self-employed (contributes to The Atlantic, New York Magazine, various outlets)/Freelance journalist and novelist (capacity=1, created_year=-1)
+2026-06-26 17:31:59,273 - world - INFO - [POSITIONS] Merged from profile: The Corner Coffee Shop, Bremer Apartment/Part-time barista (capacity=1, created_year=-1)
+2026-06-26 17:31:59,273 - world - INFO - [POSITIONS] Merged 3 positions from agent profiles
+2026-06-26 17:31:59,273 - world - INFO - [POSITIONS] Year 2020: initialized 13 positions
+2026-06-26 17:31:59,274 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 1800 -> 2150
+2026-06-26 17:31:59,275 - world - INFO - Adrian Morales received weekly_income 350, deposit: 900 -> 1250
+2026-06-26 17:31:59,275 - world - INFO - Adrian Vale received weekly_income 220, deposit: 1800 -> 2020
+2026-06-26 17:31:59,275 - world - INFO - == PLAN STAGE == year=2020 week=1
+2026-06-26 17:31:59,642 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=1
+2026-06-26 17:31:59,643 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 17:31:59,643 - world - INFO - No public events available this week
+2026-06-26 17:31:59,643 - world - INFO - == CONTACT STAGE == year=2020 week=1 slot=1
+2026-06-26 17:31:59,680 - world - INFO - == CONTACT STAGE == year=2020 week=1 slot=2
+2026-06-26 17:31:59,718 - world - INFO - == CONTACT STAGE == year=2020 week=1 slot=3
+2026-06-26 17:31:59,763 - world - INFO - == CONTACT STAGE == year=2020 week=1 slot=4
+2026-06-26 17:31:59,804 - world - INFO - == CONTACT STAGE == year=2020 week=1 slot=5
+2026-06-26 17:31:59,845 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=1
+2026-06-26 17:31:59,868 - world - INFO - Generated 2 encounter events for this week
+2026-06-26 17:31:59,869 - world - INFO - == ACTIVITY STAGE == year=2020 week=1 day=1 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:31:59,911 - world - INFO - == ACTIVITY STAGE == year=2020 week=1 day=2 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:00,117 - world - INFO - == ACTIVITY STAGE == year=2020 week=1 day=3 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:00,161 - world - INFO - == ACTIVITY STAGE == year=2020 week=1 day=4 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:00,695 - world - INFO - == ACTIVITY STAGE == year=2020 week=1 day=5 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:00,740 - world - INFO - == REVIEW STAGE == year=2020 week=1
+2026-06-26 17:32:00,775 - world - INFO - == SETTLE STAGE == year=2020 week=1
+2026-06-26 17:32:00,777 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 1950 -> 2300
+2026-06-26 17:32:00,778 - world - INFO - Adrian Morales received weekly_income 350, deposit: 1050 -> 1400
+2026-06-26 17:32:00,778 - world - INFO - Adrian Vale received weekly_income 220, deposit: 1820 -> 2040
+2026-06-26 17:32:00,778 - world - INFO - == PLAN STAGE == year=2020 week=2
+2026-06-26 17:32:00,811 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=2
+2026-06-26 17:32:00,811 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 17:32:00,811 - world - INFO - No public events available this week
+2026-06-26 17:32:00,811 - world - INFO - == CONTACT STAGE == year=2020 week=2 slot=1
+2026-06-26 17:32:00,859 - world - INFO - == CONTACT STAGE == year=2020 week=2 slot=2
+2026-06-26 17:32:00,920 - world - INFO - == CONTACT STAGE == year=2020 week=2 slot=3
+2026-06-26 17:32:00,971 - world - INFO - == CONTACT STAGE == year=2020 week=2 slot=4
+2026-06-26 17:32:01,031 - world - INFO - == CONTACT STAGE == year=2020 week=2 slot=5
+2026-06-26 17:32:01,088 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=2
+2026-06-26 17:32:01,114 - world - INFO - Generated 1 encounter events for this week
+2026-06-26 17:32:01,114 - world - INFO - == ACTIVITY STAGE == year=2020 week=2 day=1 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:01,159 - world - INFO - == ACTIVITY STAGE == year=2020 week=2 day=2 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:01,358 - world - INFO - == ACTIVITY STAGE == year=2020 week=2 day=3 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:01,404 - world - INFO - == ACTIVITY STAGE == year=2020 week=2 day=4 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:01,452 - world - INFO - == ACTIVITY STAGE == year=2020 week=2 day=5 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:01,500 - world - INFO - == REVIEW STAGE == year=2020 week=2
+2026-06-26 17:32:01,538 - world - INFO - == SETTLE STAGE == year=2020 week=2
+2026-06-26 17:32:01,540 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 2100 -> 2450
+2026-06-26 17:32:01,541 - world - INFO - Adrian Morales received weekly_income 350, deposit: 1200 -> 1550
+2026-06-26 17:32:01,541 - world - INFO - Adrian Vale received weekly_income 220, deposit: 1840 -> 2060
+2026-06-26 17:32:01,541 - world - INFO - == PLAN STAGE == year=2020 week=3
+2026-06-26 17:32:01,574 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=3
+2026-06-26 17:32:01,575 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 17:32:01,575 - world - INFO - No public events available this week
+2026-06-26 17:32:01,575 - world - INFO - == CONTACT STAGE == year=2020 week=3 slot=1
+2026-06-26 17:32:01,622 - world - INFO - == CONTACT STAGE == year=2020 week=3 slot=2
+2026-06-26 17:32:01,674 - world - INFO - == CONTACT STAGE == year=2020 week=3 slot=3
+2026-06-26 17:32:01,721 - world - INFO - == CONTACT STAGE == year=2020 week=3 slot=4
+2026-06-26 17:32:01,774 - world - INFO - == CONTACT STAGE == year=2020 week=3 slot=5
+2026-06-26 17:32:01,826 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=3
+2026-06-26 17:32:01,853 - world - INFO - Generated 2 encounter events for this week
+2026-06-26 17:32:01,854 - world - INFO - == ACTIVITY STAGE == year=2020 week=3 day=1 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:02,086 - world - INFO - == ACTIVITY STAGE == year=2020 week=3 day=2 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:02,132 - world - INFO - == ACTIVITY STAGE == year=2020 week=3 day=3 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:02,351 - world - INFO - == ACTIVITY STAGE == year=2020 week=3 day=4 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:02,398 - world - INFO - == ACTIVITY STAGE == year=2020 week=3 day=5 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:02,447 - world - INFO - == REVIEW STAGE == year=2020 week=3
+2026-06-26 17:32:02,486 - world - INFO - == SETTLE STAGE == year=2020 week=3
+2026-06-26 17:32:02,488 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 2250 -> 2600
+2026-06-26 17:32:02,488 - world - INFO - Adrian Morales received weekly_income 350, deposit: 1350 -> 1700
+2026-06-26 17:32:02,489 - world - INFO - Adrian Vale received weekly_income 220, deposit: 1860 -> 2080
+2026-06-26 17:32:02,489 - world - INFO - == PLAN STAGE == year=2020 week=4
+2026-06-26 17:32:02,523 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=4
+2026-06-26 17:32:02,523 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 17:32:02,523 - world - INFO - No public events available this week
+2026-06-26 17:32:02,523 - world - INFO - == CONTACT STAGE == year=2020 week=4 slot=1
+2026-06-26 17:32:02,568 - world - INFO - == CONTACT STAGE == year=2020 week=4 slot=2
+2026-06-26 17:32:02,618 - world - INFO - == CONTACT STAGE == year=2020 week=4 slot=3
+2026-06-26 17:32:02,664 - world - INFO - == CONTACT STAGE == year=2020 week=4 slot=4
+2026-06-26 17:32:02,712 - world - INFO - == CONTACT STAGE == year=2020 week=4 slot=5
+2026-06-26 17:32:02,766 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=4
+2026-06-26 17:32:02,793 - world - INFO - Generated 2 encounter events for this week
+2026-06-26 17:32:02,793 - world - INFO - == ACTIVITY STAGE == year=2020 week=4 day=1 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:03,009 - world - INFO - == ACTIVITY STAGE == year=2020 week=4 day=2 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:03,216 - world - INFO - == ACTIVITY STAGE == year=2020 week=4 day=3 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:03,264 - world - INFO - == ACTIVITY STAGE == year=2020 week=4 day=4 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:03,314 - world - INFO - == ACTIVITY STAGE == year=2020 week=4 day=5 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:03,364 - world - INFO - == REVIEW STAGE == year=2020 week=4
+2026-06-26 17:32:03,403 - world - INFO - == SETTLE STAGE == year=2020 week=4
+2026-06-26 17:32:03,406 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 2400 -> 2750
+2026-06-26 17:32:03,406 - world - INFO - Adrian Morales received weekly_income 350, deposit: 1500 -> 1850
+2026-06-26 17:32:03,407 - world - INFO - Adrian Vale received weekly_income 220, deposit: 1880 -> 2100
+2026-06-26 17:32:03,407 - world - INFO - == PLAN STAGE == year=2020 week=5
+2026-06-26 17:32:03,441 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=5
+2026-06-26 17:32:03,441 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 17:32:03,441 - world - INFO - No public events available this week
+2026-06-26 17:32:03,441 - world - INFO - == CONTACT STAGE == year=2020 week=5 slot=1
+2026-06-26 17:32:03,504 - world - INFO - == CONTACT STAGE == year=2020 week=5 slot=2
+2026-06-26 17:32:03,651 - world - INFO - == CONTACT STAGE == year=2020 week=5 slot=3
+2026-06-26 17:32:03,807 - world - INFO - == CONTACT STAGE == year=2020 week=5 slot=4
+2026-06-26 17:32:03,874 - world - INFO - == CONTACT STAGE == year=2020 week=5 slot=5
+2026-06-26 17:32:03,931 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=5
+2026-06-26 17:32:03,960 - world - INFO - Generated 2 encounter events for this week
+2026-06-26 17:32:03,960 - world - INFO - == ACTIVITY STAGE == year=2020 week=5 day=1 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:04,009 - world - INFO - == ACTIVITY STAGE == year=2020 week=5 day=2 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:04,356 - world - INFO - == ACTIVITY STAGE == year=2020 week=5 day=3 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:04,411 - world - INFO - == ACTIVITY STAGE == year=2020 week=5 day=4 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:04,633 - world - INFO - == ACTIVITY STAGE == year=2020 week=5 day=5 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:04,684 - world - INFO - == REVIEW STAGE == year=2020 week=5
+2026-06-26 17:32:04,725 - world - INFO - == SETTLE STAGE == year=2020 week=5
+2026-06-26 17:32:04,728 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 2550 -> 2900
+2026-06-26 17:32:04,728 - world - INFO - Adrian Morales received weekly_income 350, deposit: 1650 -> 2000
+2026-06-26 17:32:04,728 - world - INFO - Adrian Vale received weekly_income 220, deposit: 1900 -> 2120
+2026-06-26 17:32:04,729 - world - INFO - == PLAN STAGE == year=2020 week=6
+2026-06-26 17:32:04,764 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=6
+2026-06-26 17:32:04,765 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 17:32:04,765 - world - INFO - No public events available this week
+2026-06-26 17:32:04,765 - world - INFO - == CONTACT STAGE == year=2020 week=6 slot=1
+2026-06-26 17:32:04,850 - world - INFO - == CONTACT STAGE == year=2020 week=6 slot=2
+2026-06-26 17:32:04,924 - world - INFO - == CONTACT STAGE == year=2020 week=6 slot=3
+2026-06-26 17:32:04,978 - world - INFO - == CONTACT STAGE == year=2020 week=6 slot=4
+2026-06-26 17:32:05,036 - world - INFO - == CONTACT STAGE == year=2020 week=6 slot=5
+2026-06-26 17:32:05,102 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=6
+2026-06-26 17:32:05,131 - world - INFO - Generated 2 encounter events for this week
+2026-06-26 17:32:05,132 - world - INFO - == ACTIVITY STAGE == year=2020 week=6 day=1 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:05,181 - world - INFO - == ACTIVITY STAGE == year=2020 week=6 day=2 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:05,692 - world - INFO - == ACTIVITY STAGE == year=2020 week=6 day=3 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:05,915 - world - INFO - == ACTIVITY STAGE == year=2020 week=6 day=4 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:05,967 - world - INFO - == ACTIVITY STAGE == year=2020 week=6 day=5 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:06,020 - world - INFO - == REVIEW STAGE == year=2020 week=6
+2026-06-26 17:32:06,061 - world - INFO - == SETTLE STAGE == year=2020 week=6
+2026-06-26 17:32:06,063 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 2700 -> 3050
+2026-06-26 17:32:06,064 - world - INFO - Adrian Morales received weekly_income 350, deposit: 1800 -> 2150
+2026-06-26 17:32:06,064 - world - INFO - Adrian Vale received weekly_income 220, deposit: 1920 -> 2140
+2026-06-26 17:32:06,064 - world - INFO - == PLAN STAGE == year=2020 week=7
+2026-06-26 17:32:06,100 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=7
+2026-06-26 17:32:06,100 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 17:32:06,101 - world - INFO - No public events available this week
+2026-06-26 17:32:06,101 - world - INFO - == CONTACT STAGE == year=2020 week=7 slot=1
+2026-06-26 17:32:06,157 - world - INFO - == CONTACT STAGE == year=2020 week=7 slot=2
+2026-06-26 17:32:06,219 - world - INFO - == CONTACT STAGE == year=2020 week=7 slot=3
+2026-06-26 17:32:06,288 - world - INFO - == CONTACT STAGE == year=2020 week=7 slot=4
+2026-06-26 17:32:06,348 - world - INFO - == CONTACT STAGE == year=2020 week=7 slot=5
+2026-06-26 17:32:06,416 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=7
+2026-06-26 17:32:06,446 - world - INFO - Generated 2 encounter events for this week
+2026-06-26 17:32:06,447 - world - INFO - == ACTIVITY STAGE == year=2020 week=7 day=1 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:06,728 - world - INFO - == ACTIVITY STAGE == year=2020 week=7 day=2 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:06,779 - world - INFO - == ACTIVITY STAGE == year=2020 week=7 day=3 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:07,006 - world - INFO - == ACTIVITY STAGE == year=2020 week=7 day=4 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:07,058 - world - INFO - == ACTIVITY STAGE == year=2020 week=7 day=5 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:07,110 - world - INFO - == REVIEW STAGE == year=2020 week=7
+2026-06-26 17:32:07,152 - world - INFO - == SETTLE STAGE == year=2020 week=7
+2026-06-26 17:32:07,155 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 2850 -> 3200
+2026-06-26 17:32:07,155 - world - INFO - Adrian Morales received weekly_income 350, deposit: 1950 -> 2300
+2026-06-26 17:32:07,155 - world - INFO - Adrian Vale received weekly_income 220, deposit: 1940 -> 2160
+2026-06-26 17:32:07,156 - world - INFO - == PLAN STAGE == year=2020 week=8
+2026-06-26 17:32:07,192 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=8
+2026-06-26 17:32:07,193 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 17:32:07,193 - world - INFO - No public events available this week
+2026-06-26 17:32:07,193 - world - INFO - == CONTACT STAGE == year=2020 week=8 slot=1
+2026-06-26 17:32:07,255 - world - INFO - == CONTACT STAGE == year=2020 week=8 slot=2
+2026-06-26 17:32:07,310 - world - INFO - == CONTACT STAGE == year=2020 week=8 slot=3
+2026-06-26 17:32:07,364 - world - INFO - == CONTACT STAGE == year=2020 week=8 slot=4
+2026-06-26 17:32:07,418 - world - INFO - == CONTACT STAGE == year=2020 week=8 slot=5
+2026-06-26 17:32:07,476 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=8
+2026-06-26 17:32:07,506 - world - INFO - Generated 3 encounter events for this week
+2026-06-26 17:32:07,506 - world - INFO - == ACTIVITY STAGE == year=2020 week=8 day=1 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:07,556 - world - INFO - == ACTIVITY STAGE == year=2020 week=8 day=2 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:07,151 - world - INFO - == ACTIVITY STAGE == year=2020 week=8 day=3 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:07,386 - world - INFO - == ACTIVITY STAGE == year=2020 week=8 day=4 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:07,902 - world - INFO - == ACTIVITY STAGE == year=2020 week=8 day=5 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:07,952 - world - INFO - == REVIEW STAGE == year=2020 week=8
+2026-06-26 17:32:07,991 - world - INFO - == SETTLE STAGE == year=2020 week=8
+2026-06-26 17:32:07,993 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 3000 -> 3350
+2026-06-26 17:32:07,994 - world - INFO - Adrian Morales received weekly_income 350, deposit: 2100 -> 2450
+2026-06-26 17:32:07,994 - world - INFO - Adrian Vale received weekly_income 220, deposit: 1960 -> 2180
+2026-06-26 17:32:07,994 - world - INFO - == PLAN STAGE == year=2020 week=9
+2026-06-26 17:32:08,028 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=9
+2026-06-26 17:32:08,029 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 17:32:08,029 - world - INFO - No public events available this week
+2026-06-26 17:32:08,029 - world - INFO - == CONTACT STAGE == year=2020 week=9 slot=1
+2026-06-26 17:32:08,272 - world - INFO - == CONTACT STAGE == year=2020 week=9 slot=2
+2026-06-26 17:32:08,328 - world - INFO - == CONTACT STAGE == year=2020 week=9 slot=3
+2026-06-26 17:32:08,385 - world - INFO - == CONTACT STAGE == year=2020 week=9 slot=4
+2026-06-26 17:32:08,449 - world - INFO - == CONTACT STAGE == year=2020 week=9 slot=5
+2026-06-26 17:32:08,509 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=9
+2026-06-26 17:32:08,538 - world - INFO - Generated 3 encounter events for this week
+2026-06-26 17:32:08,539 - world - INFO - == ACTIVITY STAGE == year=2020 week=9 day=1 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:08,587 - world - INFO - == ACTIVITY STAGE == year=2020 week=9 day=2 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:08,893 - world - INFO - == ACTIVITY STAGE == year=2020 week=9 day=3 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:08,943 - world - INFO - == ACTIVITY STAGE == year=2020 week=9 day=4 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:09,184 - world - INFO - == ACTIVITY STAGE == year=2020 week=9 day=5 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:10,262 - world - INFO - == REVIEW STAGE == year=2020 week=9
+2026-06-26 17:32:10,303 - world - INFO - == SETTLE STAGE == year=2020 week=9
+2026-06-26 17:32:10,306 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 3150 -> 3500
+2026-06-26 17:32:10,306 - world - INFO - Adrian Morales received weekly_income 350, deposit: 2250 -> 2600
+2026-06-26 17:32:10,307 - world - INFO - Adrian Vale received weekly_income 220, deposit: 1980 -> 2200
+2026-06-26 17:32:10,307 - world - INFO - == PLAN STAGE == year=2020 week=10
+2026-06-26 17:32:10,343 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=10
+2026-06-26 17:32:10,343 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 17:32:10,343 - world - INFO - No public events available this week
+2026-06-26 17:32:10,343 - world - INFO - == CONTACT STAGE == year=2020 week=10 slot=1
+2026-06-26 17:32:10,411 - world - INFO - == CONTACT STAGE == year=2020 week=10 slot=2
+2026-06-26 17:32:10,465 - world - INFO - == CONTACT STAGE == year=2020 week=10 slot=3
+2026-06-26 17:32:10,519 - world - INFO - == CONTACT STAGE == year=2020 week=10 slot=4
+2026-06-26 17:32:10,574 - world - INFO - == CONTACT STAGE == year=2020 week=10 slot=5
+2026-06-26 17:32:10,642 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=10
+2026-06-26 17:32:10,672 - world - INFO - Generated 2 encounter events for this week
+2026-06-26 17:32:10,673 - world - INFO - == ACTIVITY STAGE == year=2020 week=10 day=1 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:10,721 - world - INFO - == ACTIVITY STAGE == year=2020 week=10 day=2 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:10,940 - world - INFO - == ACTIVITY STAGE == year=2020 week=10 day=3 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:10,991 - world - INFO - == ACTIVITY STAGE == year=2020 week=10 day=4 | joint=0 encounter=1 public=0 solo=1
+2026-06-26 17:32:11,239 - world - INFO - == ACTIVITY STAGE == year=2020 week=10 day=5 | joint=0 encounter=0 public=0 solo=3
+2026-06-26 17:32:11,292 - world - INFO - == REVIEW STAGE == year=2020 week=10
+2026-06-26 17:32:11,333 - world - INFO - == SETTLE STAGE == year=2020 week=10
+2026-06-26 17:32:11,334 - world - INFO - == PROFILE UPDATE == Y2020 → Y2021
+2026-06-26 17:32:11,340 - world - INFO - Profile updated: Aaron Whitfield for Y2021
+2026-06-26 17:33:57,396 - world - INFO - Profile updated: Adrian Morales for Y2021
+2026-06-26 17:35:44,166 - world - INFO - Profile updated: Adrian Vale for Y2021
+2026-06-26 17:35:44,166 - world - INFO - == POSITION APPLICATION SEASON == year=2020 positions=13
+2026-06-26 17:35:44,207 - world - INFO - [POSITION_APPLICATION] Complete: 3 accepted, 0 unemployed
+2026-06-26 17:35:44,208 - world - INFO - == REWARD CALCULATION == year=2020 week=10
+2026-06-26 17:35:44,244 - world - INFO - Social reward: 3 agents
+2026-06-26 17:35:44,245 - world - INFO - Subjective reward: 3 agents, 0 misery penalties
+2026-06-26 17:35:44,250 - world - INFO - Economy reward: 3 agents
+2026-06-26 17:35:44,250 - world - INFO - Total reward: 3 agents

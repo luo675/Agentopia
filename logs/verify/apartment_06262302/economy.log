@@ -1,0 +1,84 @@
+2026-06-26 23:05:15,581 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-26 23:05:15,581 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 1800 → 2150
+2026-06-26 23:05:15,582 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 900 → 1250
+2026-06-26 23:05:15,582 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 1800 → 2020
+2026-06-26 23:17:16,306 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-26 23:17:16,307 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 1950 → 2300
+2026-06-26 23:17:16,307 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 1050 → 1400
+2026-06-26 23:17:16,308 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 1820 → 2040
+2026-06-26 23:29:32,994 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-26 23:29:32,994 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 2100 → 2450
+2026-06-26 23:29:32,995 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 1200 → 1550
+2026-06-26 23:29:32,995 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 1840 → 2060
+2026-06-26 23:41:13,042 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-26 23:41:13,042 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 2250 → 2600
+2026-06-26 23:41:13,043 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 1350 → 1700
+2026-06-26 23:41:13,043 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 1860 → 2080
+2026-06-26 23:52:58,769 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-26 23:52:58,769 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 2400 → 2750
+2026-06-26 23:52:58,770 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 1500 → 1850
+2026-06-26 23:52:58,770 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 1880 → 2100
+2026-06-27 00:07:22,232 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-27 00:07:22,232 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 2550 → 2900
+2026-06-27 00:07:22,233 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 1650 → 2000
+2026-06-27 00:07:22,233 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 1900 → 2120
+2026-06-27 00:21:31,287 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-27 00:21:31,288 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 2700 → 3050
+2026-06-27 00:21:31,288 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 1800 → 2150
+2026-06-27 00:21:31,289 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 1920 → 2140
+2026-06-27 00:34:21,239 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-27 00:34:21,239 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 2850 → 3200
+2026-06-27 00:34:21,239 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 1950 → 2300
+2026-06-27 00:34:21,240 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 1940 → 2160
+2026-06-27 00:49:24,213 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-27 00:49:24,213 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 3000 → 3350
+2026-06-27 00:49:24,214 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 2100 → 2450
+2026-06-27 00:49:24,214 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 1960 → 2180
+2026-06-27 01:05:00,660 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-27 01:05:00,661 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 3150 → 3500
+2026-06-27 01:05:00,661 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 2250 → 2600
+2026-06-27 01:05:00,662 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 1980 → 2200
+2026-06-27 01:16:06,615 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-27 01:16:06,615 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 3300 → 3650
+2026-06-27 01:16:06,616 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 2400 → 2750
+2026-06-27 01:16:06,616 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 2000 → 2220
+2026-06-27 01:31:18,451 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-27 01:31:18,452 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 3450 → 3800
+2026-06-27 01:31:18,452 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 2550 → 2900
+2026-06-27 01:31:18,452 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 2020 → 2240
+2026-06-27 01:43:40,660 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-27 01:43:40,660 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 3600 → 3950
+2026-06-27 01:43:40,661 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 2700 → 3050
+2026-06-27 01:43:40,661 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 2040 → 2260
+2026-06-27 01:58:23,523 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-27 01:58:23,523 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 3750 → 4100
+2026-06-27 01:58:23,524 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 2850 → 3200
+2026-06-27 01:58:23,524 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 2060 → 2280
+2026-06-27 02:11:08,620 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-27 02:11:08,620 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 3900 → 4250
+2026-06-27 02:11:08,621 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 3000 → 3350
+2026-06-27 02:11:08,621 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 2080 → 2300
+2026-06-27 02:24:45,468 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-27 02:24:45,468 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 4050 → 4400
+2026-06-27 02:24:45,469 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 3150 → 3500
+2026-06-27 02:24:45,469 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 2100 → 2320
+2026-06-27 02:39:33,646 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-27 02:39:33,646 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 4200 → 4550
+2026-06-27 02:39:33,647 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 3300 → 3650
+2026-06-27 02:39:33,647 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 2120 → 2340
+2026-06-27 02:54:23,588 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-27 02:54:23,588 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 4350 → 4700
+2026-06-27 02:54:23,589 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 3450 → 3800
+2026-06-27 02:54:23,589 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 2140 → 2360
+2026-06-27 03:06:51,990 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-27 03:06:51,991 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 4500 → 4850
+2026-06-27 03:06:51,991 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 3600 → 3950
+2026-06-27 03:06:51,992 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 2160 → 2380
+2026-06-27 03:20:05,965 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-27 03:20:05,966 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 4650 → 5000
+2026-06-27 03:20:05,966 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 3750 → 4100
+2026-06-27 03:20:05,967 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 2180 → 2400
+2026-06-27 08:15:23,527 [INFO] [VERIFY-ECONOMY] Distributing weekly_income to all agents
+2026-06-27 08:15:23,528 [INFO] [VERIFY-ECONOMY] Aaron Whitfield: total_income=350 (position=350, extra=0), deposit 4650 → 5000
+2026-06-27 08:15:23,528 [INFO] [VERIFY-ECONOMY] Adrian Morales: total_income=350 (position=320, extra=30), deposit 3750 → 4100
+2026-06-27 08:15:23,529 [INFO] [VERIFY-ECONOMY] Adrian Vale: total_income=220 (position=220, extra=0), deposit 2180 → 2400

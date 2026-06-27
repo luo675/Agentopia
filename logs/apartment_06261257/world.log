@@ -1,0 +1,209 @@
+2026-06-26 12:57:32,997 - world - INFO - Resume point: Y2020-W01 (cleanup from Y2020-W01-begin)
+2026-06-26 12:57:33,020 - world - INFO - Assigned 1 agents to 1 model(s): my-vllm-model=1
+2026-06-26 12:57:33,025 - world - INFO - [locations] generated map via LLM: 29 locations
+2026-06-26 12:57:33,026 - world - INFO - Generating 1 homes in parallel...
+2026-06-26 12:57:33,026 - world - INFO -   Generated home for Aaron Whitfield
+2026-06-26 12:57:33,028 - world - INFO - Generating positions for 1 agents...
+2026-06-26 12:57:35,429 - world - INFO - Generated 10 positions
+2026-06-26 12:57:35,430 - world - INFO - [POSITIONS] Merged from profile: Self-employed (contributes to The Atlantic, New York Magazine, various outlets)/Freelance journalist and novelist (capacity=1, created_year=-1)
+2026-06-26 12:57:35,430 - world - INFO - [POSITIONS] Merged 1 positions from agent profiles
+2026-06-26 12:57:35,430 - world - INFO - [POSITIONS] Year 2020: initialized 11 positions
+2026-06-26 12:57:35,431 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 1800 -> 2150
+2026-06-26 12:57:35,431 - world - INFO - == PLAN STAGE == year=2020 week=1
+2026-06-26 12:57:59,135 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=1
+2026-06-26 12:57:59,135 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 12:57:59,135 - world - INFO - No public events available this week
+2026-06-26 12:57:59,135 - world - INFO - == CONTACT STAGE == year=2020 week=1 slot=1
+2026-06-26 12:58:11,741 - world - INFO - == CONTACT STAGE == year=2020 week=1 slot=2
+2026-06-26 12:58:23,032 - world - INFO - == CONTACT STAGE == year=2020 week=1 slot=3
+2026-06-26 12:58:36,772 - world - INFO - == CONTACT STAGE == year=2020 week=1 slot=4
+2026-06-26 12:58:48,093 - world - INFO - == CONTACT STAGE == year=2020 week=1 slot=5
+2026-06-26 12:59:02,789 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=1
+2026-06-26 12:59:08,813 - world - INFO - No encounter events to generate this week
+2026-06-26 12:59:08,814 - world - INFO - == ACTIVITY STAGE == year=2020 week=1 day=1 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 12:59:16,347 - world - INFO - == ACTIVITY STAGE == year=2020 week=1 day=2 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 12:59:26,020 - world - INFO - == ACTIVITY STAGE == year=2020 week=1 day=3 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 12:59:36,145 - world - INFO - == ACTIVITY STAGE == year=2020 week=1 day=4 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 12:59:45,880 - world - INFO - == ACTIVITY STAGE == year=2020 week=1 day=5 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 12:59:57,011 - world - INFO - == REVIEW STAGE == year=2020 week=1
+2026-06-26 13:00:09,665 - world - INFO - == SETTLE STAGE == year=2020 week=1
+2026-06-26 13:00:09,667 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 1950 -> 2300
+2026-06-26 13:00:09,667 - world - INFO - == PLAN STAGE == year=2020 week=2
+2026-06-26 13:00:31,498 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=2
+2026-06-26 13:00:31,498 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 13:00:31,498 - world - INFO - No public events available this week
+2026-06-26 13:00:31,498 - world - INFO - == CONTACT STAGE == year=2020 week=2 slot=1
+2026-06-26 13:00:44,644 - world - INFO - == CONTACT STAGE == year=2020 week=2 slot=2
+2026-06-26 13:01:06,738 - world - INFO - == CONTACT STAGE == year=2020 week=2 slot=3
+2026-06-26 13:01:18,126 - world - INFO - == CONTACT STAGE == year=2020 week=2 slot=4
+2026-06-26 13:01:39,228 - world - INFO - == CONTACT STAGE == year=2020 week=2 slot=5
+2026-06-26 13:01:58,112 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=2
+2026-06-26 13:02:02,874 - world - INFO - No encounter events to generate this week
+2026-06-26 13:02:02,874 - world - INFO - == ACTIVITY STAGE == year=2020 week=2 day=1 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:02:10,523 - world - INFO - == ACTIVITY STAGE == year=2020 week=2 day=2 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:02:21,621 - world - INFO - == ACTIVITY STAGE == year=2020 week=2 day=3 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:02:33,203 - world - INFO - == ACTIVITY STAGE == year=2020 week=2 day=4 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:02:44,164 - world - INFO - == ACTIVITY STAGE == year=2020 week=2 day=5 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:02:55,729 - world - INFO - == REVIEW STAGE == year=2020 week=2
+2026-06-26 13:03:12,094 - world - INFO - == SETTLE STAGE == year=2020 week=2
+2026-06-26 13:03:12,096 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 2100 -> 2450
+2026-06-26 13:03:12,096 - world - INFO - == PLAN STAGE == year=2020 week=3
+2026-06-26 13:03:28,301 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=3
+2026-06-26 13:03:28,301 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 13:03:28,301 - world - INFO - No public events available this week
+2026-06-26 13:03:28,301 - world - INFO - == CONTACT STAGE == year=2020 week=3 slot=1
+2026-06-26 13:03:40,836 - world - INFO - == CONTACT STAGE == year=2020 week=3 slot=2
+2026-06-26 13:03:46,471 - world - INFO - == CONTACT STAGE == year=2020 week=3 slot=3
+2026-06-26 13:03:56,710 - world - INFO - == CONTACT STAGE == year=2020 week=3 slot=4
+2026-06-26 13:04:02,199 - world - INFO - == CONTACT STAGE == year=2020 week=3 slot=5
+2026-06-26 13:04:20,086 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=3
+2026-06-26 13:04:24,856 - world - INFO - No encounter events to generate this week
+2026-06-26 13:04:24,856 - world - INFO - == ACTIVITY STAGE == year=2020 week=3 day=1 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:04:32,584 - world - INFO - == ACTIVITY STAGE == year=2020 week=3 day=2 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:04:43,097 - world - INFO - == ACTIVITY STAGE == year=2020 week=3 day=3 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:04:53,261 - world - INFO - == ACTIVITY STAGE == year=2020 week=3 day=4 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:05:04,903 - world - INFO - == ACTIVITY STAGE == year=2020 week=3 day=5 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:05:18,105 - world - INFO - == REVIEW STAGE == year=2020 week=3
+2026-06-26 13:05:31,487 - world - INFO - == SETTLE STAGE == year=2020 week=3
+2026-06-26 13:05:31,488 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 2250 -> 2600
+2026-06-26 13:05:31,488 - world - INFO - == PLAN STAGE == year=2020 week=4
+2026-06-26 13:05:48,838 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=4
+2026-06-26 13:05:48,839 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 13:05:48,839 - world - INFO - No public events available this week
+2026-06-26 13:05:48,839 - world - INFO - == CONTACT STAGE == year=2020 week=4 slot=1
+2026-06-26 13:06:00,071 - world - INFO - == CONTACT STAGE == year=2020 week=4 slot=2
+2026-06-26 13:06:25,486 - world - INFO - == CONTACT STAGE == year=2020 week=4 slot=3
+2026-06-26 13:06:39,922 - world - INFO - == CONTACT STAGE == year=2020 week=4 slot=4
+2026-06-26 13:06:55,159 - world - INFO - == CONTACT STAGE == year=2020 week=4 slot=5
+2026-06-26 13:07:09,844 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=4
+2026-06-26 13:07:13,844 - world - INFO - No encounter events to generate this week
+2026-06-26 13:07:13,844 - world - INFO - == ACTIVITY STAGE == year=2020 week=4 day=1 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:07:21,949 - world - INFO - == ACTIVITY STAGE == year=2020 week=4 day=2 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:07:33,132 - world - INFO - == ACTIVITY STAGE == year=2020 week=4 day=3 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:07:44,035 - world - INFO - == ACTIVITY STAGE == year=2020 week=4 day=4 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:07:55,524 - world - INFO - == ACTIVITY STAGE == year=2020 week=4 day=5 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:08:07,730 - world - INFO - == REVIEW STAGE == year=2020 week=4
+2026-06-26 13:08:21,024 - world - INFO - == SETTLE STAGE == year=2020 week=4
+2026-06-26 13:08:21,025 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 2400 -> 2750
+2026-06-26 13:08:21,025 - world - INFO - == PLAN STAGE == year=2020 week=5
+2026-06-26 13:08:31,445 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=5
+2026-06-26 13:08:31,445 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 13:08:31,446 - world - INFO - No public events available this week
+2026-06-26 13:08:31,446 - world - INFO - == CONTACT STAGE == year=2020 week=5 slot=1
+2026-06-26 13:08:56,387 - world - INFO - == CONTACT STAGE == year=2020 week=5 slot=2
+2026-06-26 13:09:11,236 - world - INFO - == CONTACT STAGE == year=2020 week=5 slot=3
+2026-06-26 13:09:17,226 - world - INFO - == CONTACT STAGE == year=2020 week=5 slot=4
+2026-06-26 13:09:39,461 - world - INFO - == CONTACT STAGE == year=2020 week=5 slot=5
+2026-06-26 13:09:45,826 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=5
+2026-06-26 13:09:49,631 - world - INFO - No encounter events to generate this week
+2026-06-26 13:09:49,631 - world - INFO - == ACTIVITY STAGE == year=2020 week=5 day=1 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:09:58,079 - world - INFO - == ACTIVITY STAGE == year=2020 week=5 day=2 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:10:09,179 - world - INFO - == ACTIVITY STAGE == year=2020 week=5 day=3 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:10:20,090 - world - INFO - == ACTIVITY STAGE == year=2020 week=5 day=4 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:10:30,835 - world - INFO - == ACTIVITY STAGE == year=2020 week=5 day=5 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:10:42,830 - world - INFO - == REVIEW STAGE == year=2020 week=5
+2026-06-26 13:10:55,267 - world - INFO - == SETTLE STAGE == year=2020 week=5
+2026-06-26 13:10:55,269 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 2550 -> 2900
+2026-06-26 13:10:55,269 - world - INFO - == PLAN STAGE == year=2020 week=6
+2026-06-26 13:11:11,397 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=6
+2026-06-26 13:11:11,397 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 13:11:11,397 - world - INFO - No public events available this week
+2026-06-26 13:11:11,397 - world - INFO - == CONTACT STAGE == year=2020 week=6 slot=1
+2026-06-26 13:11:26,156 - world - INFO - == CONTACT STAGE == year=2020 week=6 slot=2
+2026-06-26 13:11:41,615 - world - INFO - == CONTACT STAGE == year=2020 week=6 slot=3
+2026-06-26 13:11:57,131 - world - INFO - == CONTACT STAGE == year=2020 week=6 slot=4
+2026-06-26 13:12:14,502 - world - INFO - == CONTACT STAGE == year=2020 week=6 slot=5
+2026-06-26 13:12:26,970 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=6
+2026-06-26 13:12:29,973 - world - INFO - No encounter events to generate this week
+2026-06-26 13:12:29,973 - world - INFO - == ACTIVITY STAGE == year=2020 week=6 day=1 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:12:38,483 - world - INFO - == ACTIVITY STAGE == year=2020 week=6 day=2 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:12:49,134 - world - INFO - == ACTIVITY STAGE == year=2020 week=6 day=3 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:13:00,751 - world - INFO - == ACTIVITY STAGE == year=2020 week=6 day=4 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:13:12,797 - world - INFO - == ACTIVITY STAGE == year=2020 week=6 day=5 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:13:24,985 - world - INFO - == REVIEW STAGE == year=2020 week=6
+2026-06-26 13:13:37,840 - world - INFO - == SETTLE STAGE == year=2020 week=6
+2026-06-26 13:13:37,841 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 2700 -> 3050
+2026-06-26 13:13:37,841 - world - INFO - == PLAN STAGE == year=2020 week=7
+2026-06-26 13:13:49,677 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=7
+2026-06-26 13:13:49,678 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 13:13:49,678 - world - INFO - No public events available this week
+2026-06-26 13:13:49,678 - world - INFO - == CONTACT STAGE == year=2020 week=7 slot=1
+2026-06-26 13:14:18,247 - world - INFO - == CONTACT STAGE == year=2020 week=7 slot=2
+2026-06-26 13:14:25,834 - world - INFO - == CONTACT STAGE == year=2020 week=7 slot=3
+2026-06-26 13:14:33,760 - world - INFO - == CONTACT STAGE == year=2020 week=7 slot=4
+2026-06-26 13:14:41,989 - world - INFO - == CONTACT STAGE == year=2020 week=7 slot=5
+2026-06-26 13:14:50,294 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=7
+2026-06-26 13:14:59,048 - world - INFO - No encounter events to generate this week
+2026-06-26 13:14:59,048 - world - INFO - == ACTIVITY STAGE == year=2020 week=7 day=1 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:15:08,119 - world - INFO - == ACTIVITY STAGE == year=2020 week=7 day=2 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:15:18,763 - world - INFO - == ACTIVITY STAGE == year=2020 week=7 day=3 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:15:29,812 - world - INFO - == ACTIVITY STAGE == year=2020 week=7 day=4 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:15:40,576 - world - INFO - == ACTIVITY STAGE == year=2020 week=7 day=5 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:15:52,698 - world - INFO - == REVIEW STAGE == year=2020 week=7
+2026-06-26 13:16:08,331 - world - INFO - == SETTLE STAGE == year=2020 week=7
+2026-06-26 13:16:08,333 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 2850 -> 3200
+2026-06-26 13:16:08,333 - world - INFO - == PLAN STAGE == year=2020 week=8
+2026-06-26 13:16:27,488 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=8
+2026-06-26 13:16:27,488 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 13:16:27,488 - world - INFO - No public events available this week
+2026-06-26 13:16:27,488 - world - INFO - == CONTACT STAGE == year=2020 week=8 slot=1
+2026-06-26 13:16:49,869 - world - INFO - == CONTACT STAGE == year=2020 week=8 slot=2
+2026-06-26 13:16:56,101 - world - INFO - == CONTACT STAGE == year=2020 week=8 slot=3
+2026-06-26 13:17:02,407 - world - INFO - == CONTACT STAGE == year=2020 week=8 slot=4
+2026-06-26 13:17:11,451 - world - INFO - == CONTACT STAGE == year=2020 week=8 slot=5
+2026-06-26 13:17:20,702 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=8
+2026-06-26 13:17:26,382 - world - INFO - No encounter events to generate this week
+2026-06-26 13:17:26,382 - world - INFO - == ACTIVITY STAGE == year=2020 week=8 day=1 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:17:35,202 - world - INFO - == ACTIVITY STAGE == year=2020 week=8 day=2 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:17:46,776 - world - INFO - == ACTIVITY STAGE == year=2020 week=8 day=3 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:17:58,166 - world - INFO - == ACTIVITY STAGE == year=2020 week=8 day=4 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:18:10,050 - world - INFO - == ACTIVITY STAGE == year=2020 week=8 day=5 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:18:22,646 - world - INFO - == REVIEW STAGE == year=2020 week=8
+2026-06-26 13:18:37,985 - world - INFO - == SETTLE STAGE == year=2020 week=8
+2026-06-26 13:18:37,986 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 3000 -> 3350
+2026-06-26 13:18:37,986 - world - INFO - == PLAN STAGE == year=2020 week=9
+2026-06-26 13:18:54,462 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=9
+2026-06-26 13:18:54,463 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 13:18:54,463 - world - INFO - No public events available this week
+2026-06-26 13:18:54,463 - world - INFO - == CONTACT STAGE == year=2020 week=9 slot=1
+2026-06-26 13:19:18,342 - world - INFO - == CONTACT STAGE == year=2020 week=9 slot=2
+2026-06-26 13:19:37,065 - world - INFO - == CONTACT STAGE == year=2020 week=9 slot=3
+2026-06-26 13:19:43,260 - world - INFO - == CONTACT STAGE == year=2020 week=9 slot=4
+2026-06-26 13:19:49,301 - world - INFO - == CONTACT STAGE == year=2020 week=9 slot=5
+2026-06-26 13:19:55,389 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=9
+2026-06-26 13:19:59,784 - world - INFO - No encounter events to generate this week
+2026-06-26 13:19:59,784 - world - INFO - == ACTIVITY STAGE == year=2020 week=9 day=1 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:20:08,128 - world - INFO - == ACTIVITY STAGE == year=2020 week=9 day=2 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:20:18,528 - world - INFO - == ACTIVITY STAGE == year=2020 week=9 day=3 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:20:28,981 - world - INFO - == ACTIVITY STAGE == year=2020 week=9 day=4 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:20:41,018 - world - INFO - == ACTIVITY STAGE == year=2020 week=9 day=5 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:20:52,542 - world - INFO - == REVIEW STAGE == year=2020 week=9
+2026-06-26 13:21:07,106 - world - INFO - == SETTLE STAGE == year=2020 week=9
+2026-06-26 13:21:07,107 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 3150 -> 3500
+2026-06-26 13:21:07,107 - world - INFO - == PLAN STAGE == year=2020 week=10
+2026-06-26 13:21:18,149 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=10
+2026-06-26 13:21:18,149 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-26 13:21:18,149 - world - INFO - No public events available this week
+2026-06-26 13:21:18,149 - world - INFO - == CONTACT STAGE == year=2020 week=10 slot=1
+2026-06-26 13:21:45,826 - world - INFO - == CONTACT STAGE == year=2020 week=10 slot=2
+2026-06-26 13:22:05,414 - world - INFO - == CONTACT STAGE == year=2020 week=10 slot=3
+2026-06-26 13:22:20,327 - world - INFO - == CONTACT STAGE == year=2020 week=10 slot=4
+2026-06-26 13:22:35,072 - world - INFO - == CONTACT STAGE == year=2020 week=10 slot=5
+2026-06-26 13:22:59,306 - world - INFO - == AFTER CONTACT STAGE == year=2020 week=10
+2026-06-26 13:23:03,811 - world - INFO - No encounter events to generate this week
+2026-06-26 13:23:03,811 - world - INFO - == ACTIVITY STAGE == year=2020 week=10 day=1 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:23:12,411 - world - INFO - == ACTIVITY STAGE == year=2020 week=10 day=2 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:23:23,395 - world - INFO - == ACTIVITY STAGE == year=2020 week=10 day=3 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:23:34,538 - world - INFO - == ACTIVITY STAGE == year=2020 week=10 day=4 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:23:45,918 - world - INFO - == ACTIVITY STAGE == year=2020 week=10 day=5 | joint=0 encounter=0 public=0 solo=1
+2026-06-26 13:23:58,199 - world - INFO - == REVIEW STAGE == year=2020 week=10
+2026-06-26 13:24:12,080 - world - INFO - == SETTLE STAGE == year=2020 week=10
+2026-06-26 13:24:12,080 - world - INFO - == PROFILE UPDATE == Y2020 → Y2021
+2026-06-26 13:25:19,591 - world - INFO - Profile updated: Aaron Whitfield for Y2021
+2026-06-26 13:25:19,592 - world - INFO - == POSITION APPLICATION SEASON == year=2020 positions=11
+2026-06-26 13:25:28,325 - world - INFO - [POSITION_APPLICATION] Complete: 1 accepted, 0 unemployed
+2026-06-26 13:25:28,325 - world - INFO - == REWARD CALCULATION == year=2020 week=10
+2026-06-26 13:25:32,509 - world - INFO - Social reward: 1 agents
+2026-06-26 13:25:32,510 - world - INFO - Subjective reward: 1 agents, 0 misery penalties
+2026-06-26 13:25:32,512 - world - INFO - Economy reward: 1 agents
+2026-06-26 13:25:32,512 - world - INFO - Total reward: 1 agents

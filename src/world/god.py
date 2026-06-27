@@ -1106,6 +1106,8 @@ def generate_public_events(
     config = get_config()
     public_cfg = config["world"]["public_activity"]
     max_events = public_cfg["max_events_per_week"]
+    if max_events == 0:
+        return []  # Public activities disabled
     min_events = max(1, max_events // 2)  # Ensure at least 1
 
     from src.agents.prompts import get_world_setting
@@ -2211,7 +2213,7 @@ def update_yearly_profile(
     )
 
     # 6. Handle failure
-    if new_profile is None:
+    if not isinstance(new_profile, dict):
         if verify_logger:
             verify_logger.error(
                 f"[VERIFY-PROFILE] Failed to update profile for {agent.name}, "

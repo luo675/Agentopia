@@ -1,0 +1,25 @@
+2026-06-26 16:33:52,107 [INFO] [VERIFY-REWARD] Aaron Whitfield judge_others: known_names=['Leo', 'Adrian Morales', 'Zephyr Kaine', 'Adrian Vale', 'Simon Delacroix', 'Julian Reyes', 'Jamal Osei', 'Rachel Kovacs', 'Nina Oliveira', 'Jessica Marlowe', 'Alessandro Vieri']
+2026-06-26 16:34:03,219 [INFO] [VERIFY-REWARD] Aaron Whitfield judge_others OUTPUT: affection_scores={'Adrian Morales': 85, 'Adrian Vale': 65, 'Alessandro Vieri': 55, 'Jamal Osei': 75, 'Jessica Marlowe': 60, 'Julian Reyes': 55, 'Leo': 90, 'Nina Oliveira': 65, 'Rachel Kovacs': 55, 'Simon Delacroix': 85, 'Zephyr Kaine': 70}, respect_scores={'Adrian Morales': 80, 'Adrian Vale': 60, 'Alessandro Vieri': 55, 'Jamal Osei': 85, 'Jessica Marlowe': 70, 'Julian Reyes': 75, 'Leo': 90, 'Nina Oliveira': 80, 'Rachel Kovacs': 70, 'Simon Delacroix': 90, 'Zephyr Kaine': 75}
+2026-06-26 16:34:03,219 [INFO] [VERIFY-REWARD] Adrian Morales judge_others: known_names=['Adrian Vale', 'Aaron Whitfield', 'Leo']
+2026-06-26 16:34:09,824 [INFO] [VERIFY-REWARD] Adrian Morales judge_others OUTPUT: affection_scores={'Aaron Whitfield': 85, 'Adrian Vale': 75, 'Leo': 65}, respect_scores={'Aaron Whitfield': 80, 'Adrian Vale': 85, 'Leo': 70}
+2026-06-26 16:34:09,824 [INFO] [VERIFY-REWARD] Adrian Vale judge_others: known_names=['Adrian Morales', 'Aaron Whitfield', 'Vera Nocturne', 'Ryan Mercer', 'Oliver Brennan', 'Maddox Keller', 'Leo', 'Juniper Liang', 'Alex Medina']
+2026-06-26 16:34:18,362 [INFO] [VERIFY-REWARD] Adrian Vale judge_others OUTPUT: affection_scores={'Aaron Whitfield': 85, 'Adrian Morales': 80, 'Alex Medina': 65, 'Juniper Liang': 75, 'Leo': 70, 'Maddox Keller': 60, 'Oliver Brennan': 85, 'Ryan Mercer': 70, 'Vera Nocturne': 50}, respect_scores={'Aaron Whitfield': 80, 'Adrian Morales': 85, 'Alex Medina': 70, 'Juniper Liang': 85, 'Leo': 75, 'Maddox Keller': 65, 'Oliver Brennan': 85, 'Ryan Mercer': 75, 'Vera Nocturne': 60}
+2026-06-26 16:34:18,364 [INFO] [VERIFY-REWARD] calculate_social_rewards: affection_weight=0.5, damping=0.85, max_iter=100, mutual_alpha=2.0
+2026-06-26 16:34:18,365 [INFO] [VERIFY-REWARD] PageRank affection top5: [('Aaron Whitfield', '0.079'), ('Adrian Morales', '0.057'), ('Adrian Vale', '0.043'), ('Leo', '0.025'), ('Simon Delacroix', '0.014')]
+2026-06-26 16:34:18,365 [INFO] [VERIFY-REWARD] PageRank respect top5: [('Adrian Vale', '0.068'), ('Adrian Morales', '0.060'), ('Aaron Whitfield', '0.041'), ('Leo', '0.023'), ('Juniper Liang', '0.017')]
+2026-06-26 16:34:18,365 [INFO] [VERIFY-REWARD] compute_subjective_rewards: n_weeks=1, percentile=0.25, penalty=5
+2026-06-26 16:34:18,365 [INFO] [VERIFY-REWARD] Aaron Whitfield fulfillment_history: 1 entries
+2026-06-26 16:34:18,365 [INFO] [VERIFY-REWARD] Adrian Morales fulfillment_history: 1 entries
+2026-06-26 16:34:18,365 [INFO] [VERIFY-REWARD] Adrian Vale fulfillment_history: 1 entries
+2026-06-26 16:34:18,365 [INFO] [VERIFY-REWARD] misery thresholds: mood=-inf, material=-inf, social=46.00, esteem=47.00, vitality=-inf
+2026-06-26 16:34:18,371 [INFO] [VERIFY-REWARD] === REWARD CALCULATION START === Y2020-W10
+2026-06-26 16:34:18,371 [INFO] [VERIFY-REWARD] Config: period_weeks=1, n_agents=3
+2026-06-26 16:34:18,371 [INFO] [VERIFY-REWARD] Social graphs: affection=23 edges, respect=23 edges
+2026-06-26 16:34:18,371 [INFO] [VERIFY-REWARD] --- Per-Agent Details ---
+2026-06-26 16:34:18,371 [INFO] [VERIFY-REWARD] Aaron Whitfield INPUT: affection_top5=[('Leo', 90), ('Adrian Morales', 85), ('Simon Delacroix', 85), ('Jamal Osei', 75), ('Zephyr Kaine', 70)], respect_top5=[('Leo', 90), ('Simon Delacroix', 90), ('Jamal Osei', 85), ('Adrian Morales', 80), ('Nina Oliveira', 80)]
+2026-06-26 16:34:18,371 [INFO] [VERIFY-REWARD] Aaron Whitfield OUTPUT: social(aff=0.079, resp=0.041, combined=0.060), subj(score=60.750, penalties=0), total=0.270
+2026-06-26 16:34:18,371 [INFO] [VERIFY-REWARD] Adrian Morales INPUT: affection_top5=[('Aaron Whitfield', 85), ('Adrian Vale', 75), ('Leo', 65)], respect_top5=[('Adrian Vale', 85), ('Aaron Whitfield', 80), ('Leo', 70)]
+2026-06-26 16:34:18,371 [INFO] [VERIFY-REWARD] Adrian Morales OUTPUT: social(aff=0.057, resp=0.060, combined=0.058), subj(score=66.500, penalties=0), total=0.780
+2026-06-26 16:34:18,371 [INFO] [VERIFY-REWARD] Adrian Vale INPUT: affection_top5=[('Aaron Whitfield', 85), ('Oliver Brennan', 85), ('Adrian Morales', 80), ('Juniper Liang', 75), ('Leo', 70)], respect_top5=[('Adrian Morales', 85), ('Juniper Liang', 85), ('Oliver Brennan', 85), ('Aaron Whitfield', 80), ('Leo', 75)]
+2026-06-26 16:34:18,371 [INFO] [VERIFY-REWARD] Adrian Vale OUTPUT: social(aff=0.043, resp=0.068, combined=0.055), subj(score=61.250, penalties=0), total=-1.049
+2026-06-26 16:34:18,371 [INFO] [VERIFY-REWARD] === REWARD CALCULATION COMPLETE === total_penalties=0

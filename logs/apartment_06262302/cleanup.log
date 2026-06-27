@@ -1,0 +1,27 @@
+2026-06-26 23:02:14,522 - cleanup - INFO - [CLEANUP SUMMARY] start_time=Y2020-W01-begin | scanned=493, trimmed=0, deleted=0, untouched=493
+2026-06-27 08:15:22,839 - cleanup - WARNING - deleted data/apartment_06262302/god/encounter_activity/year=2020/week=20.jsonl: all 1 records removed (time >= Y2020-W20-begin)
+2026-06-27 08:15:22,893 - cleanup - WARNING - deleted data/apartment_06262302/god/joint_activity/year=2020/week=20.jsonl: all 21 records removed (time >= Y2020-W20-begin)
+2026-06-27 08:15:22,922 - cleanup - WARNING - deleted data/apartment_06262302/god/position_application/year=2020/week=20.jsonl: all 1 records removed (time >= Y2020-W20-begin)
+2026-06-27 08:15:22,923 - cleanup - WARNING - deleted data/apartment_06262302/god/profile_update/year=2020/week=20.jsonl: all 3 records removed (time >= Y2020-W20-begin)
+2026-06-27 08:15:22,937 - cleanup - WARNING - deleted data/apartment_06262302/god/solo_activity/year=2020/week=20.jsonl: all 13 records removed (time >= Y2020-W20-begin)
+2026-06-27 08:15:22,945 - cleanup - WARNING - deleted data/apartment_06262302/persona/Aaron Whitfield/achievement.jsonl: all 1 records removed (time >= Y2020-W20-begin)
+2026-06-27 08:15:22,948 - cleanup - INFO - trimmed data/apartment_06262302/persona/Aaron Whitfield/activity.jsonl: kept=95, removed=5
+2026-06-27 08:15:23,042 - cleanup - WARNING - deleted data/apartment_06262302/persona/Aaron Whitfield/generation/year=2020/week=20.jsonl: all 31 records removed (time >= Y2020-W20-begin)
+2026-06-27 08:15:23,093 - cleanup - INFO - trimmed data/apartment_06262302/persona/Aaron Whitfield/memory/weekly_diary.jsonl: kept=19, removed=1
+2026-06-27 08:15:23,093 - cleanup - INFO - trimmed data/apartment_06262302/persona/Aaron Whitfield/schedule.jsonl: kept=24, removed=1
+2026-06-27 08:15:23,098 - cleanup - INFO - trimmed data/apartment_06262302/persona/Aaron Whitfield/state.jsonl: kept=154, removed=8
+2026-06-27 08:15:23,099 - cleanup - WARNING - deleted data/apartment_06262302/persona/Adrian Morales/achievement.jsonl: all 1 records removed (time >= Y2020-W20-begin)
+2026-06-27 08:15:23,102 - cleanup - INFO - trimmed data/apartment_06262302/persona/Adrian Morales/activity.jsonl: kept=95, removed=5
+2026-06-27 08:15:23,198 - cleanup - WARNING - deleted data/apartment_06262302/persona/Adrian Morales/generation/year=2020/week=20.jsonl: all 35 records removed (time >= Y2020-W20-begin)
+2026-06-27 08:15:23,256 - cleanup - INFO - trimmed data/apartment_06262302/persona/Adrian Morales/memory/scratchpad/.access_log.jsonl: kept=13, removed=8
+2026-06-27 08:15:23,258 - cleanup - INFO - trimmed data/apartment_06262302/persona/Adrian Morales/memory/weekly_diary.jsonl: kept=19, removed=1
+2026-06-27 08:15:23,260 - cleanup - INFO - trimmed data/apartment_06262302/persona/Adrian Morales/schedule.jsonl: kept=34, removed=1
+2026-06-27 08:15:23,264 - cleanup - INFO - trimmed data/apartment_06262302/persona/Adrian Morales/state.jsonl: kept=154, removed=8
+2026-06-27 08:15:23,264 - cleanup - WARNING - deleted data/apartment_06262302/persona/Adrian Vale/achievement.jsonl: all 1 records removed (time >= Y2020-W20-begin)
+2026-06-27 08:15:23,267 - cleanup - INFO - trimmed data/apartment_06262302/persona/Adrian Vale/activity.jsonl: kept=95, removed=5
+2026-06-27 08:15:23,345 - cleanup - WARNING - deleted data/apartment_06262302/persona/Adrian Vale/generation/year=2020/week=20.jsonl: all 26 records removed (time >= Y2020-W20-begin)
+2026-06-27 08:15:23,389 - cleanup - INFO - trimmed data/apartment_06262302/persona/Adrian Vale/memory/scratchpad/.access_log.jsonl: kept=98, removed=4
+2026-06-27 08:15:23,393 - cleanup - INFO - trimmed data/apartment_06262302/persona/Adrian Vale/memory/weekly_diary.jsonl: kept=19, removed=1
+2026-06-27 08:15:23,398 - cleanup - INFO - trimmed data/apartment_06262302/persona/Adrian Vale/state.jsonl: kept=154, removed=8
+2026-06-27 08:15:23,518 - cleanup - WARNING - deleted data/apartment_06262302/position_application_log.jsonl: all 4 records removed (time >= Y2020-W20-begin)
+2026-06-27 08:15:23,518 - cleanup - INFO - [CLEANUP SUMMARY] start_time=Y2020-W20-begin | scanned=676, trimmed=13, deleted=12, untouched=651

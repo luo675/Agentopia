@@ -1,0 +1,270 @@
+2026-06-23 21:23:43,348 [INFO] [VERIFY-SOLO] ========== Starting solo activity for Aaron Whitfield at Y2020-W01-activity-D1 ==========
+2026-06-23 21:23:43,348 [INFO] [VERIFY-SOLO-STATE] State before: vitality=70, fulfillment={'mood': 43, 'material': 45, 'social': 43, 'esteem': 43}, deposit=2050, possessions_count=5
+2026-06-23 21:23:43,348 [INFO] [VERIFY-SOLO-STATE] Skills before: {'creative_writing': 105, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:23:43,350 [INFO] [VERIFY-SOLO-STEP1] Agent entered solo activity, context built
+2026-06-23 21:23:43,490 [INFO] [VERIFY-SOLO-STEP2] Agent generated action (length=11)
+2026-06-23 21:23:43,490 [INFO] [VERIFY-SOLO-STEP2] Action preview: NO_RESPONSE...
+2026-06-23 21:23:43,490 [INFO] [VERIFY-SOLO-STEP2] Full LLM output saved to generations/ directory
+2026-06-23 21:23:43,490 [INFO] [VERIFY-SOLO-STEP2] Extracted activity content (length=11)
+2026-06-23 21:23:43,490 [INFO] [VERIFY-SOLO-STEP2] Content preview: NO_RESPONSE...
+2026-06-23 21:23:51,044 [INFO] [VERIFY-SOLO-STEP3] Stage 1 evaluation completed
+2026-06-23 21:23:51,044 [INFO] [VERIFY-SOLO-STEP3] Is consumption event: False
+2026-06-23 21:23:51,044 [INFO] [VERIFY-SOLO-STEP3] Outcome text: You spent 3 hours writing on your novel. The process was intense but rewarding, with moments of clarity that brought you closer to completing a key section....
+2026-06-23 21:23:51,044 [INFO] [VERIFY-SOLO-STEP3] Non-consumption deltas: vitality=-3, fulfillment={'mood': 2, 'esteem': 1}, skills={'creative_writing': 3}, money=150, items=[]
+2026-06-23 21:23:51,044 [INFO] [VERIFY-SOLO-STEP4] Agent received outcome from environment
+2026-06-23 21:23:51,044 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Using deltas from Stage 1 (non-consumption path)
+2026-06-23 21:23:51,044 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Deltas: vitality=-3, fulfillment={'mood': 2, 'esteem': 1}, skills={'creative_writing': 3}, money=150, items=[]
+2026-06-23 21:23:51,044 [INFO] [VERIFY-SOLO-STEP5C] Agent received outcome deltas
+2026-06-23 21:23:51,181 [INFO] [VERIFY-SOLO-STEP6] Agent exited activity (with deltas)
+2026-06-23 21:23:51,181 [INFO] [VERIFY-SOLO-STEP6] Reflexion length: 11 chars
+2026-06-23 21:23:51,181 [INFO] [VERIFY-SOLO-STEP6] Full LLM output saved to generations/ directory
+2026-06-23 21:23:51,182 [INFO] [VERIFY-SOLO-STEP7] Applied deltas to state
+2026-06-23 21:23:51,182 [INFO] [VERIFY-SOLO-STEP7-STATE] State after: vitality=67, fulfillment={'mood': 45, 'material': 45, 'social': 43, 'esteem': 44}, deposit=2200, possessions_count=5
+2026-06-23 21:23:51,182 [INFO] [VERIFY-SOLO-STEP7-STATE] Skills after: {'creative_writing': 108, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:23:51,182 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Vitality delta verified: -3
+2026-06-23 21:23:51,182 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Deposit delta verified: 150
+2026-06-23 21:23:51,182 [INFO] [VERIFY-SOLO-STEP8] Saved activity record for Aaron Whitfield
+2026-06-23 21:23:51,182 [INFO] [VERIFY-SOLO] ========== Solo activity completed for Aaron Whitfield ==========
+2026-06-23 21:23:51,182 [INFO] [VERIFY-SOLO] ========== Starting solo activity for Aaron Whitfield at Y2020-W01-activity-D2 ==========
+2026-06-23 21:23:51,182 [INFO] [VERIFY-SOLO-STATE] State before: vitality=67, fulfillment={'mood': 45, 'material': 45, 'social': 43, 'esteem': 44}, deposit=2200, possessions_count=5
+2026-06-23 21:23:51,182 [INFO] [VERIFY-SOLO-STATE] Skills before: {'creative_writing': 108, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:23:51,184 [INFO] [VERIFY-SOLO-STEP1] Agent entered solo activity, context built
+2026-06-23 21:23:51,317 [INFO] [VERIFY-SOLO-STEP2] Agent generated action (length=11)
+2026-06-23 21:23:51,317 [INFO] [VERIFY-SOLO-STEP2] Action preview: NO_RESPONSE...
+2026-06-23 21:23:51,317 [INFO] [VERIFY-SOLO-STEP2] Full LLM output saved to generations/ directory
+2026-06-23 21:23:51,318 [INFO] [VERIFY-SOLO-STEP2] Extracted activity content (length=11)
+2026-06-23 21:23:51,318 [INFO] [VERIFY-SOLO-STEP2] Content preview: NO_RESPONSE...
+2026-06-23 21:24:02,284 [INFO] [VERIFY-SOLO-STEP3] Stage 1 evaluation completed
+2026-06-23 21:24:02,284 [INFO] [VERIFY-SOLO-STEP3] Is consumption event: False
+2026-06-23 21:24:02,285 [INFO] [VERIFY-SOLO-STEP3] Outcome text: You spent 3 hours working on your novel. The progress on your manuscript brought a sense of accomplishment and renewed motivation....
+2026-06-23 21:24:02,285 [INFO] [VERIFY-SOLO-STEP3] Non-consumption deltas: vitality=-3, fulfillment={'mood': 2, 'esteem': 1}, skills={'creative_writing': 3}, money=150, items=[]
+2026-06-23 21:24:02,285 [INFO] [VERIFY-SOLO-STEP4] Agent received outcome from environment
+2026-06-23 21:24:02,285 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Using deltas from Stage 1 (non-consumption path)
+2026-06-23 21:24:02,285 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Deltas: vitality=-3, fulfillment={'mood': 2, 'esteem': 1}, skills={'creative_writing': 3}, money=150, items=[]
+2026-06-23 21:24:02,285 [INFO] [VERIFY-SOLO-STEP5C] Agent received outcome deltas
+2026-06-23 21:24:02,421 [INFO] [VERIFY-SOLO-STEP6] Agent exited activity (with deltas)
+2026-06-23 21:24:02,421 [INFO] [VERIFY-SOLO-STEP6] Reflexion length: 11 chars
+2026-06-23 21:24:02,421 [INFO] [VERIFY-SOLO-STEP6] Full LLM output saved to generations/ directory
+2026-06-23 21:24:02,421 [INFO] [VERIFY-SOLO-STEP7] Applied deltas to state
+2026-06-23 21:24:02,421 [INFO] [VERIFY-SOLO-STEP7-STATE] State after: vitality=64, fulfillment={'mood': 47, 'material': 45, 'social': 43, 'esteem': 45}, deposit=2350, possessions_count=5
+2026-06-23 21:24:02,421 [INFO] [VERIFY-SOLO-STEP7-STATE] Skills after: {'creative_writing': 111, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:24:02,421 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Vitality delta verified: -3
+2026-06-23 21:24:02,421 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Deposit delta verified: 150
+2026-06-23 21:24:02,421 [INFO] [VERIFY-SOLO-STEP8] Saved activity record for Aaron Whitfield
+2026-06-23 21:24:02,421 [INFO] [VERIFY-SOLO] ========== Solo activity completed for Aaron Whitfield ==========
+2026-06-23 21:24:02,422 [INFO] [VERIFY-SOLO] ========== Starting solo activity for Aaron Whitfield at Y2020-W01-activity-D3 ==========
+2026-06-23 21:24:02,422 [INFO] [VERIFY-SOLO-STATE] State before: vitality=64, fulfillment={'mood': 47, 'material': 45, 'social': 43, 'esteem': 45}, deposit=2350, possessions_count=5
+2026-06-23 21:24:02,422 [INFO] [VERIFY-SOLO-STATE] Skills before: {'creative_writing': 111, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:24:02,424 [INFO] [VERIFY-SOLO-STEP1] Agent entered solo activity, context built
+2026-06-23 21:24:02,556 [INFO] [VERIFY-SOLO-STEP2] Agent generated action (length=11)
+2026-06-23 21:24:02,556 [INFO] [VERIFY-SOLO-STEP2] Action preview: NO_RESPONSE...
+2026-06-23 21:24:02,556 [INFO] [VERIFY-SOLO-STEP2] Full LLM output saved to generations/ directory
+2026-06-23 21:24:02,556 [INFO] [VERIFY-SOLO-STEP2] Extracted activity content (length=11)
+2026-06-23 21:24:02,556 [INFO] [VERIFY-SOLO-STEP2] Content preview: NO_RESPONSE...
+2026-06-23 21:24:10,359 [INFO] [VERIFY-SOLO-STEP3] Stage 1 evaluation completed
+2026-06-23 21:24:10,359 [INFO] [VERIFY-SOLO-STEP3] Is consumption event: False
+2026-06-23 21:24:10,359 [INFO] [VERIFY-SOLO-STEP3] Outcome text: You spent 3 hours working on your novel. The focused writing session pushed through writer's block, and you completed a substantial section of the manuscript....
+2026-06-23 21:24:10,359 [INFO] [VERIFY-SOLO-STEP3] Non-consumption deltas: vitality=-3, fulfillment={'mood': 2, 'esteem': 1}, skills={'creative_writing': 3}, money=120, items=[]
+2026-06-23 21:24:10,359 [INFO] [VERIFY-SOLO-STEP4] Agent received outcome from environment
+2026-06-23 21:24:10,359 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Using deltas from Stage 1 (non-consumption path)
+2026-06-23 21:24:10,359 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Deltas: vitality=-3, fulfillment={'mood': 2, 'esteem': 1}, skills={'creative_writing': 3}, money=120, items=[]
+2026-06-23 21:24:10,359 [INFO] [VERIFY-SOLO-STEP5C] Agent received outcome deltas
+2026-06-23 21:24:10,528 [INFO] [VERIFY-SOLO-STEP6] Agent exited activity (with deltas)
+2026-06-23 21:24:10,528 [INFO] [VERIFY-SOLO-STEP6] Reflexion length: 11 chars
+2026-06-23 21:24:10,528 [INFO] [VERIFY-SOLO-STEP6] Full LLM output saved to generations/ directory
+2026-06-23 21:24:10,529 [INFO] [VERIFY-SOLO-STEP7] Applied deltas to state
+2026-06-23 21:24:10,529 [INFO] [VERIFY-SOLO-STEP7-STATE] State after: vitality=61, fulfillment={'mood': 49, 'material': 45, 'social': 43, 'esteem': 46}, deposit=2470, possessions_count=5
+2026-06-23 21:24:10,529 [INFO] [VERIFY-SOLO-STEP7-STATE] Skills after: {'creative_writing': 114, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:24:10,529 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Vitality delta verified: -3
+2026-06-23 21:24:10,529 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Deposit delta verified: 120
+2026-06-23 21:24:10,529 [INFO] [VERIFY-SOLO-STEP8] Saved activity record for Aaron Whitfield
+2026-06-23 21:24:10,529 [INFO] [VERIFY-SOLO] ========== Solo activity completed for Aaron Whitfield ==========
+2026-06-23 21:24:10,529 [INFO] [VERIFY-SOLO] ========== Starting solo activity for Aaron Whitfield at Y2020-W01-activity-D4 ==========
+2026-06-23 21:24:10,529 [INFO] [VERIFY-SOLO-STATE] State before: vitality=61, fulfillment={'mood': 49, 'material': 45, 'social': 43, 'esteem': 46}, deposit=2470, possessions_count=5
+2026-06-23 21:24:10,529 [INFO] [VERIFY-SOLO-STATE] Skills before: {'creative_writing': 114, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:24:10,531 [INFO] [VERIFY-SOLO-STEP1] Agent entered solo activity, context built
+2026-06-23 21:24:10,673 [INFO] [VERIFY-SOLO-STEP2] Agent generated action (length=11)
+2026-06-23 21:24:10,673 [INFO] [VERIFY-SOLO-STEP2] Action preview: NO_RESPONSE...
+2026-06-23 21:24:10,673 [INFO] [VERIFY-SOLO-STEP2] Full LLM output saved to generations/ directory
+2026-06-23 21:24:10,673 [INFO] [VERIFY-SOLO-STEP2] Extracted activity content (length=11)
+2026-06-23 21:24:10,673 [INFO] [VERIFY-SOLO-STEP2] Content preview: NO_RESPONSE...
+2026-06-23 21:24:19,334 [INFO] [VERIFY-SOLO-STEP3] Stage 1 evaluation completed
+2026-06-23 21:24:19,334 [INFO] [VERIFY-SOLO-STEP3] Is consumption event: False
+2026-06-23 21:24:19,334 [INFO] [VERIFY-SOLO-STEP3] Outcome text: You spent 3 hours writing on your novel. The intense focus drained you but the progress on your manuscript boosted your sense of accomplishment....
+2026-06-23 21:24:19,334 [INFO] [VERIFY-SOLO-STEP3] Non-consumption deltas: vitality=-3, fulfillment={'mood': 1, 'esteem': 1}, skills={'creative_writing': 3}, money=150, items=[]
+2026-06-23 21:24:19,334 [INFO] [VERIFY-SOLO-STEP4] Agent received outcome from environment
+2026-06-23 21:24:19,334 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Using deltas from Stage 1 (non-consumption path)
+2026-06-23 21:24:19,334 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Deltas: vitality=-3, fulfillment={'mood': 1, 'esteem': 1}, skills={'creative_writing': 3}, money=150, items=[]
+2026-06-23 21:24:19,334 [INFO] [VERIFY-SOLO-STEP5C] Agent received outcome deltas
+2026-06-23 21:24:19,472 [INFO] [VERIFY-SOLO-STEP6] Agent exited activity (with deltas)
+2026-06-23 21:24:19,472 [INFO] [VERIFY-SOLO-STEP6] Reflexion length: 11 chars
+2026-06-23 21:24:19,472 [INFO] [VERIFY-SOLO-STEP6] Full LLM output saved to generations/ directory
+2026-06-23 21:24:19,472 [INFO] [VERIFY-SOLO-STEP7] Applied deltas to state
+2026-06-23 21:24:19,472 [INFO] [VERIFY-SOLO-STEP7-STATE] State after: vitality=58, fulfillment={'mood': 50, 'material': 45, 'social': 43, 'esteem': 47}, deposit=2620, possessions_count=5
+2026-06-23 21:24:19,472 [INFO] [VERIFY-SOLO-STEP7-STATE] Skills after: {'creative_writing': 117, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:24:19,472 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Vitality delta verified: -3
+2026-06-23 21:24:19,472 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Deposit delta verified: 150
+2026-06-23 21:24:19,472 [INFO] [VERIFY-SOLO-STEP8] Saved activity record for Aaron Whitfield
+2026-06-23 21:24:19,472 [INFO] [VERIFY-SOLO] ========== Solo activity completed for Aaron Whitfield ==========
+2026-06-23 21:24:19,473 [INFO] [VERIFY-SOLO] ========== Starting solo activity for Aaron Whitfield at Y2020-W01-activity-D5 ==========
+2026-06-23 21:24:19,473 [INFO] [VERIFY-SOLO-STATE] State before: vitality=58, fulfillment={'mood': 50, 'material': 45, 'social': 43, 'esteem': 47}, deposit=2620, possessions_count=5
+2026-06-23 21:24:19,473 [INFO] [VERIFY-SOLO-STATE] Skills before: {'creative_writing': 117, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:24:19,475 [INFO] [VERIFY-SOLO-STEP1] Agent entered solo activity, context built
+2026-06-23 21:24:19,613 [INFO] [VERIFY-SOLO-STEP2] Agent generated action (length=11)
+2026-06-23 21:24:19,613 [INFO] [VERIFY-SOLO-STEP2] Action preview: NO_RESPONSE...
+2026-06-23 21:24:19,613 [INFO] [VERIFY-SOLO-STEP2] Full LLM output saved to generations/ directory
+2026-06-23 21:24:19,613 [INFO] [VERIFY-SOLO-STEP2] Extracted activity content (length=11)
+2026-06-23 21:24:19,613 [INFO] [VERIFY-SOLO-STEP2] Content preview: NO_RESPONSE...
+2026-06-23 21:24:30,256 [INFO] [VERIFY-SOLO-STEP3] Stage 1 evaluation completed
+2026-06-23 21:24:30,257 [INFO] [VERIFY-SOLO-STEP3] Is consumption event: False
+2026-06-23 21:24:30,257 [INFO] [VERIFY-SOLO-STEP3] Outcome text: You spent 3 hours writing on your novel. The process was intense but rewarding, with moments of clarity that made you feel closer to completing the draft....
+2026-06-23 21:24:30,257 [INFO] [VERIFY-SOLO-STEP3] Non-consumption deltas: vitality=-3, fulfillment={'mood': 3, 'esteem': 1}, skills={'creative_writing': 3}, money=85, items=[]
+2026-06-23 21:24:30,257 [INFO] [VERIFY-SOLO-STEP4] Agent received outcome from environment
+2026-06-23 21:24:30,257 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Using deltas from Stage 1 (non-consumption path)
+2026-06-23 21:24:30,257 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Deltas: vitality=-3, fulfillment={'mood': 3, 'esteem': 1}, skills={'creative_writing': 3}, money=85, items=[]
+2026-06-23 21:24:30,257 [INFO] [VERIFY-SOLO-STEP5C] Agent received outcome deltas
+2026-06-23 21:24:30,397 [INFO] [VERIFY-SOLO-STEP6] Agent exited activity (with deltas)
+2026-06-23 21:24:30,397 [INFO] [VERIFY-SOLO-STEP6] Reflexion length: 11 chars
+2026-06-23 21:24:30,397 [INFO] [VERIFY-SOLO-STEP6] Full LLM output saved to generations/ directory
+2026-06-23 21:24:30,397 [INFO] [VERIFY-SOLO-STEP7] Applied deltas to state
+2026-06-23 21:24:30,397 [INFO] [VERIFY-SOLO-STEP7-STATE] State after: vitality=55, fulfillment={'mood': 53, 'material': 45, 'social': 43, 'esteem': 48}, deposit=2705, possessions_count=5
+2026-06-23 21:24:30,397 [INFO] [VERIFY-SOLO-STEP7-STATE] Skills after: {'creative_writing': 120, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:24:30,397 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Vitality delta verified: -3
+2026-06-23 21:24:30,397 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Deposit delta verified: 85
+2026-06-23 21:24:30,398 [INFO] [VERIFY-SOLO-STEP8] Saved activity record for Aaron Whitfield
+2026-06-23 21:24:30,398 [INFO] [VERIFY-SOLO] ========== Solo activity completed for Aaron Whitfield ==========
+2026-06-23 21:25:38,657 [INFO] [VERIFY-SOLO] ========== Starting solo activity for Aaron Whitfield at Y2020-W02-activity-D1 ==========
+2026-06-23 21:25:38,657 [INFO] [VERIFY-SOLO-STATE] State before: vitality=55, fulfillment={'mood': 46, 'material': 40, 'social': 37, 'esteem': 41}, deposit=2955, possessions_count=5
+2026-06-23 21:25:38,657 [INFO] [VERIFY-SOLO-STATE] Skills before: {'creative_writing': 120, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:25:38,659 [INFO] [VERIFY-SOLO-STEP1] Agent entered solo activity, context built
+2026-06-23 21:25:38,807 [INFO] [VERIFY-SOLO-STEP2] Agent generated action (length=11)
+2026-06-23 21:25:38,808 [INFO] [VERIFY-SOLO-STEP2] Action preview: NO_RESPONSE...
+2026-06-23 21:25:38,808 [INFO] [VERIFY-SOLO-STEP2] Full LLM output saved to generations/ directory
+2026-06-23 21:25:38,808 [INFO] [VERIFY-SOLO-STEP2] Extracted activity content (length=11)
+2026-06-23 21:25:38,808 [INFO] [VERIFY-SOLO-STEP2] Content preview: NO_RESPONSE...
+2026-06-23 21:25:44,235 [INFO] [VERIFY-SOLO-STEP3] Stage 1 evaluation completed
+2026-06-23 21:25:44,235 [INFO] [VERIFY-SOLO-STEP3] Is consumption event: False
+2026-06-23 21:25:44,235 [INFO] [VERIFY-SOLO-STEP3] Outcome text: You spent 3 hours writing at your window table. The quiet focus allowed you to make significant progress on your novel, though the frustration of unresolved plot threads lingered....
+2026-06-23 21:25:44,235 [INFO] [VERIFY-SOLO-STEP3] Non-consumption deltas: vitality=-3, fulfillment={'mood': 1, 'esteem': 1}, skills={'creative_writing': 3}, money=0, items=[]
+2026-06-23 21:25:44,235 [INFO] [VERIFY-SOLO-STEP4] Agent received outcome from environment
+2026-06-23 21:25:44,235 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Using deltas from Stage 1 (non-consumption path)
+2026-06-23 21:25:44,235 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Deltas: vitality=-3, fulfillment={'mood': 1, 'esteem': 1}, skills={'creative_writing': 3}, money=0, items=[]
+2026-06-23 21:25:44,235 [INFO] [VERIFY-SOLO-STEP5C] Agent received outcome deltas
+2026-06-23 21:25:44,386 [INFO] [VERIFY-SOLO-STEP6] Agent exited activity (with deltas)
+2026-06-23 21:25:44,386 [INFO] [VERIFY-SOLO-STEP6] Reflexion length: 11 chars
+2026-06-23 21:25:44,386 [INFO] [VERIFY-SOLO-STEP6] Full LLM output saved to generations/ directory
+2026-06-23 21:25:44,386 [INFO] [VERIFY-SOLO-STEP7] Applied deltas to state
+2026-06-23 21:25:44,386 [INFO] [VERIFY-SOLO-STEP7-STATE] State after: vitality=52, fulfillment={'mood': 47, 'material': 40, 'social': 37, 'esteem': 42}, deposit=2955, possessions_count=5
+2026-06-23 21:25:44,386 [INFO] [VERIFY-SOLO-STEP7-STATE] Skills after: {'creative_writing': 123, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:25:44,386 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Vitality delta verified: -3
+2026-06-23 21:25:44,386 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Deposit delta verified: 0
+2026-06-23 21:25:44,386 [INFO] [VERIFY-SOLO-STEP8] Saved activity record for Aaron Whitfield
+2026-06-23 21:25:44,386 [INFO] [VERIFY-SOLO] ========== Solo activity completed for Aaron Whitfield ==========
+2026-06-23 21:25:44,387 [INFO] [VERIFY-SOLO] ========== Starting solo activity for Aaron Whitfield at Y2020-W02-activity-D2 ==========
+2026-06-23 21:25:44,387 [INFO] [VERIFY-SOLO-STATE] State before: vitality=52, fulfillment={'mood': 47, 'material': 40, 'social': 37, 'esteem': 42}, deposit=2955, possessions_count=5
+2026-06-23 21:25:44,387 [INFO] [VERIFY-SOLO-STATE] Skills before: {'creative_writing': 123, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:25:44,389 [INFO] [VERIFY-SOLO-STEP1] Agent entered solo activity, context built
+2026-06-23 21:25:44,534 [INFO] [VERIFY-SOLO-STEP2] Agent generated action (length=11)
+2026-06-23 21:25:44,534 [INFO] [VERIFY-SOLO-STEP2] Action preview: NO_RESPONSE...
+2026-06-23 21:25:44,534 [INFO] [VERIFY-SOLO-STEP2] Full LLM output saved to generations/ directory
+2026-06-23 21:25:44,534 [INFO] [VERIFY-SOLO-STEP2] Extracted activity content (length=11)
+2026-06-23 21:25:44,534 [INFO] [VERIFY-SOLO-STEP2] Content preview: NO_RESPONSE...
+2026-06-23 21:25:53,828 [INFO] [VERIFY-SOLO-STEP3] Stage 1 evaluation completed
+2026-06-23 21:25:53,828 [INFO] [VERIFY-SOLO-STEP3] Is consumption event: False
+2026-06-23 21:25:53,828 [INFO] [VERIFY-SOLO-STEP3] Outcome text: You spent 3 hours writing on your novel. The quiet focus allowed you to make progress on the third chapter, though the emotional weight of the subject matter lingered in your mind....
+2026-06-23 21:25:53,828 [INFO] [VERIFY-SOLO-STEP3] Non-consumption deltas: vitality=-3, fulfillment={'mood': 1, 'esteem': 1}, skills={'creative_writing': 3}, money=0, items=[]
+2026-06-23 21:25:53,828 [INFO] [VERIFY-SOLO-STEP4] Agent received outcome from environment
+2026-06-23 21:25:53,828 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Using deltas from Stage 1 (non-consumption path)
+2026-06-23 21:25:53,828 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Deltas: vitality=-3, fulfillment={'mood': 1, 'esteem': 1}, skills={'creative_writing': 3}, money=0, items=[]
+2026-06-23 21:25:53,828 [INFO] [VERIFY-SOLO-STEP5C] Agent received outcome deltas
+2026-06-23 21:25:53,981 [INFO] [VERIFY-SOLO-STEP6] Agent exited activity (with deltas)
+2026-06-23 21:25:53,981 [INFO] [VERIFY-SOLO-STEP6] Reflexion length: 11 chars
+2026-06-23 21:25:53,981 [INFO] [VERIFY-SOLO-STEP6] Full LLM output saved to generations/ directory
+2026-06-23 21:25:53,981 [INFO] [VERIFY-SOLO-STEP7] Applied deltas to state
+2026-06-23 21:25:53,981 [INFO] [VERIFY-SOLO-STEP7-STATE] State after: vitality=49, fulfillment={'mood': 48, 'material': 40, 'social': 37, 'esteem': 43}, deposit=2955, possessions_count=5
+2026-06-23 21:25:53,981 [INFO] [VERIFY-SOLO-STEP7-STATE] Skills after: {'creative_writing': 126, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:25:53,981 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Vitality delta verified: -3
+2026-06-23 21:25:53,982 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Deposit delta verified: 0
+2026-06-23 21:25:53,982 [INFO] [VERIFY-SOLO-STEP8] Saved activity record for Aaron Whitfield
+2026-06-23 21:25:53,982 [INFO] [VERIFY-SOLO] ========== Solo activity completed for Aaron Whitfield ==========
+2026-06-23 21:25:53,982 [INFO] [VERIFY-SOLO] ========== Starting solo activity for Aaron Whitfield at Y2020-W02-activity-D3 ==========
+2026-06-23 21:25:53,982 [INFO] [VERIFY-SOLO-STATE] State before: vitality=49, fulfillment={'mood': 48, 'material': 40, 'social': 37, 'esteem': 43}, deposit=2955, possessions_count=5
+2026-06-23 21:25:53,982 [INFO] [VERIFY-SOLO-STATE] Skills before: {'creative_writing': 126, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:25:53,984 [INFO] [VERIFY-SOLO-STEP1] Agent entered solo activity, context built
+2026-06-23 21:25:54,134 [INFO] [VERIFY-SOLO-STEP2] Agent generated action (length=11)
+2026-06-23 21:25:54,134 [INFO] [VERIFY-SOLO-STEP2] Action preview: NO_RESPONSE...
+2026-06-23 21:25:54,134 [INFO] [VERIFY-SOLO-STEP2] Full LLM output saved to generations/ directory
+2026-06-23 21:25:54,134 [INFO] [VERIFY-SOLO-STEP2] Extracted activity content (length=11)
+2026-06-23 21:25:54,134 [INFO] [VERIFY-SOLO-STEP2] Content preview: NO_RESPONSE...
+2026-06-23 21:26:10,442 [INFO] [VERIFY-SOLO-STEP3] Stage 1 evaluation completed
+2026-06-23 21:26:10,442 [INFO] [VERIFY-SOLO-STEP3] Is consumption event: False
+2026-06-23 21:26:10,442 [INFO] [VERIFY-SOLO-STEP3] Outcome text: You spent 3 hours writing on your novel. The process was intense but productive, leading to a few completed chapters....
+2026-06-23 21:26:10,442 [INFO] [VERIFY-SOLO-STEP3] Non-consumption deltas: vitality=-3, fulfillment={'mood': 0, 'esteem': 1}, skills={'creative_writing': 3}, money=150, items=[]
+2026-06-23 21:26:10,442 [INFO] [VERIFY-SOLO-STEP4] Agent received outcome from environment
+2026-06-23 21:26:10,442 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Using deltas from Stage 1 (non-consumption path)
+2026-06-23 21:26:10,442 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Deltas: vitality=-3, fulfillment={'mood': 0, 'esteem': 1}, skills={'creative_writing': 3}, money=150, items=[]
+2026-06-23 21:26:10,442 [INFO] [VERIFY-SOLO-STEP5C] Agent received outcome deltas
+2026-06-23 21:26:10,617 [INFO] [VERIFY-SOLO-STEP6] Agent exited activity (with deltas)
+2026-06-23 21:26:10,617 [INFO] [VERIFY-SOLO-STEP6] Reflexion length: 11 chars
+2026-06-23 21:26:10,617 [INFO] [VERIFY-SOLO-STEP6] Full LLM output saved to generations/ directory
+2026-06-23 21:26:10,618 [INFO] [VERIFY-SOLO-STEP7] Applied deltas to state
+2026-06-23 21:26:10,618 [INFO] [VERIFY-SOLO-STEP7-STATE] State after: vitality=46, fulfillment={'mood': 48, 'material': 40, 'social': 37, 'esteem': 44}, deposit=3105, possessions_count=5
+2026-06-23 21:26:10,618 [INFO] [VERIFY-SOLO-STEP7-STATE] Skills after: {'creative_writing': 129, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:26:10,618 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Vitality delta verified: -3
+2026-06-23 21:26:10,618 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Deposit delta verified: 150
+2026-06-23 21:26:10,618 [INFO] [VERIFY-SOLO-STEP8] Saved activity record for Aaron Whitfield
+2026-06-23 21:26:10,618 [INFO] [VERIFY-SOLO] ========== Solo activity completed for Aaron Whitfield ==========
+2026-06-23 21:26:10,618 [INFO] [VERIFY-SOLO] ========== Starting solo activity for Aaron Whitfield at Y2020-W02-activity-D4 ==========
+2026-06-23 21:26:10,618 [INFO] [VERIFY-SOLO-STATE] State before: vitality=46, fulfillment={'mood': 48, 'material': 40, 'social': 37, 'esteem': 44}, deposit=3105, possessions_count=5
+2026-06-23 21:26:10,618 [INFO] [VERIFY-SOLO-STATE] Skills before: {'creative_writing': 129, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:26:10,621 [INFO] [VERIFY-SOLO-STEP1] Agent entered solo activity, context built
+2026-06-23 21:26:10,771 [INFO] [VERIFY-SOLO-STEP2] Agent generated action (length=11)
+2026-06-23 21:26:10,771 [INFO] [VERIFY-SOLO-STEP2] Action preview: NO_RESPONSE...
+2026-06-23 21:26:10,771 [INFO] [VERIFY-SOLO-STEP2] Full LLM output saved to generations/ directory
+2026-06-23 21:26:10,771 [INFO] [VERIFY-SOLO-STEP2] Extracted activity content (length=11)
+2026-06-23 21:26:10,771 [INFO] [VERIFY-SOLO-STEP2] Content preview: NO_RESPONSE...
+2026-06-23 21:26:21,277 [INFO] [VERIFY-SOLO-STEP3] Stage 1 evaluation completed
+2026-06-23 21:26:21,277 [INFO] [VERIFY-SOLO-STEP3] Is consumption event: False
+2026-06-23 21:26:21,277 [INFO] [VERIFY-SOLO-STEP3] Outcome text: You spent 3 hours writing on your novel. The process was intense but rewarding, with moments of clarity that felt like progress toward your larger goal....
+2026-06-23 21:26:21,277 [INFO] [VERIFY-SOLO-STEP3] Non-consumption deltas: vitality=-3, fulfillment={'mood': 3, 'esteem': 1}, skills={'creative_writing': 3}, money=0, items=[]
+2026-06-23 21:26:21,277 [INFO] [VERIFY-SOLO-STEP4] Agent received outcome from environment
+2026-06-23 21:26:21,277 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Using deltas from Stage 1 (non-consumption path)
+2026-06-23 21:26:21,277 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Deltas: vitality=-3, fulfillment={'mood': 3, 'esteem': 1}, skills={'creative_writing': 3}, money=0, items=[]
+2026-06-23 21:26:21,277 [INFO] [VERIFY-SOLO-STEP5C] Agent received outcome deltas
+2026-06-23 21:26:21,436 [INFO] [VERIFY-SOLO-STEP6] Agent exited activity (with deltas)
+2026-06-23 21:26:21,436 [INFO] [VERIFY-SOLO-STEP6] Reflexion length: 11 chars
+2026-06-23 21:26:21,436 [INFO] [VERIFY-SOLO-STEP6] Full LLM output saved to generations/ directory
+2026-06-23 21:26:21,436 [INFO] [VERIFY-SOLO-STEP7] Applied deltas to state
+2026-06-23 21:26:21,436 [INFO] [VERIFY-SOLO-STEP7-STATE] State after: vitality=43, fulfillment={'mood': 51, 'material': 40, 'social': 37, 'esteem': 45}, deposit=3105, possessions_count=5
+2026-06-23 21:26:21,436 [INFO] [VERIFY-SOLO-STEP7-STATE] Skills after: {'creative_writing': 132, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:26:21,436 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Vitality delta verified: -3
+2026-06-23 21:26:21,437 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Deposit delta verified: 0
+2026-06-23 21:26:21,437 [INFO] [VERIFY-SOLO-STEP8] Saved activity record for Aaron Whitfield
+2026-06-23 21:26:21,437 [INFO] [VERIFY-SOLO] ========== Solo activity completed for Aaron Whitfield ==========
+2026-06-23 21:26:21,437 [INFO] [VERIFY-SOLO] ========== Starting solo activity for Aaron Whitfield at Y2020-W02-activity-D5 ==========
+2026-06-23 21:26:21,437 [INFO] [VERIFY-SOLO-STATE] State before: vitality=43, fulfillment={'mood': 51, 'material': 40, 'social': 37, 'esteem': 45}, deposit=3105, possessions_count=5
+2026-06-23 21:26:21,437 [INFO] [VERIFY-SOLO-STATE] Skills before: {'creative_writing': 132, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:26:21,439 [INFO] [VERIFY-SOLO-STEP1] Agent entered solo activity, context built
+2026-06-23 21:26:21,597 [INFO] [VERIFY-SOLO-STEP2] Agent generated action (length=11)
+2026-06-23 21:26:21,597 [INFO] [VERIFY-SOLO-STEP2] Action preview: NO_RESPONSE...
+2026-06-23 21:26:21,597 [INFO] [VERIFY-SOLO-STEP2] Full LLM output saved to generations/ directory
+2026-06-23 21:26:21,597 [INFO] [VERIFY-SOLO-STEP2] Extracted activity content (length=11)
+2026-06-23 21:26:21,597 [INFO] [VERIFY-SOLO-STEP2] Content preview: NO_RESPONSE...
+2026-06-23 21:26:28,109 [INFO] [VERIFY-SOLO-STEP3] Stage 1 evaluation completed
+2026-06-23 21:26:28,109 [INFO] [VERIFY-SOLO-STEP3] Is consumption event: False
+2026-06-23 21:26:28,109 [INFO] [VERIFY-SOLO-STEP3] Outcome text: You spent 3 hours working on your novel. The writing process was intense but rewarding, with moments of clarity that helped you push through writer's block....
+2026-06-23 21:26:28,109 [INFO] [VERIFY-SOLO-STEP3] Non-consumption deltas: vitality=-4, fulfillment={'mood': 2, 'esteem': 1}, skills={'creative_writing': 3}, money=0, items=[]
+2026-06-23 21:26:28,109 [INFO] [VERIFY-SOLO-STEP4] Agent received outcome from environment
+2026-06-23 21:26:28,109 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Using deltas from Stage 1 (non-consumption path)
+2026-06-23 21:26:28,109 [INFO] [VERIFY-SOLO-STEP5-NON_CONSUMPTION] Deltas: vitality=-4, fulfillment={'mood': 2, 'esteem': 1}, skills={'creative_writing': 3}, money=0, items=[]
+2026-06-23 21:26:28,109 [INFO] [VERIFY-SOLO-STEP5C] Agent received outcome deltas
+2026-06-23 21:26:28,266 [INFO] [VERIFY-SOLO-STEP6] Agent exited activity (with deltas)
+2026-06-23 21:26:28,266 [INFO] [VERIFY-SOLO-STEP6] Reflexion length: 11 chars
+2026-06-23 21:26:28,266 [INFO] [VERIFY-SOLO-STEP6] Full LLM output saved to generations/ directory
+2026-06-23 21:26:28,266 [INFO] [VERIFY-SOLO-STEP7] Applied deltas to state
+2026-06-23 21:26:28,266 [INFO] [VERIFY-SOLO-STEP7-STATE] State after: vitality=39, fulfillment={'mood': 53, 'material': 40, 'social': 37, 'esteem': 46}, deposit=3105, possessions_count=5
+2026-06-23 21:26:28,266 [INFO] [VERIFY-SOLO-STEP7-STATE] Skills after: {'creative_writing': 135, 'journalism': 250, 'interviewing': 210, 'research': 290, 'copywriting': 75, 'guitar': 5, 'cooking': 30, 'photography': 35}
+2026-06-23 21:26:28,266 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Vitality delta verified: -4
+2026-06-23 21:26:28,266 [INFO] [VERIFY-SOLO-STEP7-CONSISTENCY] Deposit delta verified: 0
+2026-06-23 21:26:28,266 [INFO] [VERIFY-SOLO-STEP8] Saved activity record for Aaron Whitfield
+2026-06-23 21:26:28,266 [INFO] [VERIFY-SOLO] ========== Solo activity completed for Aaron Whitfield ==========

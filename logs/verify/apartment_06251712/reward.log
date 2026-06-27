@@ -1,0 +1,15 @@
+2026-06-25 17:18:14,762 [INFO] [VERIFY-REWARD] Aaron Whitfield judge_others: known_names=['Leo', 'Zephyr Kaine', 'Simon Delacroix', 'Rachel Kovacs', 'Nina Oliveira', 'Julian Reyes', 'Jessica Marlowe', 'Jamal Osei', 'Alessandro Vieri']
+2026-06-25 17:18:18,643 [INFO] [VERIFY-REWARD] Aaron Whitfield judge_others OUTPUT: affection_scores={'Alessandro Vieri': 50, 'Jamal Osei': 70, 'Jessica Marlowe': 60, 'Julian Reyes': 50, 'Leo': 90, 'Nina Oliveira': 60, 'Rachel Kovacs': 50, 'Simon Delacroix': 80, 'Zephyr Kaine': 70}, respect_scores={'Alessandro Vieri': 60, 'Jamal Osei': 80, 'Jessica Marlowe': 70, 'Julian Reyes': 60, 'Leo': 90, 'Nina Oliveira': 70, 'Rachel Kovacs': 60, 'Simon Delacroix': 90, 'Zephyr Kaine': 70}
+2026-06-25 17:18:18,645 [INFO] [VERIFY-REWARD] calculate_social_rewards: affection_weight=0.5, damping=0.85, max_iter=100, mutual_alpha=2.0
+2026-06-25 17:18:18,645 [INFO] [VERIFY-REWARD] PageRank affection top5: [('Leo', '0.020'), ('Simon Delacroix', '0.018'), ('Jamal Osei', '0.015'), ('Zephyr Kaine', '0.013'), ('Jessica Marlowe', '0.010')]
+2026-06-25 17:18:18,645 [INFO] [VERIFY-REWARD] PageRank respect top5: [('Leo', '0.020'), ('Simon Delacroix', '0.018'), ('Jamal Osei', '0.015'), ('Jessica Marlowe', '0.013'), ('Nina Oliveira', '0.010')]
+2026-06-25 17:18:18,645 [INFO] [VERIFY-REWARD] compute_subjective_rewards: n_weeks=1, percentile=0.25, penalty=5
+2026-06-25 17:18:18,645 [INFO] [VERIFY-REWARD] Aaron Whitfield fulfillment_history: 1 entries
+2026-06-25 17:18:18,645 [INFO] [VERIFY-REWARD] misery thresholds: mood=-inf, material=-inf, social=-inf, esteem=-inf, vitality=-inf
+2026-06-25 17:18:18,646 [INFO] [VERIFY-REWARD] === REWARD CALCULATION START === Y2020-W2
+2026-06-25 17:18:18,646 [INFO] [VERIFY-REWARD] Config: period_weeks=1, n_agents=1
+2026-06-25 17:18:18,646 [INFO] [VERIFY-REWARD] Social graphs: affection=9 edges, respect=9 edges
+2026-06-25 17:18:18,646 [INFO] [VERIFY-REWARD] --- Per-Agent Details ---
+2026-06-25 17:18:18,646 [INFO] [VERIFY-REWARD] Aaron Whitfield INPUT: affection_top5=[('Leo', 90), ('Simon Delacroix', 80), ('Jamal Osei', 70), ('Zephyr Kaine', 70), ('Jessica Marlowe', 60)], respect_top5=[('Leo', 90), ('Simon Delacroix', 90), ('Jamal Osei', 80), ('Jessica Marlowe', 70), ('Nina Oliveira', 70)]
+2026-06-25 17:18:18,646 [INFO] [VERIFY-REWARD] Aaron Whitfield OUTPUT: social(aff=0.000, resp=0.000, combined=0.000), subj(score=49.750, penalties=0), total=0.000
+2026-06-25 17:18:18,646 [INFO] [VERIFY-REWARD] === REWARD CALCULATION COMPLETE === total_penalties=0

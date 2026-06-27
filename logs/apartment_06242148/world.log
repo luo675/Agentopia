@@ -1,0 +1,16 @@
+2026-06-24 21:48:05,173 - world - INFO - Resume point: Y2020-W01 (cleanup from Y2020-W01-begin)
+2026-06-24 21:48:05,198 - world - INFO - Assigned 1 agents to 1 model(s): my-vllm-model=1
+2026-06-24 21:48:59,319 - world - INFO - [locations] generated map via LLM: 31 locations
+2026-06-24 21:48:59,320 - world - INFO - Generating 1 homes in parallel...
+2026-06-24 21:49:11,465 - world - INFO -   Generated home for Aaron Whitfield
+2026-06-24 21:49:11,467 - world - INFO - Generating positions for 1 agents...
+2026-06-24 21:49:45,979 - world - INFO - Generated 10 positions
+2026-06-24 21:49:45,980 - world - INFO - [POSITIONS] Merged from profile: Self-employed (contributes to The Atlantic, New York Magazine, various outlets)/Freelance journalist and novelist (capacity=1, created_year=-1)
+2026-06-24 21:49:45,980 - world - INFO - [POSITIONS] Merged 1 positions from agent profiles
+2026-06-24 21:49:45,981 - world - INFO - [POSITIONS] Year 2020: initialized 11 positions
+2026-06-24 21:49:45,982 - world - INFO - Aaron Whitfield received weekly_income 350, deposit: 1800 -> 2150
+2026-06-24 21:49:45,982 - world - INFO - == PLAN STAGE == year=2020 week=1
+2026-06-24 21:50:12,423 - world - INFO - == BEFORE_CONTACT STAGE == year=2020 week=1
+2026-06-24 21:50:12,423 - world - INFO - Public events this week: 0 total, 0 new
+2026-06-24 21:50:12,423 - world - INFO - No public events available this week
+2026-06-24 21:50:12,424 - world - INFO - == CONTACT STAGE == year=2020 week=1 slot=1

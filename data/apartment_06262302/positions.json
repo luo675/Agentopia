@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "positions": [
+    {
+      "name": "Bremer Apartment Community Council/Event Coordinator",
+      "organization": "Bremer Apartment Community Council",
+      "role": "Event Coordinator",
+      "type": "work",
+      "description": "Plans and organizes community gatherings, including rooftop parties and cultural showcases",
+      "weekly_income": 220,
+      "weekly_delta_skills": {
+        "event_planning": 4,
+        "creativity": 3
+      },
+      "capacity": 2,
+      "occupied_by": [
+        "Adrian Morales",
+        "Aaron Whitfield"
+      ],
+      "min_age": 22,
+      "min_skills": {
+        "organizing": 50
+      },
+      "created_year": 2020
+    },
+    {
+      "name": "Bremer Apartment Community Council/Neighborhood Mediator",
+      "organization": "Bremer Apartment Community Council",
+      "role": "Neighborhood Mediator",
+      "type": "work",
+      "description": "Resolves conflicts between residents and facilitates community events",
+      "weekly_income": 200,
+      "weekly_delta_skills": {
+        "conflict_resolution": 5,
+        "leadership": 3
+      },
+      "capacity": 1,
+      "occupied_by": [],
+      "min_age": 25,
+      "min_skills": {
+        "communication": 60
+      },
+      "created_year": 2020
+    },
+    {
+      "name": "Bremer Apartment Library/Librarian",
+      "organization": "Bremer Apartment Library",
+      "role": "Librarian",
+      "type": "work",
+      "description": "Maintains and curates the building’s shared library, assists with book searches",
+      "weekly_income": 220,
+      "weekly_delta_skills": {
+        "research": 4,
+        "organization": 3
+      },
+      "capacity": 1,
+      "occupied_by": [],
+      "min_age": 22,
+      "min_skills": {
+        "reading": 60
+      },
+      "created_year": 2020
+    },
+    {
+      "name": "Bremer Apartment Library/Library Assistant",
+      "organization": "Bremer Apartment Library",
+      "role": "Library Assistant",
+      "type": "non-work",
+      "description": "Helps with book organization, digitization, and maintains the library space",
+      "weekly_income": 120,
+      "weekly_delta_skills": {
+        "organizing": 3,
+        "technology": 2
+      },
+      "capacity": 3,
+      "occupied_by": [],
+      "min_age": 16,
+      "created_year": 2020
+    },
+    {
+      "name": "Chez Lulu (French-American Bistro)/Bartender / Playwright",
+      "organization": "Chez Lulu (French-American Bistro)",
+      "role": "Bartender / Playwright",
+      "type": "work",
+      "description": "Tends bar four nights a week at Chez Lulu, earning tips and hourly wages. Writes in the mornings. Occasionally earns small fees from staged readings or short play commissions, though these are infrequent and unreliable.\n",
+      "weekly_income": 320,
+      "weekly_delta_skills": {
+        "playwriting": 0.5,
+        "bartending": 0.2
+      },
+      "capacity": 1,
+      "occupied_by": [],
+      "created_year": -1
+    },
+    {
+      "name": "Chez Lulu (French-American Bistro)/Head Bartender",
+      "organization": "Chez Lulu (French-American Bistro)",
+      "role": "Head Bartender",
+      "type": "work",
+      "description": "Oversees the bar operations, manages inventory, and trains new staff",
+      "weekly_income": 366,
+      "weekly_delta_skills": {
+        "management": 5,
+        "bartending": 4
+      },
+      "capacity": 1,
+      "occupied_by": [],
+      "min_age": 28,
+      "min_skills": {
+        "bartending": 80
+      },
+      "created_year": 2020
+    },
+    {
+      "name": "Chez Lulu (French-American Bistro)/Waiter",
+      "organization": "Chez Lulu (French-American Bistro)",
+      "role": "Waiter",
+      "type": "work",
+      "description": "Provides table service, takes orders, and ensures guest satisfaction",
+      "weekly_income": 180,
+      "weekly_delta_skills": {
+        "customer_service": 4,
+        "restaurant": 3
+      },
+      "capacity": 4,
+      "occupied_by": [],
+      "min_age": 18,
+      "created_year": 2020
+    },
+    {
+      "name": "Corner Coffee Shop/Barista Intern",
+      "organization": "Corner Coffee Shop",
+      "role": "Barista Intern",
+      "type": "non-work",
+      "description": "Assists with coffee preparation and learns the ropes of café operations",
+      "weekly_income": 100,
+      "weekly_delta_skills": {
+        "cooking": 3,
+        "teamwork": 2
+      },
+      "capacity": 5,
+      "occupied_by": [],
+      "min_age": 16,
+      "created_year": 2020
+    },
+    {
+      "name": "Corner Coffee Shop/Full-Time Barista",
+      "organization": "Corner Coffee Shop",
+      "role": "Full-Time Barista",
+      "type": "work",
+      "description": "Handles coffee preparation, customer service, and daily operations of the shop",
+      "weekly_income": 230,
+      "weekly_delta_skills": {
+        "customer_service": 5,
+        "cooking": 3
+      },
+      "capacity": 3,
+      "occupied_by": [],
+      "min_age": 18,
+      "created_year": 2020
+    },
+    {
+      "name": "Self-employed (contributes to The Atlantic, New York Magazine, various outlets)/Freelance journalist and novelist",
+      "organization": "Self-employed (contributes to The Atlantic, New York Magazine, various outlets)",
+      "role": "Freelance journalist and novelist",
+      "type": "work",
+      "description": "Freelance writer earning income from magazine features, copywriting for a tech firm, and occasional journalism workshops he teaches at The New School.",
+      "weekly_income": 350,
+      "weekly_delta_skills": {
+        "creative_writing": 0.5,
+        "journalism": 0.3
+      },
+      "capacity": 1,
+      "occupied_by": [],
+      "created_year": -1
+    },
+    {
+      "name": "The Corner Coffee Shop, Bremer Apartment/Part-time barista",
+      "organization": "The Corner Coffee Shop, Bremer Apartment",
+      "role": "Part-time barista",
+      "type": "work",
+      "description": "Works four shifts a week at the building's corner coffee shop — opening duties, espresso bar, and register. Reliable, quiet, and surprisingly good with regulars despite his reserve.",
+      "weekly_income": 220,
+      "weekly_delta_skills": {
+        "barista_craft": 0.5,
+        "writing": 0.3
+      },
+      "capacity": 1,
+      "occupied_by": [],
+      "created_year": -1
+    },
+    {
+      "name": "The Rooftop Gathering/Music Coordinator",
+      "organization": "The Rooftop Gathering",
+      "role": "Music Coordinator",
+      "type": "work",
+      "description": "Organizes and schedules musical performances for rooftop events",
+      "weekly_income": 200,
+      "weekly_delta_skills": {
+        "music": 4,
+        "organizing": 3
+      },
+      "capacity": 1,
+      "occupied_by": [],
+      "min_age": 22,
+      "min_skills": {
+        "performance": 50
+      },
+      "created_year": 2020
+    },
+    {
+      "name": "The Rooftop Gathering/Rooftop Host",
+      "organization": "The Rooftop Gathering",
+      "role": "Rooftop Host",
+      "type": "work",
+      "description": "Manages the rooftop space for evening gatherings and ensures a welcoming atmosphere",
+      "weekly_income": 210,
+      "weekly_delta_skills": {
+        "hosting": 4,
+        "entertainment": 3
+      },
+      "capacity": 1,
+      "occupied_by": [
+        "Adrian Vale"
+      ],
+      "min_age": 24,
+      "min_skills": {
+        "communication": 60
+      },
+      "created_year": 2020
+    }
+  ]
+}

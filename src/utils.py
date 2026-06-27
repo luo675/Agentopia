@@ -1135,9 +1135,11 @@ def generate_with_fc(
                 context_length = model_cfg.get("context_length", 32768)
 
                 extra_body = {"repetition_penalty": 1.05}
-                # Models that support thinking mode via chat_template_kwargs
-                if model_cfg.get("enable_thinking", False):
-                    extra_body["chat_template_kwargs"] = {"enable_thinking": True}
+                # Explicitly disable thinking for Qwen3 (defaults to ON).
+                # Set "enable_thinking": true in model config to opt in.
+                extra_body["chat_template_kwargs"] = {
+                    "enable_thinking": model_cfg.get("enable_thinking", False)
+                }
 
                 chat_kwargs = {
                     "model": model_cfg.get("vllm_model_name", model),
@@ -1173,6 +1175,8 @@ def generate_with_fc(
                         match = re.search(r"has (\d+) input tokens", error_str)
                         if not match:
                             match = re.search(r"passed (\d+) input tokens", error_str)
+                        if not match:
+                            match = re.search(r"contains at least (\d+) input tokens", error_str)
                         if match:
                             actual_input_tokens = int(match.group(1))
                             token_buffer = 500
@@ -2236,6 +2240,10 @@ def parse_discard_list(
 
 def extract_json(text, **kwargs):
     def _fix_json(json_response):
+        # If no model available for fixing, return original (cannot fix without LLM)
+        if "model" not in kwargs:
+            return json_response
+
         prompt = f"""I will provide you with a JSON string that contains errors, making it unparseable by `json.loads`. The most common issue is the presence of unescaped double quotes inside strings. Your task is to output the corrected JSON string. The JSON string to be corrected is:
     {json_response}
     """

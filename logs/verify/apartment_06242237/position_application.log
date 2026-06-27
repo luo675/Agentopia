@@ -1,0 +1,35 @@
+2026-06-24 22:40:44,762 [INFO] [POSITION_APPLICATION] Designed 10 positions for 1 agents
+2026-06-24 22:50:43,116 [INFO] [POSITION_APPLICATION] ========== POSITION APPLICATION SEASON START ========== Y2020-W02-settle
+2026-06-24 22:50:43,116 [INFO] [POSITION_APPLICATION] 1 agents, 11 positions available
+2026-06-24 22:50:43,116 [INFO] [POSITION_APPLICATION] === COLLECT WISHES START === 1 agents, 11 positions available
+2026-06-24 22:50:43,116 [INFO] [POSITION_APPLICATION] Position: Bremer Apartment Community Group/Volunteer Coordinator (capacity=10, income=0)
+2026-06-24 22:50:43,117 [INFO] [POSITION_APPLICATION] Position: Bremer Apartment Management/Maintenance Technician (capacity=1, income=120)
+2026-06-24 22:50:43,117 [INFO] [POSITION_APPLICATION] Position: Bremer Apartment Management/Resident Assistant (capacity=1, income=160)
+2026-06-24 22:50:43,117 [INFO] [POSITION_APPLICATION] Position: Bremer Apartment Management/Rooftop Event Coordinator (capacity=1, income=180)
+2026-06-24 22:50:43,117 [INFO] [POSITION_APPLICATION] Position: Community Learning Center/Language Tutor (capacity=1, income=150)
+2026-06-24 22:50:43,117 [INFO] [POSITION_APPLICATION] Position: Corner Coffee Shop/Barista (capacity=1, income=150)
+2026-06-24 22:50:43,117 [INFO] [POSITION_APPLICATION] Position: Independent/Freelance Photographer (capacity=1, income=200)
+2026-06-24 22:50:43,117 [INFO] [POSITION_APPLICATION] Position: Local High School/Student (capacity=50, income=50)
+2026-06-24 22:50:43,117 [INFO] [POSITION_APPLICATION] Position: Local Music Studio/Music Teacher (capacity=1, income=180)
+2026-06-24 22:50:43,117 [INFO] [POSITION_APPLICATION] Position: Local Restaurant/Waiter (capacity=1, income=130)
+2026-06-24 22:50:43,117 [INFO] [POSITION_APPLICATION] Position: Self-employed (contributes to The Atlantic, New York Magazine, various outlets)/Freelance journalist and novelist (capacity=1, income=350)
+2026-06-24 22:50:43,117 [INFO] [POSITION_APPLICATION] Aaron Whitfield express_wishes INPUT: current_position=Self-employed (contributes to The Atlantic, New York Magazine, various outlets)/Freelance journalist and novelist, n_positions=10
+2026-06-24 22:50:43,236 [INFO] [POSITION_APPLICATION] Aaron Whitfield express_wishes OUTPUT: wishes=[], response_preview='NO_RESPONSE'
+2026-06-24 22:50:43,236 [INFO] [POSITION_APPLICATION] --- Per-Agent Wishes ---
+2026-06-24 22:50:43,236 [INFO] [POSITION_APPLICATION] Aaron Whitfield INPUT: original=Self-employed (contributes to The Atlantic, New York Magazine, various outlets)/Freelance journalist and novelist, wishes=[]
+2026-06-24 22:50:43,236 [INFO] [POSITION_APPLICATION] === COLLECT WISHES COMPLETE === 1 agents collected
+2026-06-24 22:50:43,236 [INFO] [POSITION_APPLICATION] === Round 1: Wish Round ===
+2026-06-24 22:50:43,236 [INFO] [POSITION_APPLICATION] --- Sub-round 1 ---
+2026-06-24 22:50:43,236 [INFO] [POSITION_APPLICATION] Sub-round 1: no wishes to process
+2026-06-24 22:50:43,236 [INFO] [POSITION_APPLICATION] --- Sub-round 2 ---
+2026-06-24 22:50:43,236 [INFO] [POSITION_APPLICATION] Sub-round 2: no wishes to process
+2026-06-24 22:50:43,236 [INFO] [POSITION_APPLICATION] --- Sub-round 3 ---
+2026-06-24 22:50:43,236 [INFO] [POSITION_APPLICATION] Sub-round 3: no wishes to process
+2026-06-24 22:50:43,236 [INFO] [POSITION_APPLICATION] Round 1 complete: 0 matched
+2026-06-24 22:50:43,236 [INFO] [POSITION_APPLICATION] === FINALIZE START ===
+2026-06-24 22:50:43,236 [INFO] [POSITION_APPLICATION] --- Per-Agent Results ---
+2026-06-24 22:50:43,236 [INFO] [POSITION_APPLICATION] Aaron Whitfield OUTPUT: FALLBACK original=Self-employed (contributes to The Atlantic, New York Magazine, various outlets)/Freelance journalist and novelist, new=Self-employed (contributes to The Atlantic, New York Magazine, various outlets)/Freelance journalist and novelist, wishes=[]
+2026-06-24 22:50:43,236 [INFO] [POSITION_APPLICATION] === FINALIZE COMPLETE === 1 accepted (1 stayed, 0 changed, 1 fallback)
+2026-06-24 22:50:43,236 [INFO] [POSITION_APPLICATION] Updating colleague relationships
+2026-06-24 22:50:43,237 [INFO] [ACHIEVEMENT] 1 agents. Top3: [('Aaron Whitfield', 0, '100.0')], Bottom3: [('Aaron Whitfield', 0, '100.0')]
+2026-06-24 22:50:43,237 [INFO] [POSITION_APPLICATION] ========== POSITION APPLICATION SEASON COMPLETE ========== 1 agents processed
