@@ -1,0 +1,19 @@
+# Experiment data (use Git LFS or keep local)
+实验数据/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# LLM cache
+llm_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
