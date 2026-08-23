@@ -5,10 +5,11 @@
     "time": {
       "start_year": 2020,
       "min_age": 16,
-      "n_year": 10,
-      "n_week": 10,
+      "n_year": 1,
+      "n_week": 52,
       "n_day": 5,
-      "n_contact_slot": 5
+      "n_contact_slot": 5,
+      "enable_24h": true
     },
     "contact": {
       "n_action_per_slot": 10,
@@ -227,7 +228,8 @@
       "economy_weight": 0.2,
       "gamma": 0.9,
       "rft_top_fraction": 0.25
-    }
+    },
+    "data_dir": "apartment_REPLACE_WITH_NEW_RUN_ID"
   },
   "role_model": "my-vllm-model",
   "role_model_max_tokens": 3584,
@@ -249,7 +251,7 @@
       "url": "http://localhost:8000/v1",
       "vllm_model_name": "Qwen/Qwen3-8B-AWQ",
       "api_key": "EMPTY",
-      "context_length": 20480
+      "context_length": 28672
     },
     "gemini-flash": {
       "credentials_file": "gemini_key.json",

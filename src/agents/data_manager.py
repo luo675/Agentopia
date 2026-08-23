@@ -258,10 +258,10 @@ class DataManager:
         if isinstance(row, dict):
             summary = row.get("summary")
             if isinstance(summary, str) and summary:
-                return summary.strip()
+                return clip_str(summary, 200)
             content = row.get("content")
             if isinstance(content, str) and content:
-                return clip_str(content, 500)
+                return clip_str(content, 200)
         return ""
 
     def _render_summary_and_public(
@@ -1080,16 +1080,20 @@ class DataManager:
         *,
         required_characters: Optional[List[str]] = None,
         location_desc: Optional[str] = None,
+        mode: str = "full",
     ) -> List[Dict[str, str]]:
         """Build the base roleplay prompt (persona + worldview + scratchpads).
 
         When used inside JointActivity, pass participants as
         `required_characters` so their character pads are guaranteed to
         appear in the scratchpad listing even under a tight limit.
+
+        mode="review" compresses this-week responses into a daily digest
+        (see recent_history_prompt), keeping the Review phase prompt O(1).
         """
         persona_text = self.character_prompt()
         recent_scratchpads = self.list_scratchpads(
-            character_limit=20, required_characters=required_characters
+            character_limit=15, required_characters=required_characters
         )
 
         from src.agents.prompts import (
@@ -1112,7 +1116,7 @@ class DataManager:
             persona_text,
             WORLDVIEW,
             SCRATCHPAD_PROMPT.format(recent_scratchpads=recent_scratchpads),
-            self.recent_history_prompt(),
+            self.recent_history_prompt(mode=mode),
             location_block,
             COMMONSENSE,
             ROLEPLAY_PRINCIPLES,
@@ -1345,11 +1349,11 @@ class DataManager:
 
     def review_prompt(self) -> List[Dict[str, str]]:
         """Build the review-phase prompt with this week's context."""
-        from src.agents.prompts import REVIEW_PROMPT
+        from src.agents.prompts import build_review_prompt
 
         parts = [
             self.health_awareness_text(),
-            REVIEW_PROMPT,
+            build_review_prompt(),
         ]
 
         prompt = "\n\n".join([h.strip() for h in parts if h.strip() != ""])
@@ -1386,12 +1390,54 @@ class DataManager:
             {"time": self.clock.get_time(), "response": response}
         )
 
-    def recent_history_prompt(self) -> str:
+    def _build_weekly_digest(self) -> str:
+        """Build a compact daily digest from this week's per-activity reflections.
+
+        Used by the Review phase to keep prompt size O(1) regardless of time-block
+        count. Each per-activity reflection (~200-400 chars) is clipped to ~100 chars
+        and grouped by day into a single compact block.
+        """
+        if not self.response_this_week:
+            return ""
+
+        by_day: Dict[int, List[str]] = {}
+        for resp in self.response_this_week:
+            rt = resp["time"]
+            if rt.stage == Stage.CONTACT:
+                continue
+            day = rt.day
+            if day < 1:  # skip non-activity entries (Plan, Review, etc.; day=0)
+                continue
+            if day not in by_day:
+                by_day[day] = []
+            clipped = clip_str(resp["response"], 100)
+            by_day[day].append(f"- {clipped}")
+
+        if not by_day:
+            return ""
+
+        day_names = [
+            "Monday", "Tuesday", "Wednesday", "Thursday",
+            "Friday", "Saturday", "Sunday",
+        ]
+        lines = ["## This Week at a Glance"]
+        for day in sorted(by_day.keys()):
+            name = day_names[day - 1] if 1 <= day <= 7 else f"Day {day}"
+            lines.append(f"### {name}")
+            lines.extend(by_day[day])
+
+        return "\n".join(lines)
+
+    def recent_history_prompt(self, mode: str = "full") -> str:
         """Compose a brief context of recent history for prompts.
 
         1) Previous weeks: weekly diary summaries
         2) Recent activities: joint/solo activity records
         3) This week: already-generated responses earlier than current time
+
+        When mode="review", section 3 uses a compact daily digest instead of
+        full per-activity reflections, keeping prompt size constant regardless
+        of time-block count.
         """
         parts: List[str] = []
 
@@ -1408,15 +1454,20 @@ class DataManager:
         # 3) This week's earlier thoughts/actions/responses
         t = self.clock.get_time()
         if self.response_this_week:
-            parts.append("## Your Previous Thoughts, Actions and Responses This Week")
-            for resp in self.response_this_week:
-                rt = resp["time"]
+            if mode == "review":
+                digest = self._build_weekly_digest()
+                if digest:
+                    parts.append(digest)
+            else:
+                parts.append("## Your Previous Thoughts, Actions and Responses This Week")
+                for resp in self.response_this_week:
+                    rt = resp["time"]
 
-                # CONTACT responses only shown during CONTACT stage
-                if rt.stage == Stage.CONTACT and t.stage != Stage.CONTACT:
-                    continue
+                    # CONTACT responses only shown during CONTACT stage
+                    if rt.stage == Stage.CONTACT and t.stage != Stage.CONTACT:
+                        continue
 
-                parts.append(f"- [{rt}] {resp['response']}")
+                    parts.append(f"- [{rt}] {resp['response']}")
 
         return "\n\n".join(parts)
 
@@ -2935,8 +2986,22 @@ class DataManager:
         else:
             l2_entries = []
         if l2_entries:
-            l2_lines = [f"W{e['week']} (Y{e.get('year','?')}): {e['compressed']}" for e in l2_entries]
-            l2_text = "\n".join(l2_lines)
+            # Merge L2 entries by 5-week blocks to limit token growth.
+            # At W29 this yields ~3 blocks instead of ~15 individual lines,
+            # saving ~1650 tokens while preserving key memory structure.
+            l2_lines = []
+            for i in range(0, len(l2_entries), 5):
+                block = l2_entries[i:i + 5]
+                if not block:
+                    continue
+                start_w = block[0]["week"]
+                end_w = block[-1]["week"]
+                year = block[0].get("year", "?")
+                merged = " ".join(e["compressed"] for e in block)
+                l2_lines.append(
+                    f"W{start_w}-{end_w} (Y{year}): {merged[:300]}"
+                )
+            l2_text = "\n\n".join(l2_lines)
         else:
             l2_text = "(No fading memories yet — you are still in your first few weeks here.)"
 

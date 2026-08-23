@@ -1,0 +1,163 @@
+[
+  {
+    "key": "park2023generative",
+    "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+    "year": 2023,
+    "topic": "social-simulation-architecture",
+    "official_url": "https://doi.org/10.1145/3586183.3606763"
+  },
+  {
+    "key": "zhou2024sotopia",
+    "title": "SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents",
+    "year": 2024,
+    "topic": "social-agent-evaluation",
+    "official_url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/b3075b88e583a0e98d8b24338a613060-Abstract-Conference.html"
+  },
+  {
+    "key": "wang2024sotopiapi",
+    "title": "SOTOPIA-pi: Interactive Learning of Socially Intelligent Language Agents",
+    "year": 2024,
+    "topic": "social-agent-evaluation",
+    "official_url": "https://aclanthology.org/2024.acl-long.698/"
+  },
+  {
+    "key": "goel2025lifelong",
+    "title": "LIFELONG SOTOPIA: Evaluating Social Intelligence of Language Agents Over Lifelong Social Interactions",
+    "year": 2025,
+    "topic": "long-horizon-evaluation",
+    "official_url": "https://arxiv.org/abs/2506.12666"
+  },
+  {
+    "key": "wang2026agentopia",
+    "title": "Agentopia: Long-Term Life Simulation and Learning in Agent Societies",
+    "year": 2026,
+    "topic": "long-horizon-social-simulation",
+    "official_url": "https://arxiv.org/abs/2606.07513"
+  },
+  {
+    "key": "zhang2025agentsociety",
+    "title": "A Parallelized Framework for Simulating Large-Scale LLM Agents with Realistic Environments and Interactions",
+    "year": 2025,
+    "topic": "simulation-infrastructure",
+    "official_url": "https://aclanthology.org/2025.acl-industry.94/"
+  },
+  {
+    "key": "tang2025gensim",
+    "title": "GenSim: A General Social Simulation Platform with Large Language Model based Agents",
+    "year": 2025,
+    "topic": "simulation-infrastructure",
+    "official_url": "https://aclanthology.org/2025.naacl-demo.15/"
+  },
+  {
+    "key": "aher2023simulate",
+    "title": "Using Large Language Models to Simulate Multiple Humans and Replicate Human Subject Studies",
+    "year": 2023,
+    "topic": "simulation-validity",
+    "official_url": "https://proceedings.mlr.press/v202/aher23a.html"
+  },
+  {
+    "key": "argyle2023outofone",
+    "title": "Out of One, Many: Using Language Models to Simulate Human Samples",
+    "year": 2023,
+    "topic": "simulation-validity",
+    "official_url": "https://doi.org/10.1017/pan.2023.2"
+  },
+  {
+    "key": "zhou2024reallife",
+    "title": "Is this the real life? Is this just fantasy? The Misleading Success of Simulating Social Interactions With LLMs",
+    "year": 2024,
+    "topic": "simulation-validity",
+    "official_url": "https://aclanthology.org/2024.emnlp-main.1208/"
+  },
+  {
+    "key": "gao2024survey",
+    "title": "Large language models empowered agent-based modeling and simulation: a survey and perspectives",
+    "year": 2024,
+    "topic": "survey-validity-ethics",
+    "official_url": "https://doi.org/10.1057/s41599-024-03611-3"
+  },
+  {
+    "key": "zeng2026toohuman",
+    "title": "Too human to model: the uncanny valley of large language models in simulating human systems",
+    "year": 2026,
+    "topic": "simulation-validity",
+    "official_url": "https://doi.org/10.1038/s44260-026-00075-1"
+  },
+  {
+    "key": "xiong2026memory",
+    "title": "How Memory Management Impacts LLM Agents: An Empirical Study of Experience-Following Behavior",
+    "year": 2026,
+    "topic": "agent-memory",
+    "official_url": "https://aclanthology.org/2026.acl-long.27/"
+  },
+  {
+    "key": "zhang2026lightmem",
+    "title": "Lightweight LLM Agent Memory with Small Language Models",
+    "year": 2026,
+    "topic": "agent-memory-efficiency",
+    "official_url": "https://aclanthology.org/2026.acl-long.588/"
+  },
+  {
+    "key": "shi2026personaarena",
+    "title": "PersonaArena: Dynamic Simulation for Evaluating and Enhancing Persona-Level Role-Playing in Large Language Models",
+    "year": 2026,
+    "topic": "persona-fidelity",
+    "official_url": "https://aclanthology.org/2026.findings-acl.471/"
+  },
+  {
+    "key": "akata2025games",
+    "title": "Playing repeated games with large language models",
+    "year": 2025,
+    "topic": "long-horizon-social-behavior",
+    "official_url": "https://doi.org/10.1038/s41562-025-02172-y"
+  },
+  {
+    "key": "star2026auditing",
+    "title": "Auditing Support Strategies in LLMs Through Grounded Multi-Turn Social Simulation",
+    "year": 2026,
+    "topic": "socialllm-accepted-evaluation",
+    "official_url": "https://openreview.net/forum?id=OX8jmYlFD4"
+  },
+  {
+    "key": "lazzaroni2026calibrated",
+    "title": "Calibrated but Autonomous: Inference-Time Bayesian Logit Correction for LLM Social Simulations",
+    "year": 2026,
+    "topic": "socialllm-accepted-calibration",
+    "official_url": "https://openreview.net/pdf?id=9EZgvMOHXn"
+  },
+  {
+    "key": "shrestha2026synthetic",
+    "title": "Multimodal Large Language Models as Synthetic Participants in Video-Based Studies: An Evaluation",
+    "year": 2026,
+    "topic": "socialllm-accepted-validity",
+    "official_url": "https://openreview.net/forum?id=YK6uGknDRE"
+  },
+  {
+    "key": "wang2026rethinking",
+    "title": "Rethinking Scale: Deployment Trade-offs of Small Language Models under Agent Paradigms",
+    "year": 2026,
+    "topic": "resource-constrained-agents",
+    "official_url": "https://aclanthology.org/2026.acl-industry.123/"
+  },
+  {
+    "key": "lin2024awq",
+    "title": "AWQ: Activation-aware Weight Quantization for On-Device LLM Compression and Acceleration",
+    "year": 2024,
+    "topic": "resource-constrained-inference",
+    "official_url": "https://proceedings.mlsys.org/paper_files/paper/2024/hash/42a452cbafa9dd64e9ba4aa95cc1ef21-Abstract-Conference.html"
+  },
+  {
+    "key": "kwon2023vllm",
+    "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+    "year": 2023,
+    "topic": "inference-serving",
+    "official_url": "https://doi.org/10.1145/3600006.3613165"
+  },
+  {
+    "key": "yang2025qwen3",
+    "title": "Qwen3 Technical Report",
+    "year": 2025,
+    "topic": "base-model",
+    "official_url": "https://arxiv.org/abs/2505.09388"
+  }
+]

@@ -1105,7 +1105,7 @@ class RoleAgent:
         t = self.clock.get_time()
         self.logger.info(f"[REVIEW][year={t.year} week={t.week}] start review")
 
-        inputs = self.dm.roleplay_prompt() + self.dm.review_prompt()
+        inputs = self.dm.roleplay_prompt(mode="review") + self.dm.review_prompt()
         outputs = self._generate_with_functions(inputs)
 
         # Extract final assistant text

@@ -5,10 +5,11 @@
     "time": {
       "start_year": 2020,
       "min_age": 16,
-      "n_year": 10,
+      "n_year": 1,
       "n_week": 10,
       "n_day": 5,
-      "n_contact_slot": 5
+      "n_contact_slot": 5,
+      "enable_24h": true
     },
     "contact": {
       "n_action_per_slot": 10,
@@ -70,7 +71,7 @@
       "recent_summary_weeks": 5
     },
     "public_activity": {
-      "max_events_per_week": 10,
+      "max_events_per_week": 0,
       "previous_events_weeks": 5,
       "max_repeat_weeks": 5,
       "internal_parallelism": 10,
@@ -108,8 +109,21 @@
       }
     },
     "fulfillment_decay_min_ratio": {"mood": 0.15, "social": 0.15, "esteem": 0.15, "material": 0},
+    "memory": {
+      "enable_layered": true
+    },
+    "health": {
+      "enable": true,
+      "initial_physical": 80,
+      "initial_mental": 70,
+      "crisis_mental_threshold": 20,
+      "crisis_physical_threshold": 10,
+      "crisis_mental_consecutive_weeks": 4,
+      "crisis_physical_consecutive_weeks": 3,
+      "evaluation_model": "god"
+    },
     "reward": {
-      "period_weeks": 10,
+      "period_weeks": 1,
       "max_related_for_ranking": 20,
       "pagerank_damping": 0.85,
       "pagerank_max_iter": 100,
@@ -123,40 +137,24 @@
       "rft_top_fraction": 0.25
     }
   },
-  "role_model": "<MODEL_NAME>",
-  "role_model_max_tokens": 4096,
-  "god_model": "<MODEL_NAME>",
-  "god_model_max_tokens": 16384,
-  "fallback_model": "<MODEL_NAME>",
+  "role_model": "my-vllm-model",
+  "role_model_max_tokens": 3584,
+  "god_model": "my-vllm-model",
+  "god_model_max_tokens": 3840,
+  "fallback_model": "my-vllm-model",
   "models": {
-    "claude-sonnet": {
-      "api_key": "<ANTHROPIC_API_KEY>",
-      "anthropic_model_name": "claude-sonnet-4-5-20250929",
-      "max_tokens": 8192
-    },
-    "gpt-4o": {
-      "url": "<OPENAI_ENDPOINT>",
-      "api_key": "<OPENAI_API_KEY>",
-      "max_tokens": 16384
-    },
     "my-vllm-model": {
-      "url": "<VLLM_ENDPOINT>",
-      "vllm_model_name": "<MODEL_NAME>",
+      "url": "http://localhost:8000/v1",
+      "vllm_model_name": "Qwen/Qwen3-8B-AWQ",
       "api_key": "EMPTY",
-      "context_length": 32768
-    },
-    "gemini-flash": {
-      "credentials_file": "gemini_key.json",
-      "project": "<GCP_PROJECT_ID>",
-      "location": "global",
-      "max_tokens": 8192
+      "context_length": 24576
     }
   },
-  "max_concurrency": 10,
+  "max_concurrency": 1,
   "temperature": 0.7,
   "response_validation": {
     "enabled": false,
-    "judge_model": "<MODEL_NAME>",
+    "judge_model": "my-vllm-model",
     "max_retries": 3
   }
 }

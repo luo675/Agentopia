@@ -1,5 +1,12 @@
-# Experiment data (use Git LFS or keep local)
+# Local configuration and credentials
+config.json
+.env
+.env.*
+!.env.example
+
+# Full local datasets
 实验数据/
+data/
 
 # Python
 __pycache__/
@@ -9,6 +16,18 @@ __pycache__/
 
 # LLM cache
 llm_cache/
+
+# Paper build and release artifacts
+paper/build/
+paper/release/
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
 
 # IDE
 .vscode/

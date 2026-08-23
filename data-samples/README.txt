@@ -1,41 +1,12 @@
-=== T6验证-20260704-5ag-10wk ===
-Aaron Whitfield
-Adrian Morales
-Adrian Vale
-Alaric Voss
-Alessandro Vieri
-Alex Medina
-Alice Whitfield
-Amara Okafor
-Amber Delacroix
-Anna Kowalski
-...
+This directory is a lightweight index of locally retained Agentopia outputs.
 
-=== T6快测-20260704-5ag-2wk ===
-Aaron Whitfield
-Adrian Morales
-Adrian Vale
-Alaric Voss
-Alessandro Vieri
-Alex Medina
-Alice Whitfield
-Amara Okafor
-Amber Delacroix
-Anna Kowalski
-...
+The complete raw experiment archive is stored under the Git-ignored directory:
 
-=== T6-Before优化-20260705-5ag-W41未完成 ===
-Aaron Whitfield
-Adrian Morales
-Adrian Vale
-Alaric Voss
-Alessandro Vieri
-Alex Medina
-Alice Whitfield
-Amara Okafor
-Amber Delacroix
-Anna Kowalski
-...
+  D:/program/Agentopia-paper/实验数据/
 
-=== 完整数据本地路径 ===
-D:/program/Agentopia-paper/实验数据/
+Verified local total on 2026-08-03:
+
+  37,766 files
+  17,615,212,408 bytes
+
+This directory is not a released benchmark, a complete dataset, or a substitute for the raw archive.

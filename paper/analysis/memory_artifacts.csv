@@ -1,0 +1,16 @@
+﻿run,agent,checkpoint_week,recent_uncompressed_weeks,expected_l2_last_week,l2_files,l2_bytes,l2_mean_bytes,l2_missing_expected_weeks,l2_exact_duplicates,l2_near_duplicates,l3_files,l3_bytes
+Run 1,Aaron Whitfield,52,5,47,47,39923,849.43,,0,0,6,1499
+Run 1,Adrian Morales,52,5,47,47,40042,851.96,,0,0,6,1366
+Run 1,Adrian Vale,52,5,47,47,40189,855.09,,0,0,6,1328
+Run 1,Alaric Voss,52,5,47,47,40170,854.68,,0,0,6,1412
+Run 1,Alessandro Vieri,52,5,47,47,40060,852.34,,0,0,6,1456
+Run 2,Aaron Whitfield,52,5,47,47,39978,850.6,,0,0,6,1438
+Run 2,Adrian Morales,52,5,47,47,39861,848.11,,0,0,6,1347
+Run 2,Adrian Vale,52,5,47,47,40177,854.83,,0,0,6,1419
+Run 2,Alaric Voss,52,5,47,47,40194,855.19,,0,0,6,1452
+Run 2,Alessandro Vieri,52,5,47,47,40104,853.28,,0,0,6,1500
+Run 3,Aaron Whitfield,50,5,45,45,38265,850.33,,0,0,6,1431
+Run 3,Adrian Morales,50,5,45,45,38362,852.49,,0,0,6,1437
+Run 3,Adrian Vale,50,5,45,45,38437,854.16,,0,0,6,1391
+Run 3,Alaric Voss,50,5,45,45,38453,854.51,,0,0,6,1425
+Run 3,Alessandro Vieri,50,5,45,45,38389,853.09,,0,0,6,1519

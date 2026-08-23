@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import List, Dict, Optional, TYPE_CHECKING
 from pathlib import Path
 import json
+import random
 from src.utils import get_config, project_root
 
 if TYPE_CHECKING:
@@ -560,6 +561,26 @@ This is your weekly review — just your personal thoughts. The system tracks wh
 Thinking: <your reasoning process as this character>
 Reflection: <your personal thoughts and insights, less than 300 words>
 """
+
+REFLECTION_QUESTIONS = [
+    "What surprised you this week?",
+    "What moment would you re-live if you could?",
+    "What did someone say that changed your thinking?",
+    "What opportunity did you miss?",
+    "What was the hardest decision you made?",
+    "Did anything make you laugh out loud?",
+    "What are you most proud of right now?",
+    "What fear held you back this week?",
+    "If next week goes perfectly, what happens?",
+    "What did you avoid that you should have faced?",
+]
+
+
+def build_review_prompt() -> str:
+    """Build the review prompt with 3 randomly selected reflection questions."""
+    questions = random.sample(REFLECTION_QUESTIONS, 3)
+    lines = "\n".join(f"- {q}" for q in questions)
+    return REVIEW_PROMPT.format(questions=lines)
 
 CONDENSE_WORKING_MEMORY_PROMPT = """Your task is to condense the Generation result (generated with context INPUT) into a concise summary of less than 1000 words. You should 
 ===INPUT===

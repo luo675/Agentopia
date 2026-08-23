@@ -1150,31 +1150,42 @@ class World:
         joint_acts = build_joint_or_encounter("joint")
         encounter_acts = build_joint_or_encounter("encounter")
 
-        # Solo activities — 4 time blocks per day (NIGHT/MORNING/AFTERNOON/EVENING)
-        # Unengaged agents: all 4 blocks are solo
-        # Engaged agents (have joint/encounter/public): still get EVENING solo for daily wind-down
-        TIME_BLOCKS = ["NIGHT", "MORNING", "AFTERNOON", "EVENING"]
+        # Solo activities — controlled by config.world.time.enable_24h (ablation flag)
+        # When enable_24h=true: 4 time blocks per day (NIGHT/MORNING/AFTERNOON/EVENING)
+        # When enable_24h=false: revert to original — 1 solo activity per agent per day
         solo_acts: list[SoloActivity] = []
 
-        for ag in self.agents:
-            if ag.name not in engaged:
-                # Full day of solo activities
-                for tb in TIME_BLOCKS:
+        enable_24h = self.config.get("time", {}).get("enable_24h", True)
+
+        if enable_24h:
+            TIME_BLOCKS = ["NIGHT", "MORNING", "AFTERNOON", "EVENING"]
+            for ag in self.agents:
+                if ag.name not in engaged:
+                    for tb in TIME_BLOCKS:
+                        solo_acts.append(SoloActivity(
+                            activity_id=None,
+                            activity_name=f"Solo-{tb}",
+                            time=t,
+                            agents=[ag],
+                            time_block=tb,
+                        ))
+                else:
                     solo_acts.append(SoloActivity(
                         activity_id=None,
-                        activity_name=f"Solo-{tb}",
+                        activity_name="Solo-EVENING",
                         time=t,
                         agents=[ag],
-                        time_block=tb,
+                        time_block="EVENING",
                     ))
-            else:
-                # Has a scheduled activity — still get one EVENING solo
+        else:
+            # Original behavior: 1 solo activity per agent per day
+            for ag in self.agents:
                 solo_acts.append(SoloActivity(
                     activity_id=None,
-                    activity_name="Solo-EVENING",
+                    activity_name="Solo",
                     time=t,
                     agents=[ag],
-                    time_block="EVENING",
+                    time_block="AFTERNOON",
                 ))
 
         return public_acts, joint_acts, encounter_acts, solo_acts
